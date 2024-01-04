@@ -1,3 +1,4 @@
+use regex::Regex;
 use reqwest;
 use serde::{Deserialize, Serialize};
 use std::fs::File;
@@ -9,10 +10,7 @@ struct Verse {
     text: String,
 }
 
-fn extract_verses(text: &str) -> Vec<Verse> {
-    let pattern =
-        regex::Regex::new(r"TS (\d+\.\d+\.\d+\.\d+)\n([\s\S]*?)(?:\nTS \d+\.\d+\.\d+\.\d+|$)")
-            .unwrap();
+fn extract_verses(text: &str, pattern: &Regex) -> Vec<Verse> {
     let mut verses = Vec::new();
 
     for cap in pattern.captures_iter(text) {
@@ -28,18 +26,14 @@ fn extract_verses(text: &str) -> Vec<Verse> {
     verses
 }
 
-fn scrape() -> Result<(), Box<dyn std::error::Error>> {
-    let url =
-        "https://raw.githubusercontent.com/KYVeda/texts/master/saMhitA/01/TS%201%20Baraha.brh";
-
+fn scrape(pattern: &Regex, url: &str) -> Result<(), Box<dyn std::error::Error>> {
     let response = reqwest::blocking::get(url)?;
     let text = response.text()?;
-
-    let verses = extract_verses(&text);
+    let verses = extract_verses(&text, pattern);
 
     for verse in verses {
         let json_string = serde_json::to_string_pretty(&verse)?;
-        let file_name = format!("../outputs/TS-{}.json", verse.index);
+        let file_name = format!("../outputs/samhita/TS-{}.json", verse.index);
         let mut file = File::create(file_name)?;
         file.write_all(json_string.as_bytes())?;
     }
@@ -47,7 +41,45 @@ fn scrape() -> Result<(), Box<dyn std::error::Error>> {
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    scrape();
+    
+let patterns_and_urls: Vec<(Regex, &str)> = vec![
+    (
+        Regex::new(r"TS (\d+\.\d+\.\d+\.\d+)\n([\s\S]*?)(?:TS \d+\.\d+\.\d+\.\d+|$)").unwrap(),
+        "https://raw.githubusercontent.com/KYVeda/texts/master/saMhitA/01/TS%201%20Baraha.brh",
+    ),
+    (
+        Regex::new(r"TS (\d+\.\d+\.\d+\.\d+)\n([\s\S]*?)(?:TS \d+\.\d+\.\d+\.\d+|$)").unwrap(),
+        "https://raw.githubusercontent.com/KYVeda/texts/master/saMhitA/03/TS%203%20Baraha.BRH",
+    ),
+    (
+        Regex::new(r"TS (\d+\.\d+\.\d+\.\d+)\n([\s\S]*?)(?:\nTS \d+\.\d+\.\d+\.\d+|$)")
+            .unwrap(),
+        "https://raw.githubusercontent.com/KYVeda/texts/master/saMhitA/02/TS%202%20Baraha.brh",
+    ),
+    (
+        Regex::new(r"TS (\d+\.\d+\.\d+\.\d+)\n([\s\S]*?)(?:\nTS \d+\.\d+\.\d+\.\d+|$)")
+            .unwrap(),
+        "https://raw.githubusercontent.com/KYVeda/texts/master/saMhitA/04/TS%204%20Baraha.BRH",
+    ),
+    (
+        Regex::new(r"TS (\d+\.\d+\.\d+\.\d+)\n([\s\S]*?)(?:\nTS \d+\.\d+\.\d+\.\d+|$)")
+            .unwrap(),
+        "https://raw.githubusercontent.com/KYVeda/texts/master/saMhitA/05/TS%205%20Baraha.BRH",
+    ),
+    (
+        Regex::new(r"TS (\d+\.\d+\.\d+\.\d+)\n([\s\S]*?)(?:\nTS \d+\.\d+\.\d+\.\d+|$)")
+            .unwrap(),
+        "https://raw.githubusercontent.com/KYVeda/texts/master/saMhitA/06/TS%206%20Baraha.BRH",
+    ),
+    (
+        Regex::new(r"TS (\d+\.\d+\.\d+\.\d+)\n([\s\S]*?)(?:\nTS \d+\.\d+\.\d+\.\d+|$)")
+            .unwrap(),
+        "https://raw.githubusercontent.com/KYVeda/texts/master/saMhitA/07/TS%207%20Baraha.BRH",
+    ),
+];
+    for (pattern, url) in patterns_and_urls.iter() {
+        scrape(pattern, url)?;
+    }
 
     Ok(())
 }
