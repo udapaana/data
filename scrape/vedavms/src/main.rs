@@ -26,7 +26,10 @@ fn extract_verses(text: &str, pattern: &Regex) -> Vec<Verse> {
     verses
 }
 
-fn scrape(patterns_and_urls: Vec<(Regex, &str)>) -> Result<(), Box<dyn std::error::Error>> {
+fn scrape(
+    patterns_and_urls: Vec<(Regex, &str)>,
+    naming: &str,
+) -> Result<(), Box<dyn std::error::Error>> {
     let mut all_verses = Vec::new();
 
     for pattern_and_url in patterns_and_urls.iter() {
@@ -38,7 +41,7 @@ fn scrape(patterns_and_urls: Vec<(Regex, &str)>) -> Result<(), Box<dyn std::erro
     println!("Fetched all the urls.");
     let json_string = serde_json::to_string_pretty(&all_verses)?;
 
-    let file_name = "./outputs/samhita/TS.json";
+    let file_name = format!("./outputs/{}.json", naming);
     let mut file = File::create(file_name)?;
     file.write_all(json_string.as_bytes())?;
 
@@ -46,7 +49,7 @@ fn scrape(patterns_and_urls: Vec<(Regex, &str)>) -> Result<(), Box<dyn std::erro
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let patterns_and_urls: Vec<(Regex, &str)> = vec![
+    let samhita: Vec<(Regex, &str)> = vec![
         (
             Regex::new(r"TS (\d+\.\d+\.\d+\.\d+)\n([\s\S]*?)(?:TS \d+\.\d+\.\d+\.\d+|$)").unwrap(),
             "https://raw.githubusercontent.com/KYVeda/texts/master/saMhitA/01/TS%201%20Baraha.brh",
@@ -81,7 +84,14 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             "https://raw.githubusercontent.com/KYVeda/texts/master/saMhitA/07/TS%207%20Baraha.BRH",
         ),
     ];
-    scrape(patterns_and_urls)?;
+    scrape(samhita, "samhita/TS")?;
 
+    let padam = &vec![
+        (
+                Regex::new(r"(\d+(\.\d+){3})\n([\s\S]*?)(?:\n\d+\.\d+\.\d+\.\d+|$)").unwrap(),
+                "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-1.1/TS%201.1%20Baraha%20Padam.BRH"
+        )
+    ];
+    scrape(padam, "padam/TS");
     Ok(())
 }
