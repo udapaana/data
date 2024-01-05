@@ -8,7 +8,7 @@ use std::io::Write;
 #[derive(Debug, Serialize, Deserialize)]
 struct Verse {
     index: String,
-    bhaga: i32, // Corrected field name
+    bhaga: i32,
     kanda: i32,
     prasna: i32,
     panasa: i32,
