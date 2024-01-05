@@ -100,10 +100,50 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     scrape(samhita, "samhita/TS")?;
 
     let padam = vec![
-        (
-                Regex::new(r"(\d+(\.\d+){3})\n([\s\S]*?)(?:\n\d+\.\d+\.\d+\.\d+|$)").unwrap(),
-                "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-1.1/TS%201.1%20Baraha%20Padam.BRH"
-        )
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-1.1/TS%201.1%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-1.2/TS%201.2%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-1.3/TS%201.3%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-1.4/TS%201.4%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-1.5/TS%201.5%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-1.6/TS%201.6%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-1.7/TS%201.7%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-1.8/TS%201.8%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-2.1/TS%202.1%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-2.2/TS%202.2%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-2.3/TS%202.3%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-2.4/TS%202.4%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-2.5/TS%202.5%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-2.6/TS%202.6%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-3.1/TS%203.1%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-3.2/TS%203.2%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-3.3/TS%203.3%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-3.4/TS%203.4%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-3.5/TS%203.5%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-4.1/TS%204.1%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-4.2/TS%204.2%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-4.3/TS%204.3%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-4.4/TS%204.4%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-4.5/TS%204.5%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-4.6/TS%204.6%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-4.7/TS%204.7%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-5.1/TS%205.1%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-5.2/TS%205.2%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-5.3/TS%205.3%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-5.4/TS%205.4%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-5.5/TS%205.5%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-5.6/TS%205.6%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-5.7/TS%205.7%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-6.1/TS%206.1%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-6.2/TS%206.2%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-6.3/TS%206.3%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-6.4/TS%206.4%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-6.5/TS%206.5%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-6.6/TS%206.6%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-7.1/TS%207.1%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-7.2/TS%207.2%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-7.3/TS%207.3%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-7.4/TS%207.4%20Baraha%20Padam.BRH"),
+        (Regex::new(r"(\d+\.\d+\.\d+\.\d+)\s+([^0-9]+)").unwrap(), "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-7.5/TS%207.5%20Baraha%20Padam.BRH")
     ];
     scrape(padam, "padam/TS");
     Ok(())
