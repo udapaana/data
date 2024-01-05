@@ -1,3 +1,4 @@
+use itertools::Itertools;
 use regex::Regex;
 use reqwest;
 use serde::{Deserialize, Serialize};
@@ -7,6 +8,10 @@ use std::io::Write;
 #[derive(Debug, Serialize, Deserialize)]
 struct Verse {
     index: String,
+    bhaga: i32, // Corrected field name
+    kanda: i32,
+    prasna: i32,
+    panasa: i32,
     text: String,
 }
 
@@ -15,17 +20,25 @@ fn extract_verses(text: &str, pattern: &Regex) -> Vec<Verse> {
 
     for cap in pattern.captures_iter(text) {
         let verse_index = cap[1].to_string();
+        let index_parts: (i32, i32, i32, i32) = verse_index
+            .split(".")
+            .map(|x| x.to_string().parse::<i32>().unwrap())
+            .collect_tuple()
+            .unwrap();
         let verse_text = cap[2].trim().to_string();
 
         verses.push(Verse {
             index: verse_index,
+            bhaga: index_parts.0, // Corrected field name
+            kanda: index_parts.1,
+            prasna: index_parts.2,
+            panasa: index_parts.3,
             text: verse_text,
         });
     }
 
     verses
 }
-
 fn scrape(
     patterns_and_urls: Vec<(Regex, &str)>,
     naming: &str,
@@ -86,7 +99,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     ];
     scrape(samhita, "samhita/TS")?;
 
-    let padam = &vec![
+    let padam = vec![
         (
                 Regex::new(r"(\d+(\.\d+){3})\n([\s\S]*?)(?:\n\d+\.\d+\.\d+\.\d+|$)").unwrap(),
                 "https://raw.githubusercontent.com/KYVeda/texts/master/TS-Padam/TS-1.1/TS%201.1%20Baraha%20Padam.BRH"

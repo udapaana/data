@@ -1,0 +1,66 @@
+[
+  {
+    "index": "1.1.1.1",
+    "bhaga": 1,
+    "kanda": 1,
+    "prasna": 1,
+    "panasa": 1,
+    "text": ".1"
+  },
+  {
+    "index": "1.1.2.2",
+    "bhaga": 1,
+    "kanda": 1,
+    "prasna": 2,
+    "panasa": 2,
+    "text": ".2"
+  },
+  {
+    "index": "1.1.4.1",
+    "bhaga": 1,
+    "kanda": 1,
+    "prasna": 4,
+    "panasa": 1,
+    "text": ".1"
+  },
+  {
+    "index": "1.1.5.1",
+    "bhaga": 1,
+    "kanda": 1,
+    "prasna": 5,
+    "panasa": 1,
+    "text": ".1"
+  },
+  {
+    "index": "1.1.6.1",
+    "bhaga": 1,
+    "kanda": 1,
+    "prasna": 6,
+    "panasa": 1,
+    "text": ".1"
+  },
+  {
+    "index": "1.1.7.2",
+    "bhaga": 1,
+    "kanda": 1,
+    "prasna": 7,
+    "panasa": 2,
+    "text": ".2"
+  },
+  {
+    "index": "1.1.14.1",
+    "bhaga": 1,
+    "kanda": 1,
+    "prasna": 14,
+    "panasa": 1,
+    "text": ".1"
+  },
+  {
+    "index": "1.1.14.3",
+    "bhaga": 1,
+    "kanda": 1,
+    "prasna": 14,
+    "panasa": 3,
+    "text": ".3"
+  }
+]
