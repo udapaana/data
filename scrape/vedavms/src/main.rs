@@ -198,7 +198,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     ];
 
     scrape(samhita, "samhita/TS")?;
-    //scrape(padam, "padam/TS");
+    scrape(padam, "padam/TS");
     //scrape(kramam, "kramam/TS");
     Ok(())
 }
