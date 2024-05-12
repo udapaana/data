@@ -9,10 +9,10 @@ use std::collections::HashMap;
 #[derive(Debug, Serialize, Deserialize)]
 struct Verse {
     index: String,
-    bhaga: i32,
     kanda: i32,
     prasna: i32,
-    panasa: i32,
+    anuvaka: i32,
+    pancasati: i32,
     text: String,
 }
 
@@ -27,17 +27,17 @@ fn extract_verses(text: &str, pattern: &Regex, verses: &mut HashMap<String, Vers
         let verse_text = cap.get(2).unwrap().as_str().trim().to_string();
 
         if index_parts.len() == 4 {
-            let bhaga = index_parts[0];
-            let kanda = index_parts[1];
-            let prasna = index_parts[2];
-            let panasa = index_parts[3];
+            let kanda = index_parts[0];
+            let prasna = index_parts[1];
+            let anuvaka = index_parts[2];
+            let pancasati = index_parts[3];
 
             let verse = Verse {
                 index: verse_index.clone(),
-                bhaga,
-                kanda,
-                prasna,
-                panasa,
+                kanda: kanda,
+                prasna: prasna,
+                anuvaka: anuvaka,
+                pancasati: pancasati,    
                 text: verse_text.clone(),
             };
 
@@ -199,6 +199,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     scrape(samhita, "samhita/TS")?;
     scrape(padam, "padam/TS");
-    //scrape(kramam, "kramam/TS");
+    scrape(kramam, "kramam/TS");
     Ok(())
 }
