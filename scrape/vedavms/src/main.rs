@@ -5,6 +5,7 @@ use serde::{Deserialize, Serialize};
 use std::fs::File;
 use std::io::Write;
 use std::collections::HashMap;
+use vidyut_lipi::{Lipika, Scheme};
 
 #[derive(Debug, Serialize, Deserialize)]
 struct Verse {
@@ -14,9 +15,13 @@ struct Verse {
     anuvaka: i32,
     pancasati: i32,
     text: String,
+    deva: String,
+    telugu: String,
+    iso15919: String,
 }
 
 fn extract_verses(text: &str, pattern: &Regex, verses: &mut HashMap<String, Verse>) {
+    let mut lipika = Lipika::new();
     for cap in pattern.captures_iter(text) {
         let verse_index = cap.get(1).unwrap().as_str().to_string();
         let index_parts: Vec<i32> = verse_index
@@ -39,6 +44,9 @@ fn extract_verses(text: &str, pattern: &Regex, verses: &mut HashMap<String, Vers
                 anuvaka: anuvaka,
                 pancasati: pancasati,    
                 text: verse_text.clone(),
+                deva: lipika.transliterate(verse_text.clone(), Scheme::BarahaSouth, Scheme::Devanagari),
+                telugu: lipika.transliterate(verse_text.clone(), Scheme::BarahaSouth, Scheme::Telugu),
+                iso15919: lipika.transliterate(verse_text.clone(), Scheme::BarahaSouth, Scheme::Iso15919),
             };
 
             verses.insert(verse_index.clone(), verse);
