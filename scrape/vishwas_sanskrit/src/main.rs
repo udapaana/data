@@ -4,21 +4,31 @@ use std::error::Error;
 use std::fs::File;
 use std::io::Write;
 
+fn get_urls() -> Vec<String>{
 
-let template = "https://raw.githubusercontent.com/udapaana/raw_etexts/master/vedaH/yajur/taittirIya/mUlam/saMhitA/1/1.md";
+    let template: String = "https://raw.githubusercontent.com/udapaana/raw_etexts/master/vedaH/yajur/taittirIya/mUlam/saMhitA".to_string();
 
-let stubs = vec![
-    (1,1),(1,2),(1,3),(1,4),(1,5),(1,6),(1,7),
-    (2,1),(2,2),(2,3),(2,4),(2,5),(2,6),
+    let stubs: Vec<(i32, i32)> = vec![
+        (1,1),(1,2),(1,3),(1,4),(1,5),(1,6),(1,7),
+        (2,1),(2,2),(2,3),(2,4),(2,5),(2,6),
     
-]
+    ];
+    let mut urls: Vec<String> = vec![];
+    for &(k,p) in stubs.iter(){
+        urls.push(
+           template.clone() + "/" + k.to_string().as_str() + "/" + p.to_string().as_str() + ".md" 
+        );
+    }
+    return urls
+}
         
 fn main() -> Result<(), Box<dyn Error>> {
-
+    let urls = get_urls();
     // Iterate over URLs
-    for (file_index, &url) in urls.iter().enumerate() {
-        let kanda = url.split('/').nth(11).unwrap_or("").parse::<i32>().unwrap();
-        let prasna = url.split('/').last().unwrap_or("").trim_end_matches(".md").parse::<i32>().unwrap();
+    for (file_index, &ref url) in urls.iter().enumerate() {
+        println!("{url}");
+        let kanda = url.split('/').nth(11).unwrap_or("-1").parse::<i32>().unwrap();
+        let prasna = url.split('/').last().unwrap_or("-1.md").trim_end_matches(".md").parse::<i32>().unwrap();
 
         // Fetch text from URL
         let text = get(url)?.text()?;
