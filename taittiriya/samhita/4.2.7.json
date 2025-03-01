@@ -1,0 +1,38 @@
+{
+    "anuvaka": "TS 4.2.7",
+    "verses": [
+        {
+            "index": "TS 4.2.7.1",
+            "samhita": "mA nO# hi(gm)sIjjaniqtA yaH pRu#thiqvyA yO vAq diva(gm)# saqtyadha#rmA jaqjAna# | yaScAqpaScaqndrA bRu#haqtIrjaqjAnaq kasmai# dEqvAya# haqviShA# vidhEma || aqByAva#rtasva pRuthivi yaqj~jEnaq paya#sA saqha | vaqpAM tE# aqgniri#ShiqtO&va# sarpatu || agnEq yat tE# SuqkraM ~MyaccaqndraM ~Myat pUqtaM ~Myad-yaqj~jiya$M | tad-dEqvEByO# BarAmasi || iShaqmUrja#maqhamiqta A - [  ] 29",
+            "citta": {
+                "section_count": "(29)",
+                "anuvaka": "(A7)"
+            }
+        },
+        {
+            "index": "TS 4.2.7.2",
+            "samhita": "da#da Ruqtasyaq dhAmnO# aqmRuta#syaq yOnE$H | A nOq gOShu# viSaqtvauSha#dhIShuq jahA#mi sEqdimani#rAqmamI#vAM || agnEq tavaq SravOq vayOq mahi# BrAjantyaqrcayO# viBAvasO | bRuha#d-BAnOq Sava#sAq vAja#muqkthya#M dadhA#si dAqSuShE# kavE || iqraqjyanna#gnE prathayasva jaqntuBi#raqsmE rAyO# amartya | sa da#r.Saqtasyaq vapu#ShOq vi rA#jasi pRuqNakShi# sAnaqsi(gm) raqyiM || UrjO# napAqjjAta#vEdaH suSaqstiBiq-rmanda#sva - [  ] 30",
+            "citta": {
+                "section_count": "(30)",
+                "anuvaka": "(A7)"
+            }
+        },
+        {
+            "index": "TS 4.2.7.3",
+            "samhita": "dhIqtiBi#r.hiqtaH | tvE iShaqH saM da#dhuq-rBUrirEtasa-SciqtrO ta#yO vAqmajA#tAH || pAqvaqkava#rcAH Suqkrava#rcAq anU#navarcAq udi#yar.Shi BAqnunA$ | puqtraH piqtarA# viqcaraqnnupA#vasyuqBE pRu#NakShiq rOda#sI || RuqtAvA#naM mahiqShaM ~MviqSvaca#r.ShaNimaqgni(gm) suqmnAya# dadhirE puqrO janA$H | Srutka#rNa(gm) saqpratha#stamaM tvA giqrA daivyaqM mAnu#ShA yuqgA || niqShkaqrtAra#-maddhvaqrasyaq pracE#tasaqM kShaya#ntaq(gm)q rAdha#sE maqhE | rAqtiM BRugU#NAmuqSija#M kaqvikra#tuM pRuqNakShi# sAnaqsi(gm) - [  ] 31",
+            "citta": {
+                "section_count": "(31)",
+                "anuvaka": "(A7)"
+            }
+        },
+        {
+            "index": "TS 4.2.7.4",
+            "samhita": "raqyiM || cita#H stha pariqcita# Ud^^rdhvaqcita#H SrayaddhvaqM tayA# dEqvata#yA&~ggiraqsvad-dhruqvAH sI#data || A pyA#yasvaq samE#tu tE viqSvata#H sOmaq vRuShNi#yaM | BavAq vAja#sya sa~ggaqthE || saM tEq payA(gm)#siq samu# yantuq vAjAqH saM ~MvRuShNi#yA-nyaBimAtiqShAha#H | AqpyAya#mAnO aqmRutA#ya sOma diqvi SravA(gg)#syuttaqmAni# dhiShva || 32",
+            "citta": {
+                "section_count": "(32)",
+                "anuvaka": "(A7)",
+                "marker": "(A - manda#sva - sAnaqsi - mEkAqnnaca#tvAriq(gm)qSacca#)"
+            }
+        }
+    ]
+}

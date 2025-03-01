@@ -1,0 +1,46 @@
+{
+    "anuvaka": "TS 4.2.6",
+    "verses": [
+        {
+            "index": "TS 4.2.6.1",
+            "samhita": "yA jAqtA OSha#dhayO dEqvEBya#striyuqgaM puqrA | mandA#mi baqBrUNA#maqha(gm) SaqtaM dhAmA#ni saqpta ca# || SaqtaM ~MvO# abaMq dhAmA#ni saqhasra#muqta vOq ruha#H | athA# SatakratvO yUqyamiqmaM mE# agaqdaM kRu#ta || puShpA#vatIH praqsUva#tIH PaqlinI#raPaqlA uqta | aSvA# iva saqjitva#rI-rvIqrudha#H pArayiqShNava#H || OSha#dhIqriti# mAtaraq-stadvO# dEvIq-rupa# bruvE | rapA(gm)#si viGnaqtIri#taq rapa# - [  ] 24",
+            "citta": {
+                "section_count": "(24)",
+                "anuvaka": "(A6)"
+            }
+        },
+        {
+            "index": "TS 4.2.6.2",
+            "samhita": "-ScAqtaya#mAnAH || aqSvaqtthE vO# niqShada#naM paqrNE vO# vasaqtiH kRuqtA | gOqBAjaq it kilA#sathaq yath saqnava#thaq pUru#ShaM || yadaqhaM ~MvAqjaya#-nniqmA OSha#dhIqrq.hasta# AdaqdhE | AqtmA yakShma#sya naSyati puqrA jI#vaqgRuBO# yathA || yadOSha#dhayaH saMqgacCa#ntEq rAjA#naqH sami#tA viva | vipraqH sa u#cyatE BiqShagra#kShOqhA &mI#vaq cAta#naH || niShkRu#tiq-rnAma#vO mAqtA&thA# yUqya(gg)sthaq saMkRu#tIH | saqrAH pa#taqtriNI$H - [  ] 25",
+            "citta": {
+                "section_count": "(25)",
+                "anuvaka": "(A6)"
+            }
+        },
+        {
+            "index": "TS 4.2.6.3",
+            "samhita": "sthanaq yadAq maya#tiq niShkRu#ta || aqnyA vO# aqnyAma#va-tvaqnyA&nyasyAq upA#vata | tAH sarvAq OSha#dhayaH saM~MvidAqnA iqdaM mEq prAva#tAq vaca#H || ucCuShmAq OSha#dhInAMq gAvO# gOqShThA di#vEratE | dhana(gm)# saniqShyantI# nAmAqtmAnaqM tava# pUruSha || atiq viSvA$H pariqShThAstEqna i#va vraqjama#kramuH | OSha#dhayaqH prAcu#cyavuq ryat kiM ca# taqnuvAq(gm)q rapa#H || yA - [  ] 26",
+            "citta": {
+                "section_count": "(26)",
+                "anuvaka": "(A6)"
+            }
+        },
+        {
+            "index": "TS 4.2.6.4",
+            "samhita": "-sta# Ataqsthu-rAqtmAnaMq ~MyA A#viviqSuH paru#H paruH | tAstEq yakShmaqM ~MvibA#dhantA muqgrO ma#ddhyamaqSIri#va || sAqkaM ~Mya#kShmaq pra pa#ta SyEqnEna# kikidIqvinA$ | sAqkaM ~MvAta#syaq-dhrAjyA# sAqkaM na#Sya niqhAka#yA || aqSvAqvaqtI(gm) sO#mavaqtI mUqrjaya#ntIq mudO#jasaM | A vi#thsiq sarvAq OSha#dhIraqsmA a#riqShTatA#tayE || yAH PaqlinIqryA a#PaqlA a#puqShpA yASca# puqShpiNI$H | bRuhaqspati# prasUtAq stAnO# mu~jcaqntva(gm) ha#saH || yA - [  ] 27",
+            "citta": {
+                "section_count": "(27)",
+                "anuvaka": "(A6)"
+            }
+        },
+        {
+            "index": "TS 4.2.6.5",
+            "samhita": "OSha#dhayaqH sOma#rAj~jIqH pravi#ShTAH pRuthiqvImanu# | tAsAMq tvama#syuttaqmA praNO# jIqvAta#vE-suva || aqvaqpata#ntIravadan diqva OSha#dayaqH pari# | yaM jIqva maqS~javA# mahaiq na sa ri#ShyAtiq pUru#ShaH || yAScEqda mu#pa-SRuqNvantiq yASca# dUqraM parA#gatAH | iqha saq~ggatyaq tAH sarvA# aqsmai saM da#tta BEShaqjaM || mA vO# riShat KaniqtA yasmai# cAqhaM KanA#mi vaH ( ) | dviqpa-ccatu#Shpa-daqsmAkaq(gm)q sarva#-maqstvanA#turaM || OSha#dhayaqH saM ~Mva#dantEq sOmE#na saqha rAj~jA$ | yasmai# kaqrOti# brAhmaqNasta(gm) rA#jan pArayAmasi || 28",
+            "citta": {
+                "section_count": "(28)",
+                "anuvaka": "(A6)",
+                "marker": "(rapa#H - pataqtriNIq- ryA - a(gm)ha#sOq yAH - KanA#mi vOq - &ShTAda#Sa ca)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "anuvaka": "TS 4.2.3",
+    "verses": [
+        {
+            "index": "TS 4.2.3.1",
+            "samhita": "anna#paqtE&nna#sya nO dEhyanamIqvasya# SuqShmiNa#H | pra pra#dAqtAra#M tAriShaq Urja#M nO dhEhi dviqpadEq catu#ShpadE || udu# tvAq viSvE# dEqvA agnEq Bara#ntuq citti#BiH | sa nO# Bava Siqvata#maH suqpratI#kO viqBAva#suH || prEda#gnEq jyOti#ShmAn. yAhi SiqvEBi#raqrci#BiqstvaM | bRuqhadBi#-rBAqnuBiq-rBAsaqn mA hi(gm)#sI staqnuvA$ praqjAH || saqmidhAq&gniM du#vasyata GRuqtairbO#dhayaqtAtithi#M | A - [  ] 10",
+            "citta": {
+                "section_count": "(10)",
+                "anuvaka": "(A3)"
+            }
+        },
+        {
+            "index": "TS 4.2.3.2",
+            "samhita": "&smi#n. haqvyA ju#hOtana || praprAqyamaqgnirBa#raqtasya# SRuNvEq vi yath sUryOq na rOca#tE bRuqhadBAH | aBiq yaH pUqruM pRuta#nAsu taqsthau dIqdAyaq daivyOq ati#thiH SiqvO na#H || ApO# dEvIqH prati# gRuhNItaq Basmaiqtath syOqnE kRu#Nuddhva(gm) suraqBAvu# lOqkE | tasmai# namantAqM jana#yaH suqpatnI$rmAqtEva# puqtraM bi#BRuqtA svE#naM || aqPsva#gnEq sadhiqShTavaq- [  ] 11",
+            "citta": {
+                "section_count": "(11)",
+                "anuvaka": "(A3)"
+            }
+        },
+        {
+            "index": "TS 4.2.3.3",
+            "samhita": "sauSha#dhIqranu# ruddhyasE | garBEq sa~jjA#yasEq puna#H || garBO# aqsyOSha#dhInAqM garBOq vanaqspatI#nAM | garBOq viSva#sya BUqtasyAgnEq garBO# aqpAma#si || praqsadyaq Basma#nAq yOni#maqpaSca# pRuthiqvIma#gnE | saq(gm)qsRujya# mAqtRuBiqstvaM jyOti#ShmAqn punaqrA&sa#daH || puna#rAqsadyaq sada#namaqpaSca# pRuthiqvIma#gnE | SEShE# mAqturyathOqpasthEq &ntaraqsyA(gm) Siqvata#maH || puna#rUqrjA - [  ] 12",
+            "citta": {
+                "section_count": "(12)",
+                "anuvaka": "(A3)"
+            }
+        },
+        {
+            "index": "TS 4.2.3.4",
+            "samhita": "-ni va#rtasvaq puna#ragna iqShA &&yu#ShA | puna#rnaH pAhi viqSvata#H || saqha raqyyA ni va#rtaqsvAgnEq pinva#svaq dhAra#yA | viqSvaPsni#yA viqSvataqspari# || puna#stvA &&diqtyA ruqdrA vasa#vaqH sami#ndhatAqM puna#rbraqhmANO# vasunItha yaqj~jaiH | GRuqtEnaq tvaM taqnuvO# vad^^rdhayasva saqtyAH sa#ntuq yaja#mAnasyaq kAmA$H || bOdhA# nO aqsya vaca#sO yaviShThaq ma(gm)hi#ShThasyaq praBRu#tasya svadhAvaH | pIya#ti tvOq anu ( ) tvO# gRuNAti vaqndAru#stE taqnuva#M ~MvandE agnE || sa bO#dhi sUqrirmaqGavA# vasuqdAvAq vasu#patiH | yuqyOqddhya#smad dvEShA(gm)#si || 13",
+            "citta": {
+                "section_count": "(13)",
+                "anuvaka": "(A3)",
+                "marker": "(A - tavOq - rjA& - nuq - ShODa#Sa ca)"
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "anuvaka": "TS 4.2.10",
+    "verses": [
+        {
+            "index": "TS 4.2.10.1",
+            "samhita": "AqdiqtyaM garBaqM paya#sA samaq~jjanth saqhasra#sya pratiqmAM ~MviqSvarU#paM | pari# vRu~ggdhiq hara#sAq mA&Bi mRu#kShaH SaqtAyu#ShaM kRuNuhi cIqyamA#naH || iqmaM mA hi(gm)#sIrdviqpAda#M paSUqnA(gm) saha#srAkShaq mEdhaq A cIqyamA#naH | maqyumA#raqNyamanu# tE diSAmiq tEna# cinvAqnastaqnuvOq ni ShI#da || vAta#syaq dhrAjiqM ~Mvaru#Nasyaq nABiqmaSva#M jaj~jAqna(gm) sa#riqrasyaq maddhyE$ | SiSu#M naqdInAq(gm)q hariqmadri#buddhaqmagnEq mA hi(gm)#sIH - [  ] 42",
+            "citta": {
+                "section_count": "(42)",
+                "anuvaka": "(A10)"
+            }
+        },
+        {
+            "index": "TS 4.2.10.2",
+            "samhita": "paraqmE vyO#mann || iqmaM mA hi(gm)#sIqrEka#SaPaM paSUqnAM ka#nikraqdaM ~MvAqjinaqM ~MvAji#nEShu | gauqramA#raqNyamanu# tE diSAmiq tEna# cinvAqnastaqnuvOq ni ShI#da || aja#sraqmindu#maruqShaM Bu#raqNyumaqgnimI#DE pUqrvaci#ttauq namO#BiH | sa parva#Bir.RutuqSaH kalpa#mAnOq gAM mA hi(gm)#sIqradi#tiM ~MviqrAja$M || iqma(gm) sa#muqdra(gm) SaqtadhA#raqmuth-saM ~MvyaqcyamA#naqM Buva#nasyaq maddhyE$ | GRuqtaM duhA#nAqmadi#tiqM janAqyAgnEq mA - [  ] 43",
+            "citta": {
+                "section_count": "(43)",
+                "anuvaka": "(A10)"
+            }
+        },
+        {
+            "index": "TS 4.2.10.3",
+            "samhita": "hi(gm)#sIH paraqmE vyO#mann | gaqvaqyamA#raqNyamanu# tE diSAmiq tEna# cinvAqnastaqnuvOq ni ShI#da || varU$triqM tvaShTuqrvaru#Nasyaq nABiqmavi#M jaj~jAqnA(gm) raja#saqH para#smAt | maqhI(gm) sA#haqsrImasu#rasya mAqyAmagnEq mA hi(gm)#sIH paraqmE vyO#mann || iqmAmU$rNAqyuM ~Mvaru#Nasya mAqyAM tvaca#M paSUqnAM dviqpadAqM catu#ShpadAM | tvaShTu#H praqjAnA$M prathaqmaM jaqnitraqmagnEq mA hi(gm)#sIH paraqmE vyO#mann | uShTra#mAraqNyamanu# - [  ] 44",
+            "citta": {
+                "section_count": "(44)",
+                "anuvaka": "(A10)"
+            }
+        },
+        {
+            "index": "TS 4.2.10.4",
+            "samhita": "tE diSAmiq tEna# cinvAqnastaqnuvOq ni ShI#da || yO aqgniraqgnEsta-paqsO&dhi# jAqtaH SOcA$t pRuthiqvyA uqta vA# diqvaspari# | yEna# praqjA viqSvaka#rmAq vyAnaqT tama#gnEq hEDaqH pari# tE vRuNaktu || aqjA hya#gnEraja#niShTaq garBAqth sA vA a#paSyajjaniqtAraqmagrE$ | tayAq rOha#mAyaqnnupaq mEddhyA#saqstayA# dEqvA dEqvatAqmagra# Ayann | SaqraqBa-( )-mA#raqNyamanu# tE diSAmiq tEna# cinvAqnastaqnuvOq niShI#da || 45",
+            "citta": {
+                "section_count": "(45)",
+                "anuvaka": "(A10)",
+                "marker": "(agnEq mA hi(gm)#sIq - ragnEq mOShTra#mA - raqNyamanu# - SaraqBan - nava# ca)"
+            }
+        }
+    ],
+    "special_korvai": [
+        "Aqdiqtya miqmandviqpAdE# maqyuM ~MvAtaqsyA &Sva# miqma mEka#SaPa ~ggauqrama ja#sra~ggavaqyaM ~MvarU$triq mavi# miqmAmU$rNAqryu muShTraqM ~MyO aqgniH Sa#raqBaM"
+    ]
+}
