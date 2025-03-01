@@ -1,0 +1,30 @@
+{
+    "anuvaka": "TS 4.1.6",
+    "verses": [
+        {
+            "index": "TS 4.1.6.1",
+            "samhita": "vasa#vastvA dhUpayantu gAyaqtrENaq Canda#sA&~ggiraqsvad-ruqdrAstvA# dhUpayantuq traiShTu#BEnaq Canda#sA&~ggiraqsva-dA#diqtyAstvA# dhUpayantuq jAga#tEnaq Canda#sA&~ggiraqsvad-viSvE$ tvA dEqvA vai$SvAnaqrA dhU#payaqntvAnu#ShTuBEnaq Canda#sA&~ggiraqsva-dindra#stvA dhUpayatva~ggiraqsvad -viShNu#stvA dhUpayatva~ggiraqsvad-varu#NastvA dhUpayatva~ggiraqsva-dadi#tistvA dEqvI viqSvadE$vyAvatI pRuthiqvyAH saqdhasthE$&~ggiraqsvat Ka#natvavaTa dEqvAnA$M tvAq patnI$ - [  ] 22",
+            "citta": {
+                "section_count": "(22)",
+                "anuvaka": "(A6)"
+            }
+        },
+        {
+            "index": "TS 4.1.6.2",
+            "samhita": "rdEqvI rviqSvadE$vyAvatIH pRuthiqvyAH saqdhasthE$&~ggiraqsvad-da#dhatUKE dhiqShaNA$stvA dEqvIrviqSvadE$vyAvatIH pRuthiqvyAH saqdhasthE$-&~ggiraqsva- daqBIndha#tAmuKEq gnAstvA# dEqvIrviqSvadE$vyAvatIH pRuthiqvyAH saqdhasthE$&~ggiraqsva-cCra#payantUKEq varU$trayOq jana#yastvA dEqvIrviqSvadE$vyAvatIH pRuthiqvyAH saqdhasthE$&~ggiraqsvat pa#cantUKE | mitraiqtAmuqKAM pa#caiqShA mA BE#di | EqtAM tEq pari# dadAqmyaBi#ttyai || aqBImAM - [  ] 23",
+            "citta": {
+                "section_count": "(23)",
+                "anuvaka": "(A6)"
+            }
+        },
+        {
+            "index": "TS 4.1.6.3",
+            "samhita": "ma#hiqnA diva#M miqtrO ba#BUva saqprathA$H | uqta Srava#sA pRuthiqvIM || miqtrasya# car.ShaNIqdhRutaqH SravO# dEqvasya# sAnaqsiM | dyuqmnaM ciqtraSra#vastamaM || dEqvastvA# saviqtOdva#patu supAqNiH sva#~gguqriH | suqbAqhuruqta SaktyA$ || apa#dyamAnA pRuthiqvyASAq diSaq A pRu#Na | utti#ShTha bRuhaqtI Ba#vOqd^^rdhvA ti#ShTha dhruqvA tvaM || vasa#vaqstvA &&cCRu#ndantu gAyaqtrENaq Canda#sA&~ggiraqsvad ruqdrAstvA&& cCRu#ndantuq ( ) traiShTu#BEnaq Canda#sA&~ggiraqsva-dA#diqtyAstvA &&cCRu#ndantuq jAga#tEnaq Canda#sA&~ggiraqsvad-viSvE$ tvA dEqvA vai$SvAnaqrA A cCRu#ndaqntvAnu#ShTuBEnaq Canda#sA&~ggiraqsvat || 24",
+            "citta": {
+                "section_count": "(24)",
+                "anuvaka": "(A6)",
+                "marker": "(patnI# - riqmA(gm) - ruqdrAstvA&& cCRu#ndaqntvE - kAqnna vi(gm)#SaqtiSca#)"
+            }
+        }
+    ]
+}

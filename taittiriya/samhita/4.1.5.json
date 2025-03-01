@@ -1,0 +1,38 @@
+{
+    "anuvaka": "TS 4.1.5",
+    "verses": [
+        {
+            "index": "TS 4.1.5.1",
+            "samhita": "vi pAja#sA pRuqthunAq SOSu#cAnOq bAdha#sva dviqShO raqkShasOq amI#vAH | suqSarma#NO bRuhaqtaH Sarma#Ni syAmaqgnEraqha(gm) suqhava#syaq praNI#tau || ApOq hi ShThA ma#yOqBuvaqstA na# UqrjE da#dhAtana | maqhE raNA#yaq cakSha#sE || yO va#H Siqvata#mOq rasaqstasya# BAjayatEqha na#H | uqSaqtIri#va mAqtara#H || tasmAq ara#M gamAma vOq yasyaq kShayA#yaq jinva#tha | ApO# jaqnaya#thA ca naH || miqtraH - [  ] 18",
+            "citta": {
+                "section_count": "(18)",
+                "anuvaka": "(A5)"
+            }
+        },
+        {
+            "index": "TS 4.1.5.2",
+            "samhita": "saq(gm)qsRujya# pRuthiqvIM BUmi#M caq jyOti#ShA saqha | sujA#taM jAqtavE#dasamaqgniM ~Mvai$SvAnaqraM ~MviqBuM || aqyaqkShmAya# tvAq sa(gm) sRu#jAmi praqjABya#H | viSvE$ tvA dEqvA vai$SvAnaqrAH sa(gm) sRu#jaqntvA-nu#ShTuBEnaq Canda#sA&~ggiraqsvat || ruqdrAH saqBRuMtya# pRuthiqvIM bRuqhajjyOtiqH samI#dhirE | tEShA$M BAqnuraja#sraq icCuqkrO dEqvEShu# rOcatE || sa(gm) sRu#ShTAqM ~Mvasu#BI ruqdraid^^rdhIrai$H karmaqNyA$M mRuda$M | hastA$ByAM mRuqdvIM kRuqtvA si#nIvAqlI ka#rOtuq - [  ] 19",
+            "citta": {
+                "section_count": "(19)",
+                "anuvaka": "(A5)"
+            }
+        },
+        {
+            "index": "TS 4.1.5.3",
+            "samhita": "tAM || siqnIqvAqlI su#kapaqrdA su#kurIqrA svau#paqSA | sA tuBya#maditE mahaq OKAM da#dhAtuq hasta#yOH || uqKAM ka#rOtuq SaktyA# bAqhuByAq-madi#tirddhiqyA | mAqtA puqtraM ~MyathOqpasthEq sA&gniM bi#Bartuq garBaq A || maqKasyaq SirO#&si yaqj~jasya# paqdE stha#H | vasa#vastvA kRuNvantu gAyaqtrENaq Canda#sA &~ggiraqsvat pRu#thiqvya#si ruqdrAstvA# kRuNvantuq traiShTu#BEnaq Canda#sA &~ggiraqsvadaqntari#kShamasyA - [  ] 20",
+            "citta": {
+                "section_count": "(20)",
+                "anuvaka": "(A5)"
+            }
+        },
+        {
+            "index": "TS 4.1.5.4",
+            "samhita": "-diqtyAstvA# kRuNvantuq jAga#tEnaq Canda#sA&~ggiraqsvad dyaura#siq viSvE$ tvA dEqvA vai$SvAnaqrAH kRu#NvaqntvAnu#ShTuBEnaq Canda#sA-&~ggiraqsvad-diSO#&si dhruqvA&si# dhAqrayAq mayi# praqjA(gm) rAqyaspOSha#M gaupaqtya(gm) suqvIrya(gm)# sajAqtAn. yaja#mAnAqyA&di#tyaiq rAsnAq&sya di#tistEq bila#M gRuhNAtuq pA~gktE#naq Canda#sA &~ggiraqsvat || kRuqtvAyaq sA maqhImuqKAM mRuqnmayIqM ~MyOni#maqgnayE$ | tAM puqtrEByaqH saM prA ( ) ya#cCaqdadi#tiH SraqpayAqniti# || 21",
+            "citta": {
+                "section_count": "(21)",
+                "anuvaka": "(A5)",
+                "marker": "(miqtraH - ka#rO - tvaqntari#kShamasiq - pra - caqtvAri# ca)"
+            }
+        }
+    ]
+}

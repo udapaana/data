@@ -1,0 +1,68 @@
+{
+  "anuvaka": "TS 4.1.3",
+  "verses": [
+    {
+      "index": "TS 4.1.3.1",
+      "samhita": "dEqvasya# tvA saviqtuH pra#saqvE$&SvinO$ rbAqhuByA$M pUqShNO hastA$ByAM pRuthiqvyAH saqdhasthEq&gniM pu#rIqShya#-ma~ggiraqsvat Ka#nAmi || jyOti#ShmantaM tvA&gnE suqpratI#kaqmaja#srENa BAqnunAq dIdyA#naM | SiqvaM praqjAByO&hi(gm)# santaM pRuthiqvyAH saqdhasthEq&gniM pu#rIqShya# -ma~ggiraqsvat Ka#nAmi || aqpAM pRuqShThama#si saqprathA# uqrva#gniM Ba#riqShyadapa#rAvapiShThaM | vad^^rdha#mAnaM maqha A caq puShka#raM diqvO mAtra#yA variqNA pra#thasva || Sarma# ca sthOq- [  ] 10",
+      "pada": {
+        "words": [
+          "dEqvasya#", "tvA", "saviqtuH", "pra#saqvE$", "&SvinO$", "rbAqhuByA$M",
+          "pUqShNO", "hastA$ByAM", "pRuthiqvyAH", "saqdhasthEq&gniM", "pu#rIqShya#",
+          "-ma~ggiraqsvat", "Ka#nAmi", "jyOti#ShmantaM", "tvA&gnE", "suqpratI#kaqmaja#srENa",
+          "BAqnunAq", "dIdyA#naM", "SiqvaM", "praqjAByO&hi(gm)#", "santaM",
+          "pRuthiqvyAH", "saqdhasthEq&gniM", "pu#rIqShya#", "-ma~ggiraqsvat", "Ka#nAmi",
+          "aqpAM", "PruqShThama#si", "saqprathA#", "uqrva#gniM", "Ba#riqShyadapa#rAvapiShThaM",
+          "vad^^rdha#mAnaM", "maqha", "A", "caq", "puShka#raM", "diqvO", "mAtra#yA",
+          "variqNA", "pra#thasva", "Sarma#", "ca", "sthOq"
+        ]
+      },
+      "citta": {
+        "section_count": "(10)",
+        "anuvaka": "(A3)"
+      }
+    },
+    {
+      "index": "TS 4.1.3.2",
+      "samhita": "varma# ca sthOq acCi#drE bahuqlE uqBE | vyaca#svatIq saM ~Mva#sAthAM BaqrtamaqgniM pu#rIqShya$M || saM~Mva#sAthA(gm) suvaqrvidA# saqmIcIq ura#sAq tmanA$ | aqgnimaqnta rBa#riqShyantIq jyOti#Shmantaq maja#sraqmit || puqrIqShyO#&si viqSvaBa#rAH | atha#rvA tvA prathaqmO nira#manthadagnE || tvAma#gnEq puShka#rAqdaddhyatha#rvAq nira#manthata | mUqd^^rdhnO viSva#sya vAqGata#H || tamu# tvA daqddhya~g~g RuShi#H puqtra I#dhEq- [  ] 11",
+      "pada": {
+        "words": [
+          "varma#", "ca", "sthOq", "acCi#drE", "bahuqlE", "uqBE",
+          "vyaca#svatIq", "saM", "~Mva#sAthAM", "BaqrtamaqgniM", "pu#rIqShya$M",
+          "saM~Mva#sAthA(gm)", "suvaqrvidA#", "saqmIcIq", "ura#sAq", "tmanA$",
+          "aqgnimaqnta", "rBa#riqShyantIq", "jyOti#Shmantaq", "maja#sraqmit",
+          "puqrIqShyO#&si", "viqSvaBa#rAH", "atha#rvA", "tvA", "prathaqmO",
+          "nira#manthadagnE", "tvAma#gnEq", "puShka#rAqdaddhyatha#rvAq",
+          "nira#manthata", "mUqd^^rdhnO", "viSva#sya", "vAqGata#H",
+          "tamu#", "tvA", "daqddhya~g~g", "RuShi#H", "puqtra", "I#dhEq"
+        ]
+      },
+      "citta": {
+        "section_count": "(11)",
+        "anuvaka": "(A3)"
+      }
+    },
+    {
+      "index": "TS 4.1.3.3",
+      "samhita": "atha#rvaNaH | vRuqtraqhaNa#M purandaqraM || tamu# tvA pAqthyO vRuShAq samI#dhE dasyuqhanta#maM | dhaqnaq~jjaqya(gm) raNE#raNE || sIda# hOtaqH sva u# lOqkE ci#kiqtvAnth sAqdayA# yaqj~ja(gm) su#kRuqtasyaq yOnau$ | dEqvAqvIrdEqvAn. haqviShA# yajAqsyagnE# bRuqhad-yaja#mAnEq vayO# dhAH || ni hOtA# hOtRuqShada#nEq vidA#nastvEqShO dI#diqvA(gm) a#sadath suqdakSha#H | ada#bdhavrata pramatiqrvasi#ShThaH sahasraM BaqraH Suci#jihvO aqgniH || sa(gm) sI#dasva maqhA(gm) a#siq SOca#sva- [  ] 12",
+      "pada": {
+        "words": [
+          "atha#rvaNaH", "vRuqtraqhaNa#M", "purandaqraM",
+          "tamu#", "tvA", "pAqthyO", "vRuShAq", "samI#dhE", "dasyuqhanta#maM",
+          "dhaqnaq~jjaqya(gm)", "raNE#raNE", "sIda#", "hOtaqH", "sva", "u#",
+          "lOqkE", "ci#kiqtvAnth", "sAqdayA#", "yaqj~ja(gm)", "su#kRuqtasyaq",
+          "yOnau$", "dEqvAqvIrdEqvAn.", "haqviShA#", "yajAqsyagnE#",
+          "bRuqhad-yaja#mAnEq", "vayO#", "dhAH", "ni", "hOtA#", "hOtRuqShada#nEq",
+          "vidA#nastvEqShO", "dI#diqvA(gm)", "a#sadath", "suqdakSha#H",
+          "ada#bdhavrata", "pramatiqrvasi#ShThaH", "sahasraM", "BaqraH",
+          "Suci#jihvO", "aqgniH", "sa(gm)", "sI#dasva", "maqhA(gm)",
+          "a#siq", "SOca#sva"
+        ]
+      },
+      "citta": {
+        "section_count": "(12)",
+        "anuvaka": "(A3)",
+        "marker": "(sthaq - IqdhEq - SOca#sva - saqptavi(gm)#SatiSca)"
+      }
+    }
+  ]
+}
