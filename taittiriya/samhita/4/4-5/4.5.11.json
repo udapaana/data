@@ -1,0 +1,48 @@
+{
+  "anuvaka": "TS 4.5.11",
+  "verses": [
+    {
+      "index": "TS 4.5.11.1",
+      "samhita": "saqhasrA#Ni sahasraqSO yE ruqdrA adhiq BUmyA$M | tEShA(gm)# sahasrayOjaqnE &vaqdhanvA#ni tanmasi || aqsmin-ma#haqtya#rNaqvE$-&ntari#kShE BaqvA adhi# || nIla#grIvAH SitiqkaNThA$H SaqrvA aqdhaH kSha#mAcaqrAH || nIla#grIvAH SitiqkaNThAq diva(gm)# ruqdrA upa#SritAH || yE vRuqkShEShu# saqspi~jja#rAq nIla#grIvAq vilO#hitAH || yE BUqtAnAq-madhi#patayO viSiqKAsa#H kapaqrdi#naH || yE annE#Shu viqviddhya#ntiq pAtrE#Shuq piba#tOq janAn# || yE paqthAM pa#thiqrakSha#ya ailabRuqdA yaqvyudha#H || yE tIqrthAni# - [  ] 26",
+      "citta": {
+        "section_count": "(26)",
+        "anuvaka": "(A11)"
+      }
+    },
+    {
+      "index": "TS 4.5.11.2",
+      "samhita": "praqcara#nti sRuqkAva#ntO niShaq~ggiNa#H || ya EqtAva#ntaScaq BUyA(gm)#saScaq diSO# ruqdrA vi#tasthiqrE || tEShA(gm)# sahasrayOjaqnE &vaqdhanvA#ni tanmasi || namO# ruqdrEByOq yE pRu#thiqvyAM ~MyE$&ntari#kShEq yE diqvi yEShAqmannaMq ~MvAtO# vaqrq.ShamiSha#vaqstEByOq daSaq prAcIq rdaSa#dakShiqNA daSa#praqtIcIq rdaSOdI#cIq rdaSOqd^^rdhvA-stEByOq namaqstE nO# mRuDayantuq tE yaM dviqShmO yaSca# ( ) nOq dvEShTiq taM ~MvOq jaMBE# dadhAmi || 27",
+      "citta": {
+        "section_count": "(27)",
+        "anuvaka": "(A11)",
+        "marker": "(tIqrthAniq - yaScaq - ShaT ca#)"
+      }
+    }
+  ],
+  "prasna_korvai": {
+    "starting_padams": [
+      "nama#stE rudraq",
+      "namOq hira#NyabAhavEq",
+      "namaqH saha#mAnAyaq",
+      "nama# AvyAqdhinI$ByOq",
+      "namO# BaqvAyaq",
+      "namO$ jyEqShThAyaq",
+      "namO# dunduqByA#yaq",
+      "namaqH sOmA#yaq",
+      "nama# iriqNyA#yaq",
+      "drApa#",
+      "saqhasrAq",
+      "NyEkA#daSa"
+    ],
+    "series_of_panchaatis": [
+      "nama#stE rudraq",
+      "namO# BaqvAyaq",
+      "drApE#",
+      "saqptavi(gm)#SatiH"
+    ],
+    "first_last_padam": [
+      "nama#stE rudraq",
+      "taM ~MvOq jaMBE# dadhAmi"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "anuvaka": "TS 4.5.6",
+  "verses": [
+    {
+      "index": "TS 4.5.6.1",
+      "samhita": "namO$ jyEqShThAya# ca kaniqShThAya# caq namaH# pUrvaqjAya# cAparaqjAya# caq namO# maddhyaqmAya# cApagaqlBAya# caq namO# jaGaqnyA#ya caq buddhni#yAya caq nama#H sOqByA#ya ca pratisaqryA#ya caq namOq yAmyA#ya caq kShEmyA#ya caq nama# urvaqryA#ya caq KalyA#ya caq namaqH SlOkyA#ya cAvasAqnyA#ya caq namOq vanyA#ya caq kakShyA#ya caq nama#H SraqvAya# ca pratiSraqvAya# caq-[  ] 13",
+      "citta": {
+        "section_count": "(13)",
+        "anuvaka": "(A6)"
+      }
+    },
+    {
+      "index": "TS 4.5.6.2",
+      "samhita": "nama# AqSuShE#NAya cAqSura#thAya caq namaqH SUrA#ya cAvaBindaqtE caq namO# vaqrmiNE# ca varUqthinE# caq namO# biqlminE# ca kavaqcinE# caq nama#H SruqtAya# ca SrutasEqnAya# ca || 14",
+      "citta": {
+        "section_count": "(14)",
+        "anuvaka": "(A6)",
+        "marker": "(praqtiqSraqvAya# caq - pa~jca#vi(gm)SatiSca)"
+      }
+    }
+  ]
+}
