@@ -1,0 +1,26 @@
+{
+  "anuvaka": "TS 4.4.1",
+  "verses": [
+    {
+      "index": "TS 4.4.1.1",
+      "samhita": "raqSmira#siq kShayA#ya tvAq kShaya#M jinvaq prEti#rasiq dharmA#ya tvAq dharma#M jiqnvAnvi#tirasi diqvE tvAq diva#M jinva saqndhira#syaqntari#kShAya tvAq&ntari#kShaM jinva pratiqdhira#si pRuthiqvyai tvA# pRuthiqvIM ji#nva viShTaqBOM#&siq vRuShTyai$ tvAq vRuShTi#M jinva praqvA&syahnEq tvA&ha#rjinvAnuq vA&siq rAtri#yai tvAq rAtri#M jinvOq Siga#siq - [  ] 1",
+      "citta": {
+        "section_count": "(1)",
+        "anuvaka": "(A1)"
+      }
+    },
+    {
+      "index": "TS 4.4.1.2",
+      "samhita": "vasu#ByastvAq vasU$~jjinva prakEqtO#&si ruqdrEBya#stvA ruqdrA~jji#nva sudIqtira#syAdiqtyEBya#stvA &&diqtyA~jjiqnvaujO#&si piqtRuBya#stvA piqtRU~jji#nvaq tantu#rasi praqjABya#stvA praqjA ji#nva pRutanAqShADa#si paqSuBya#stvA paqSU~jji#nva rEqvadaqsyOSha#dhIByaq-stvauSha#dhI-rjinvABiqjida#si yuqktagrAqvEndrA#yaq tvEndra#M jiqnvAdhi#patirasi prAqNAya# - [  ] 2"
+    },
+    {
+      "index": "TS 4.4.1.3",
+      "samhita": "tvA prAqNaM ji#nva yaqntA&sya#pAqnAya# tvA&pAqnaM ji#nva saq(gm)qsarpO#&siq cakShu#ShE tvAq cakShu#rjinva vayOqdhA a#siq SrOtrA#ya tvAq SrOtra#M jinva triqvRuda#si praqvRuda#si saqM~MvRuda#si viqvRuda#si sa(gm)rOqhO#&si nIrOqhO#&si prarOqhO$&syanurOqhO#&si vasuqkO#&siq vESha#Srirasiq vasya#ShTirasi || 3",
+      "citta": {
+        "section_count": "(3)",
+        "anuvaka": "(A1)",
+        "marker": "(uqSiga#si - prAqNAyaq - trica#tvAri(gm)Sacca)"
+      }
+    }
+  ]
+}
