@@ -1,0 +1,22 @@
+{
+  "anuvaka": "TS 4.3.6",
+  "verses": [
+    {
+      "index": "TS 4.3.6.1",
+      "samhita": "indrA$gnIq avya#thamAnAqmiShTa#kAM dRu(gm)hataM ~MyuqvaM | pRuqShThEnaq dyAvA#pRuthiqvI aqntari#kShaM caq vi bA#dhatAM || viqSvaka#rmA tvA sAdayatvaqntari#kShasya pRuqShThE vyaca#svatIqM pratha#svatIqM BAsva#tI(gm) sUriqmatIqmA yA dyAM BAsyA pRu#thiqvImOrva#ntari#kSha-maqntari#kShaM ~MyacCAqntari#kShaM dRu(gm)hAqntari#kShaqM mA hi(gm)#sIq rviSva#smai prAqNAyA#pAqnAya# vyAqnAyO#dAqnAya# pratiqShThAyai# caqritrA#ya vAqyustvAq&Bi pA#tu maqhyA svaqstyA CaqrdiShAq - [  ] 11",
+      "citta": {
+        "section_count": "(11)",
+        "anuvaka": "(A6)"
+      }
+    },
+    {
+      "index": "TS 4.3.6.2",
+      "samhita": "Santa#mEnaq tayA# dEqva#tayA&~ggiraqsvad-dhruqvA sI#da || rAj~jya#siq prAcIq dig-viqrADa#si dakShiqNA diK saqmrADa#si praqtIcIq diK-svaqrADaqsyudI#cIq digadhi#patnyasi bRuhaqtI digAyu#rmE pAhi prAqNaM mE# pAhyapAqnaM mE# pAhi vyAqnaM mE# pAhiq cakShu#rmE pAhiq SrOtra#M mE pAhiq manO# mE jinvaq vAca#M mE pinvAq ( ) &&tmAna#M mE pAhiq jyOti#rmE yacCha || 12",
+      "citta": {
+        "section_count": "(12)",
+        "anuvaka": "(A6)",
+        "marker": "(CaqrdiShA# - pinvaq - ShaTca#)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "anuvaka": "TS 4.3.1",
+  "verses": [
+    {
+      "index": "TS 4.3.1.1",
+      "samhita": "aqpAM tvEma$nth sAdayAmyaqpAM tvOdma$nth sAdayAmyaqpAM tvAq Basma$nth sAdayAmyaqpAM tvAq jyOti#Shi sAdayAmyaqpAM tvA&ya#nE sAdayAmyarNaqvE sada#nE sIda samuqdrE sada#nE sIda saliqlE sada#nE sIdAqpAM kShayE# sIdAqpA(gm) sadhi#Shi sIdAqpAM tvAq sada#nE sAdayAmyaqpAM tvA# saqdhasthE# sAdayAmyaqpAM tvAq purI#ShE sAdayAmyaqpAM tvAq yOnau# ( ) sAdayAmyaqpAM tvAq pAtha#si sAdayAmi gAyaqtrI Canda#-striqShTup CandOq jaga#tIq CandO#&nuqShTup Canda#H paq~gktiSCanda#H || 1",
+      "pada": {
+        "words": [
+          "aqpAM", "tvEma$nth", "sAdayAmyaqpAM", "tvOdma$nth", "sAdayAmyaqpAM",
+          "tvAq", "Basma$nth", "sAdayAmyaqpAM", "tvAq", "jyOti#Shi", "sAdayAmyaqpAM",
+          "tvA&ya#nE", "sAdayAmyarNaqvE", "sada#nE", "sIda", "samuqdrE",
+          "sada#nE", "sIda", "saliqlE", "sada#nE", "sIdAqpAM", "kShayE#",
+          "sIdAqpA(gm)", "sadhi#Shi", "sIdAqpAM", "tvAq", "sada#nE",
+          "sAdayAmyaqpAM", "tvA#", "saqdhasthE#", "sAdayAmyaqpAM",
+          "tvAq", "purI#ShE", "sAdayAmyaqpAM", "tvAq", "yOnau#",
+          "sAdayAmyaqpAM", "tvAq", "pAtha#si", "sAdayAmi",
+          "gAyaqtrI", "Canda#-", "striqShTup", "CandOq",
+          "jaga#tIq", "CandO#", "&nuqShTup", "Canda#H",
+          "paq~gktiSCanda#H"
+        ]
+      },
+      "citta": {
+        "section_count": "(1)",
+        "anuvaka": "(A1)",
+        "marker": "(yOnauq - pa~jca#daSa ca)"
+      }
+    }
+  ]
+}
