@@ -1,0 +1,30 @@
+{
+  "anuvaka": "TS 4.6.3",
+  "verses": [
+    {
+      "index": "TS 4.6.3.1",
+      "samhita": "udE#namuttaqrAM naqyAgnE# GRutEnA&&huta | rAqyaspOShE#Naq sa(gm) sRu#ja praqjayA# caq dhanE#na ca || indrEqmaM pra#taqrAM kRu#dhi sajAqtAnA#-masadvaqSI | samE#naqM ~Mvarca#sA sRuja dEqvEByO# BAgaqdhA a#sat || yasya# kuqrmO haqvirgRuqhE tama#gnE vaqd^^rdhayAq tvaM | tasma# dEqvA adhi# bravannaqyaM caq brahma#Naqspati#H || udu# tvAq viSvE# dEqvA - [  ] 12",
+      "citta": {
+        "section_count": "(12)",
+        "anuvaka": "(A3)"
+      }
+    },
+    {
+      "index": "TS 4.6.3.2",
+      "samhita": "agnEq Bara#ntuq citti#BiH | sa nO# Bava Siqvata#maH suqpratI#kO viqBAva#suH || pa~jcaq diSOq daivI$ryaqj~jama#vantu dEqvIrapAma#tiM durmaqtiM bAdha#mAnAH | rAqyaspOShE# yaqj~japa#ti-mAqBaja#ntIH || rAqyaspOShEq adhi# yaqj~jO a#sthAqth sami#ddhE aqgnAvadhi# mAmahAqnaH | uqkthapa#traq IDyO# gRuBIqtastaqptaM GaqrmaM pa#riqgRuhyA#yajanta || UqrjA yad-yaqj~jamaSa#manta dEqvA daivyA#ya dhaqrtrE jOShTrE$ | dEqvaqSrIH SrIma#NAH Saqtapa#yAH - [  ] 13"
+    },
+    {
+      "index": "TS 4.6.3.3",
+      "samhita": "pariqgRuhya# dEqvA yaqj~jamA#yann || sUrya#raSmiqrq.hari#kESaH puqrastA$th saviqtA jyOtiqruda#yAq(gm)q aja#sraM | tasya# pUqShA pra#saqvaM ~MyA#ti dEqvaH saqpaMSyaqn viSvAq Buva#nAni gOqpAH || dEqvA dEqvEByO# aqddhvaqryantO# asthurvIqta(gm) Sa#miqtrE Sa#miqtA yaqjaddhyai$ | tuqrIyO# yaqj~jO yatra# haqvyamEtiq tata#H pAvaqkA aqSiShO# nO juShantAM || viqmAna# EqSha diqvO maqddhya# Asta ApapriqvAn rOda#sI aqntari#kShaM | sa viqSvAcI#raqBi - [  ] 14"
+    },
+    {
+      "index": "TS 4.6.3.4",
+      "samhita": "ca#ShTE GRuqtAcI#rantaqrA pUrvaqmapa#raM ca kEqtuM || uqkShA sa#muqdrO a#ruqNaH su#paqrNaH pUrva#syaq yOni#M piqturA vi#vESa | maqddhyE# diqvO nihi#taqH pRuSniqraSmAq vi ca#kramEq raja#saH pAqtyantau$ || indraqM ~MviSvA# avIvRudhanth samuqdravya#casaqM gira#H | raqthIta#ma(gm) rathIqnAM ~MvAjA#nAq(gm)q satpa#tiqM pati$M || suqmnaqhUryaqj~jO dEqvA(gm) A ca# vakShaqdyakSha#daqgnirdEqvO dEqvA(gm) A ca# vakShat || vAja#sya ( ) mA prasaqvEnO$d-grAqBENO-da#graBIt | athA# saqpatnAq(gm)q indrO# mE nigrAqBENAdha#rA(gm) akaH || uqdgrAqBaM ca# nigrAqBaM caq brahma# dEqvA a#vIvRudhann | athA# saqpatnA#nindrAqgnI mE# viShUqcInAqn vya#syatAM || 15",
+      "citta": {
+        "section_count": "(15)",
+        "anuvaka": "(A3)",
+        "marker": "(dEqvAH - Saqtapa#yA - aqBi - vAja#syaq - ShaDvi(gm)#SatiSca )"
+      }
+    }
+  ]
+}

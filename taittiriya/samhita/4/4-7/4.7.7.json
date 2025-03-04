@@ -1,0 +1,22 @@
+{
+  "anuvaka": "TS 4.7.7",
+  "verses": [
+    {
+      "index": "TS 4.7.7.1",
+      "samhita": "aq(gm)qSuSca# mE raqSmiScaq mE &dA$ByaScaq mE&dhi#patiSca ma upAq(gm)qSuSca# mE &ntaryAqmaSca# ma aindravAyaqvaSca# mE maitrAvaruqNaSca# ma ASviqnaSca# mE pratipraqsthAna#Sca mE SuqkraSca# mE maqnthI ca# ma AgrayaqNaSca# mE vaiSvadEqvaSca# mE dhruqvaSca# mE vaiSvAnaqraSca# ma RutugraqhASca#- [  ] 13",
+      "citta": {
+        "section_count": "(13)",
+        "anuvaka": "(A7)"
+      }
+    },
+    {
+      "index": "TS 4.7.7.2",
+      "samhita": "mE &tigrAqhyA$Sca ma aindrAqgnaSca# mE vaiSvadEqvaSca# mE marutvaqtIyA$Sca mE mAhEqndraSca# ma AdiqtyaSca# mE sAviqtraSca# mE sArasvaqtaSca# mE pauqShNaSca# mE pAtnIvaqtaSca# mE hAriyOjaqnaSca# mE || 14",
+      "citta": {
+        "section_count": "(14)",
+        "anuvaka": "(A7)",
+        "marker": "(RuqtuqgraqhAScaq - catu#stri(gm)Sacca)"
+      }
+    }
+  ]
+}

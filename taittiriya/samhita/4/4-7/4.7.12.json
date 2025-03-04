@@ -1,0 +1,26 @@
+{
+  "anuvaka": "TS 4.7.12",
+  "verses": [
+    {
+      "index": "TS 4.7.12.1",
+      "samhita": "vAjO# naH saqpta praqdiSaqSca#tasrO vA parAqvata#H | vAjO# nOq viSvai$rdEqvai-rdhana#sAtAviqhAva#tu || viSvE# aqdya maqrutOq viSva# UqtI viSvE# BavantvaqgnayaqH sami#ddhAH | viSvE# nO dEqvA avaqsA&& ga#mantuq viSva#mastuq dravi#NaqM ~MvAjO# aqsmE || vAja#sya prasaqvaM dE#vAq rathai$ryAtA hiraqNyayai$H | aqgnirindrOq bRuhaqspati#rmaqrutaqH sOma#pItayE || vAjE#vAjE &vata vAjinO nOq dhanE#Shu - [  ] 21",
+      "citta": {
+        "section_count": "(21)",
+        "anuvaka": "(A12)"
+      }
+    },
+    {
+      "index": "TS 4.7.12.2",
+      "samhita": "viprA amRutA Rutaj~jAH | aqsya maddhva#H pibata mAqdaya#ddhvaM tRuqptA yA#ta paqthiBi#rdEvaqyAnai$H || vAja#H puqrastA#duqta ma#ddhyaqtO nOq vAjO# dEqvA(gm) RuqtuBi#H kalpayAti | vAja#syaq hi pra#saqvO nanna#mItiq viSvAq ASAq vAja#patirBavEyaM || paya#H pRuthiqvyAM payaq OSha#dhIShuq payO# diqvya#ntari#kShEq payO# dhAM | paya#svatIH praqdiSa#H santuq mahya$M || saM mA# sRujAmiq paya#sA GRuqtEnaq saM mA# sRujAmyaqpa - [  ] 22"
+    },
+    {
+      "index": "TS 4.7.12.3",
+      "samhita": "OSha#dhIBiH | sO#&haM ~MvAja(gm)# sanEyamagnE || naktOqShAsAq sama#nasAq virU#pE dhAqpayE#tEq SiSuqmEka(gm)# samIqcI | dyAvAq kShAmA# ruqkmO aqntarvi BA#ti dEqvA aqgniM dhA#rayan draviNOqdAH || saqmuqdrO#&siq naBa#svAnAqrdradA#nuH SaqBUMrma#yOqBUraqBi mA# vAhiq svAhA# mAruqtO#&si maqrutA$M gaqNaH SaqBUMrma#yOqBUraqBi mA# vAhiq svAhA# &vaqsyura#siq duva#svA~jCaqBUMrma#yOqBUraBi mA# ( ) vAhiq svAhA$ || 23",
+      "citta": {
+        "section_count": "(23)",
+        "anuvaka": "(A12)",
+        "marker": "(dhanE$ - ShvaqpO - duva#svA~jCaqBUMrma#yOqBUraqBa mAq - dvE ca#)"
+      }
+    }
+  ]
+}

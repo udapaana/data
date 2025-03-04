@@ -1,0 +1,22 @@
+{
+  "anuvaka": "TS 4.7.11",
+  "verses": [
+    {
+      "index": "TS 4.7.11.1",
+      "samhita": "EkA# ca mE tiqsraSca# mEq pa~jca# ca mE saqpta ca# mEq nava# ca maq EkA#daSa ca mEq trayO#daSa ca mEq pa~jca#daSa ca mE saqptada#Sa ca mEq nava#daSa ca maq Eka#vi(gm)SatiSca mEq trayO#vi(gm)SatiSca mEq pa~jca#vi(gm)SatiSca mE saqptavi(gm)#SatiSca mEq nava#vi(gm)SatiSca maq Eka#tri(gm)Sacca mEq traya#stri(gm)Sacca- [  ] 19",
+      "citta": {
+        "section_count": "(19)",
+        "anuvaka": "(A11)"
+      }
+    },
+    {
+      "index": "TS 4.7.11.2",
+      "samhita": "mEq cata#sraSca mEq &ShTau ca# mEq dvAda#Sa ca mEq ShODa#Sa ca mE vi(gm)SaqtiSca# mEq catu#rvi(gm)SatiSca mEq &ShTAvi(gm)#SatiSca mEq dvAtri(gm)#Sacca mEq ShaT-tri(gm)#Sacca mE catvAriq(gm)qSacca# mEq catu#ScatvAri(gm)Sacca mEq &ShTAca#tvAri(gm)Sacca mEq vAja#Sca prasaqvaScA#-piqjaScaq kratu#Scaq suva#Sca mUqd^^rdhA caq vyaS~ji#yaScA- ( ) -ntyAyaqnaScA- ntya#Sca BauvaqnaScaq Buva#naqScA-dhi#patiSca || 20",
+      "citta": {
+        "section_count": "(20)",
+        "anuvaka": "(A11)",
+        "marker": "(traya#stri(gm)Saccaq - vyaS~ji#yaq - EkA#daSa ca)"
+      }
+    }
+  ]
+}
