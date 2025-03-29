@@ -4,17 +4,6 @@
     {
       "index": "TS 4.1.2.1",
       "samhita": "iqmAma#gRuBNan raSaqnAmRuqtasyaq pUrvaq Ayu#Shi viqdathE#Shu kaqvyA | tayA# dEqvAH suqtamA ba#BUvur. Ruqtasyaq sAma$nth saqramAqrapa#ntI || pratU$rtaM ~MvAjiqnnA dra#vaq vari#ShThAqmanu# saqM~Mvata$M | diqvi tEq janma# paraqmamaqntari#kShEq nABi#H pRuthiqvyAmadhiq yOni#H || yuq~jjAthAq(gm)q rAsa#BaM ~Myuqvamaqsmin. yAmE# vRuShaNvasU | aqgniM Bara#ntamasmaqyuM || yOgE#yOgE taqvasta#raqM ~MvAjE#vAjE havAmahE | saKA#yaq indra#maqtayE$ || praqtUrvaq- [  ] 5",
-      "pada": {
-        "words": [
-          "iqmAma#gRuBNan", "raSaqnAmRuqtasyaq", "pUrvaq", "Ayu#Shi", "viqdathE#Shu",
-          "kaqvyA", "tayA#", "dEqvAH", "suqtamA", "ba#BUvur.", "Ruqtasyaq", "sAma$nth",
-          "saqramAqrapa#ntI", "pratU$rtaM", "~MvAjiqnnA", "dra#vaq", "vari#ShThAqmanu#",
-          "saqM~Mvata$M", "diqvi", "tEq", "janma#", "paraqmamaqntari#kShEq", "nABi#H",
-          "pRuthiqvyAmadhiq", "yOni#H", "yuq~jjAthAq(gm)q", "rAsa#BaM", "~Myuqvamaqsmin.",
-          "yAmE#", "vRuShaNvasU", "aqgniM", "Bara#ntamasmaqyuM", "yOgE#yOgE",
-          "taqvasta#raqM", "~MvAjE#vAjE", "havAmahE", "saKA#yaq", "indra#maqtayE$"
-        ]
-      },
       "citta": {
         "section_count": "(5)",
         "anuvaka": "(A1)"
@@ -23,17 +12,6 @@
     {
       "index": "TS 4.1.2.2",
       "samhita": "-nnEhya#vaqkrAmaqnnaSa#stI ruqdrasyaq gANa#patyAn mayOqBUrEhi# | uqrva#ntari#kShaqmanvi#hi svaqsti ga#vyUtiqraBa#yAni kRuqNvann || pUqShNA saqyujA# saqha | pRuqthiqvyAH saqdhasthA#daqgniM pu#riqShya#-ma~ggiraqsva-dacCE$hyaqgniM pu#rIqShya# -ma~ggiraqsvada-cCE#mOq&gniM pu#rIqShya#-ma~ggiraqsvad-Ba#riShyAmOq&gniM pu#rIqShya#-ma~ggiraqsvad-Ba#rAmaH || anvaqgniruqShasAq-magra#maKyaq-danvahA#ni prathaqmO jAqtavE#dAH | anuq sUrya#sya - [  ] 6",
-      "pada": {
-        "words": [
-          "nnEhya#vaqkrAmaqnnaSa#stI", "ruqdrasyaq", "gANa#patyAn", "mayOqBUrEhi#",
-          "uqrva#ntari#kShaqmanvi#hi", "svaqsti", "ga#vyUtiqraBa#yAni", "kRuqNvann",
-          "pUqShNA", "saqyujA#", "saqha", "pRuqthiqvyAH", "saqdhasthA#daqgniM",
-          "pu#riqShya#-ma~ggiraqsva-dacCE$hyaqgniM", "pu#rIqShya#", "-ma~ggiraqsvada-cCE#mOq&gniM",
-          "pu#rIqShya#-ma~ggiraqsvad-Ba#riShyAmOq&gniM", "pu#rIqShya#-ma~ggiraqsvad-Ba#rAmaH",
-          "anvaqgniruqShasAq-magra#maKyaq-danvahA#ni", "prathaqmO", "jAqtavE#dAH",
-          "anuq", "sUrya#sya"
-        ]
-      },
       "citta": {
         "section_count": "(6)",
         "anuvaka": "(A1)"
@@ -42,18 +20,6 @@
     {
       "index": "TS 4.1.2.3",
       "samhita": "puruqtrA ca# raqSmInanuq dyAvA#pRuthiqvI A ta#tAna || Aqgatya# vAqjyaddhva#naqH sarvAq mRudhOq vidhU#nutE | aqgni(gm) saqdhasthE# mahaqti cakShu#ShAq ni ci#kIShatE || Aqkramya# vAjin pRuthiqvImaqgnimi#cCa ruqcA tvaM | BUmyA# vRuqtvAya# nO brUhiq yataqH KanA#maq taM ~MvaqyaM || dyaustE# pRuqShThaM pRu#thiqvI saqdhastha#mAqtmA &ntari#kSha(gm) samuqdrastEq yOni#H | viqKyAyaq cakShu#ShAq tvamaqBi ti#ShTha- [  ] 7",
-      "pada": {
-        "words": [
-          "puruqtrA", "ca#", "raqSmInanuq", "dyAvA#pRuthiqvI", "A", "ta#tAna",
-          "Aqgatya#", "vAqjyaddhva#naqH", "sarvAq", "mRudhOq", "vidhU#nutE",
-          "aqgni(gm)", "saqdhasthE#", "mahaqti", "cakShu#ShAq", "ni", "ci#kIShatE",
-          "Aqkramya#", "vAjin", "pRuthiqvImaqgnimi#cCa", "ruqcA", "tvaM",
-          "BUmyA#", "vRuqtvAya#", "nO", "brUhiq", "yataqH", "KanA#maq", "taM",
-          "~MvaqyaM", "dyaustE#", "pRuqShThaM", "pRu#thiqvI", "saqdhastha#mAqtmA",
-          "&ntari#kSha(gm)", "samuqdrastEq", "yOni#H", "viqKyAyaq", "cakShu#ShAq",
-          "tvamaqBi", "ti#ShTha"
-        ]
-      },
       "citta": {
         "section_count": "(7)",
         "anuvaka": "(A2)",
