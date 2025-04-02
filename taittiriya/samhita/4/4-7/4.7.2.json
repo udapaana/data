@@ -1,0 +1,22 @@
+{
+  "anuvaka": "TS 4.7.2",
+  "verses": [
+    {
+      "index": "TS 4.7.2.1",
+      "samhita": "jyaiShThyaM# ca maq Adhi#patyaM ca mE maqnyuSca# mEq BAma#Scaq mE &ma#Scaq mE &BaM#Sca mE jEqmA ca# mE mahiqmA ca# mE variqmA ca# mE prathiqmA ca# mE vaqrShmA ca# mE drAGuqyA ca# mE vRuqddhaM ca# mEq vRuddhi#Sca mE saqtyaM ca# mE SraqddhA ca# mEq jaga#cca - [  ] 3",
+      "citta": {
+        "section_count": "(3)",
+        "anuvaka": "(A2)"
+      }
+    },
+    {
+      "index": "TS 4.7.2.2",
+      "samhita": "-mEq dhanaM# ca mEq vaSa#Sca mEq tviShi#Sca mE krIqDA ca# mEq mOda#Sca mE jAqtaM ca# mE janiqShyamA#NaM ca mE sUqktaM ca# mE sukRuqtaM ca# mE viqttaM ca# mEq vEdyaM# ca mE BUqtaMca# mE BaviqShyacca# mE suqgaM ca# mE suqpathaM# ca ma RuqddhaM ca# maq Ruddhi# ( ) Sca mE klRuqptaM ca# mEq klRupti#Sca mE maqtiSca# mE sumaqtiSca# mE || 4",
+      "citta": {
+        "section_count": "(4)",
+        "anuvaka": "(A2)",
+        "marker": "(jagaqcca - rddhiq - Scatu#rdaSa ca)"
+      }
+    }
+  ]
+}

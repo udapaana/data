@@ -1,0 +1,30 @@
+{
+  "anuvaka": "TS 4.3.2",
+  "verses": [
+    {
+      "index": "TS 4.3.2.1",
+      "samhita": "aqyaM puqrO Buvaqstasya# prAqNO Bau#vAyaqnO va#saqntaH prA#NAyaqnO gA#yaqtrI vA#saqntI gA#yatriqyai gA#yaqtraM gA#yaqtrAdu#pAq(gm)q Suru#pAq(gm)q SOstriqvRut triqvRutO# rathantaqra(gm) ra#thantaqrAd-vasi#ShThaq RuShi#H praqjApa#ti gRuhItayAq tvayA$ prAqNaM gRu#hNAmi praqjAByOq&yaM da#kShiqNA viqSvaka#rmAq tasyaq manO# vaiSvakarmaqNaM grIqShmO mA#naqsastriqShTuggraiqShmI triqShTuBa# aiqDamaiqDA-da#ntaryAqmO$ &ntaryAqmAt pa#~jcadaqSaH pa#~jcadaqSAd-bRuqhad-bRu#haqtO BaqradvA#jaq RuShi#H praqjApa#ti gRuhItayAq tvayAq manO# - [  ] 2",
+      "citta": {
+        "section_count": "(2)",
+        "anuvaka": "(A2)"
+      }
+    },
+    {
+      "index": "TS 4.3.2.2",
+      "samhita": "gRuhNAmi praqjAByOq&yaM paqScAd-viqSvavya#cAqstasyaq cakShu#rvaiSvavyacaqsaM ~Mvaqrq.ShANi# cAkShuqShANiq jaga#tI vAqrq.ShI jaga#tyAq RukSha#maqmRukSha#mAcCuqkraH SuqkrAth sa#ptadaqSaH sa#ptadaqSAd-vairUqpaM ~Mvai#rUqpAd-viqSvAmi#traq RuShi#H praqjApa#ti gRuhItayAq tvayAq cakShu#rgRuhNAmi praqjABya# iqdamu#ttaqrAth suvaqstasyaq SrOtra(gm)# sauqva(gm) SaqracCrauqtrya#nuqShTup-CA#raqdya#nuqShTuBa#H svAqra(gg) svAqrAnmaqnthI maqnthina# Ekaviq(gm)qSa E#kaviq(gm)qSAd vai#rAqjaM ~MvairAqjAjjaqmada#gniqrq. RuShi#H praqjApa#ti gRuhItayAq - [  ] 3",
+      "citta": {
+        "section_count": "(3)",
+        "anuvaka": "(A2)"
+      }
+    },
+    {
+      "index": "TS 4.3.2.3",
+      "samhita": "tvayAq SrOtra#M gRuhNAmi praqjABya# iqyamuqpari# maqtistasyaiq vA~gmAqtI hE#maqntO vA$cyAyaqnaH paq~gktir.hai#maqntI paqktyaiM niqdhana#vanniqdhana#vata AgrayaqNa A$grayaqNAt tri#Navatrayastriq(gm)qSau tri#Navatrayastriq(gm)qSAByA(gm)# SAkvararaivaqtE SA$kvararaivaqtAByA$M ~MviqSvakaqrmar.Shi#H praqjApa#ti gRuhItayAq tvayAq vAca#M gRuhNAmi praqjABya#H || 4",
+      "citta": {
+        "section_count": "(4)",
+        "anuvaka": "(A2)",
+        "marker": "(tvayAq manO#-jaqmada#gniqrq.RuShi#H praqjApa#tigRuhItayA-triq(gm)qSacca#)"
+      }
+    }
+  ]
+}

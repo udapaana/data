@@ -1,0 +1,34 @@
+{
+  "anuvaka": "TS 4.6.1",
+  "verses": [
+    {
+      "index": "TS 4.6.1.1",
+      "samhita": "aSmaqnnUrjaqM parva#tE SiSriyAqNAM ~MvAtE# paqrjanyEq varu#Nasyaq SuShmE$ | aqdBya OSha#dhIByOq vanaqspatiqByO&dhiq saMBRu#tAqM tAM naq iShaqmUrja#M dhatta marutaH sa(gm) rarAqNAH || aSma(gg)#stEq kShudaqmuM tEq SugRu#cCatuq yaM dviqShmaH || saqmuqdrasya# tvAq&*vAkaqyA&gnEq pari# vyayAmasi | pAqvaqkO aqsmaBya(gm)# SiqvO Ba#va || hiqmasya# tvA jaqrAyuqNA&gnEq pari# vyayAmasi | pAqvaqkO aqsmaBya(gm)# SiqvO Ba#va || upaq - [  ] 1",
+      "citta": {
+        "section_count": "(1)",
+        "anuvaka": "(A1)"
+      }
+    },
+    {
+      "index": "TS 4.6.1.2",
+      "samhita": "-jmannupa# vEtaqsE&va#ttaraM naqdIShvA | agnE# piqttamaqpAma#si || maNDU#kiq tABiqrA ga#hiq sEmaM nO# yaqj~jaM | pAqvaqkava#rNa(gm) SiqvaM kRu#dhi || pAqvaqka A ciqtaya#ntyA kRuqpA | kShAma#n ruruqca uqShasOq na BAqnunA$ || tUrvaqn na yAmaqnnEta#Sasyaq nU raNaq A yO GRuqNE | na ta#tRuShAqNO aqjara#H || agnE# pAvaka rOqciShA# maqndrayA# dEva jiqhvayA$ | A dEqvAn - [  ] 2"
+    },
+    {
+      "index": "TS 4.6.1.3",
+      "samhita": "va#kShiq yakShi# ca || sa na#H pAvaka dIdiqvO&gnE# dEqvA(gm) iqhA&& va#ha | upa# yaqj~ja(gm) haqviSca# naH || aqpAmiqdaM nyaya#na(gm) samuqdrasya# niqvESa#naM | aqnyaM tE# aqsmat ta#pantu hEqtaya#H pAvaqkO aqsmaBya(gm)# SiqvO Ba#va || nama#stEq hara#sE SOqciShEq nama#stE astvaqrciShE$ | aqnyaM tE# aqsmat ta#pantu hEqtaya#H pAvaqkO aqsmaBya(gm)# SiqvO Ba#va || nRuqShadEq vaDa# - [  ] 3"
+    },
+    {
+      "index": "TS 4.6.1.4",
+      "samhita": "-PsuqShadEq vaD va#naqsadEq vaD ba#r.hiqShadEq vaTth su#vaqrvidEq vaT || yE dEqvA dEqvAnA$M ~Myaqj~jiyA# yaqj~jiyA#nA(gm) saM~Mvath saqrINaqmupa# BAqgamAsa#tE | aqhuqtAdO# haqviShO# yaqj~jE aqsminth svaqyaM ju#huddhvaqM madhu#nO GRuqtasya# || yE dEqvA dEqvEShvadhi# dEvaqtvamAyaqnq yE brahma#NaH pura EqtArO# aqsya | yEByOq nartE# pava#tEq dhAmaq kiM caqna na tE diqvO na pRu#thiqvyA adhiq snuShu# || prAqNaqdA - [  ] 4"
+    },
+    {
+      "index": "TS 4.6.1.5",
+      "samhita": "a#pAnaqdA vyA#naqdASca#kShuqrdA va#rcOqdA va#rivOqdAH | aqnyaM tE# aqsmat ta#pantu hEqtaya#H pAvaqkO aqsmaBya(gm)# SiqvO Ba#va || aqgnistiqgmEna# SOqciShAq ya(gm)saqdviSvaqM nya#triNa$M | aqgnirnO# va(gm)satE raqyiM || sainA&nI#kEna suviqdatrO# aqsmE yaShTA# dEqvA(gm) Aya#jiShThaH svaqsti | ada#bdhO gOqpA uqta na#H paraqspA agnE$ dyuqmaduqta rEqvad-di#dIhi || 5",
+      "citta": {
+        "section_count": "(5)",
+        "anuvaka": "(A1)",
+        "marker": "(upa#-dEqvAn-vaT-prA#NaqdA-Scatu#ScatvAri(gm)Sacca)"
+      }
+    }
+  ]
+}

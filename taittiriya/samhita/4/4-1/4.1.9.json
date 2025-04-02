@@ -1,0 +1,30 @@
+{
+    "anuvaka": "TS 4.1.9",
+    "verses": [
+        {
+            "index": "TS 4.1.9.1",
+            "samhita": "AkU#timaqgniM praqyujaq(gg)q svAhAq manO# mEqdhAmaqgniM praqyujaq(gg)q svAhA# ciqttaM ~Mvij~jA#tamaqgniM praqyujaq(gg)q svAhA# vAqcO vidhRu#timaqgniM praqyujaq(gg)q svAhA$ praqjApa#tayEq mana#vEq svAhAq&gnayE# vaiSvAnaqrAyaq svAhAq viSvE# dEqvasya# nEqturmartO# vRuNIta saqKyaM ~MviSvE# rAqya i#Shuddhyasi dyuqmnaM ~MvRu#NIta puqShyasEq svAhAq mA su Bi#tthAq mA su ri#ShOq dRu(gm)ha#sva vIqDaya#svaq su | abaM# dhRuShNu vIqraya#svAq - [  ] 35",
+            "citta": {
+                "section_count": "(35)",
+                "anuvaka": "(A9)"
+            }
+        },
+        {
+            "index": "TS 4.1.9.2",
+            "samhita": "-&gniScEqdaM ka#riShyathaH || dRu(gm)ha#sva dEvi pRuthivi svaqstaya# AsuqrI mAqyA svaqdhayA# kRuqtA&si# | juShTa#M dEqvAnA#miqdama#stu haqvyamari#ShTAq tvamudi#hi yaqj~jE aqsminn || mitraiqtAmuqKAM ta#paiqShA mA BE#di | EqtAM tEq pari# dadAqmyaBi#ttyai || dr^^va#nnaH saqrpirA#sutiH praqtnO hOtAq varE$NyaH | saha#saspuqtrO adBu#taH || para#syAq adhi# saqM~MvatO&va#rA(gm) aqByA - [  ] 36",
+            "citta": {
+                "section_count": "(36)",
+                "anuvaka": "(A9)"
+            }
+        },
+        {
+            "index": "TS 4.1.9.3",
+            "samhita": "ta#ra | yatrAqhamasmiq tA(gm) a#va || paqraqmasyA$H parAqvatO# rOqhida#Sva iqhA&*ga#hi | puqrIqShya#H purupriqyO&gnEq tvaM ta#rAq mRudha#H || sIdaq tvaM mAqturaqsyA uqpasthEq viSvA$nyagnE vaqyunA#ni viqdvAn | mainA#maqrciShAq mA tapa#sAq&Bi SU#SucOq&ntara#syA(gm) Suqkra jyO#tiqrvi BA#hi || aqntara#gnE ruqcA tvamuqKAyaiq sada#nEq svE | tasyAqstva(gm) hara#sAq tapaqn ( ) jAta#vEdaH SiqvO Ba#va || SiqvO BUqtvA mahya#maqgnE&thO# sIda SiqvastvaM | SiqvAH kRuqtvA diSaqH sarvAqH svAM ~MyOni#miqhA&&sa#daH || 37",
+            "citta": {
+                "section_count": "(37)",
+                "anuvaka": "(A9)",
+                "marker": "(vIqrayaqsvA - && - tapa#n - vi(gm)SaqtiSca#)"
+            }
+        }
+    ]
+}

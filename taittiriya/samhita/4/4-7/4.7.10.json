@@ -1,0 +1,22 @@
+{
+  "anuvaka": "TS 4.7.10",
+  "verses": [
+    {
+      "index": "TS 4.7.10.1",
+      "samhita": "garBA$Sca mE vaqthsASca# mEq tryavi#Sca mE tryaqvI ca# mE dityaqvAT ca# mE dityauqhI ca# mEq pa~jcA#viSca mE pa~jcAqvI ca# mE trivaqthsaSca# mE trivaqthsA ca# mE turyaqvAT ca# mE turyauqhI ca# mE paShThaqvAc ca# mE paShThauqhI ca# ma uqkShA ca# mE vaqSA ca# ma RuShaqBaSca #- [  ] 17",
+      "citta": {
+        "section_count": "(17)",
+        "anuvaka": "(A10)"
+      }
+    },
+    {
+      "index": "TS 4.7.10.2",
+      "samhita": "mE vEqhacca# mE &naqDvAM ca# mE dhEqnuSca# maq Ayu#ryaqj~jEna# kalpatAM prAqNO yaqj~jEna# kalpatA-mapAqnO yaqj~jEna# kalpatAM ~MvyAqnO yaqj~jEna# kalpatAMq cakShu#-ryaqj~jEna# kalpatAq(gg)q SrOtraM# ~Myaqj~jEna# kalpatAMq manO# yaqj~jEna# kalpatAMq ~MvAg yaqj~jEna# kalpatA-mAqtmA yaqj~jEna# kalpatAM ~Myaqj~jO yaqj~jEna# kalpatAM || 18",
+      "citta": {
+        "section_count": "(18)",
+        "anuvaka": "(A10)",
+        "marker": "(RuqShaqBaSca# - catvAriq(gm)qSacca#)"
+      }
+    }
+  ]
+}

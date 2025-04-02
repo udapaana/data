@@ -1,0 +1,30 @@
+{
+  "anuvaka": "TS 4.4.11",
+  "verses": [
+    {
+      "index": "TS 4.4.11.1",
+      "samhita": "madhu#Scaq mAdha#vaScaq vAsa#ntikAvRuqtU SuqkraScaq Suci#Scaq graiShmA#vRuqtU naBa#Sca naBaqsya#Scaq vAr.Shi#kAvRuqtU iqShaScOqrjaSca# SAraqdAvRuqtU saha#Sca sahaqsya#Scaq haima#ntikAvRuqtU tapa#Sca tapaqsya#Sca SaiSiqrAvRuqtU aqgnEra#ntaH SlEqShO#&siq kalpE#tAqM dyAvA#pRuthiqvI kalpa#ntAqmApaq OSha#dhIqH kalpa#ntAmaqgnayaqH pRuthaq~gmamaq jyaiShThya#yaq savra#tAq- [  ] 29",
+      "citta": {
+        "section_count": "(29)",
+        "anuvaka": "(A11)"
+      }
+    },
+    {
+      "index": "TS 4.4.11.2",
+      "samhita": "yE$&gnayaqH sama#nasO&ntaqrA dyAvA#pRuqthivI Sai#SiqrAvRuqtU aqBi kalpa#mAnAq indra#miva dEqvA aqBi saM~Mvi#Santu saqM~Myaccaq pracE#tAScAqgnEH sOma#syaq sUrya#syOq-grA ca# BIqmA ca# pitRuqNAM ~MyaqmasyEndra#sya dhruqvA ca# pRuthiqvI ca# dEqvasya# saviqturmaqrutAqM ~Mvaru#Nasya dhaqrtrI caq dhari#trI ca miqtrAvaru#NayO rmiqtrasya# dhAqtuH prAcI# ca praqtIcI# caq vasU#nA(gm) ruqdrANA# - [  ] 30"
+    },
+    {
+      "index": "TS 4.4.11.3",
+      "samhita": "-mAdiqtyAnAqM tE tE&dhi#patayaqstEByOq namaqstE nO# mRuDayantuq tE yaM dviqShmO yaSca# nOq dvEShTiq taM ~MvOq jaMBE# dadhAmi saqhasra#sya praqmA a#si saqhasra#sya pratiqmA a#si saqhasra#sya viqmA a#si saqhasra#syOqnmA a#si sAhaqsrO#&si saqhasrA#ya tvEqmA mE# agnaq iShTa#kA dhEqnava#H saqntvEkA# ca SaqtaM ca# saqhasra#M cAqyuta#M ca - [  ] 31"
+    },
+    {
+      "index": "TS 4.4.11.4",
+      "samhita": "niqyuta#M ca praqyutaqM cArbu#daM caq nya#rbudaM ca samuqdraScaq maddhyaqM cAnta#Sca parAqd^^rdhaScEqmA mE# agnaq iShTa#kA dhEqnava#H santu ShaqShThiH saqhasra#maqyutaq-makShI#yamANA RutaqsthA stha#rtAqvRudhO# GRutaqScutO# madhuqScutaq Urja#svatIH svadhAqvinIqstA mE# agnaq iShTa#kA dhEqnava#H santu viqrAjOq nAma# kAmaqduGA# aqmutrAqmuShmi#n ~MlOqkE || 32",
+      "citta": {
+        "section_count": "(32)",
+        "anuvaka": "(A11)",
+        "marker": "(savra#tA - ruqdrANA# - maqyuta#~jcaq - pa~jca#catvAri(gm)Sacca)"
+      }
+    }
+  ]
+}

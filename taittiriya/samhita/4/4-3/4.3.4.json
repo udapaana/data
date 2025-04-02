@@ -1,0 +1,30 @@
+{
+  "anuvaka": "TS 4.3.4",
+  "verses": [
+    {
+      "index": "TS 4.3.4.1",
+      "samhita": "dhruqvakShi#ti -rdhruqvayO#ni-rdhruqvA&si# dhruqvAM ~MyOniqmA sI#da sAqddhyA | uKya#sya kEqtuM pra#thaqmaM puqrastA#daqSvinA$&ddhvaqryU sA#dayatAmiqha tvA$ || svE dakShEq dakSha#pitEqha sI#da dEvaqtrA pRu#thiqvI bRu#haqtI rarA#NA | svAqsaqsthA taqnuvAq saM ~Mvi#Sasva piqtEvai#dhi sUqnavaq A suqSEvAq&SvinA$ddhvaqryU sA#dayatAmiqha tvA$ || kuqlAqyinIq vasu#matI vayOqdhA raqyiM nO# vad^^rdha bahuqla(gm) suqvIra$M | 7",
+      "citta": {
+        "section_count": "(7)",
+        "anuvaka": "(A4)"
+      }
+    },
+    {
+      "index": "TS 4.3.4.2",
+      "samhita": "apAma#tiM durmaqtiM bAdha#mAnA rAqyaspOShE# yaqj~japa#timAqBaja#ntIq suva#d^^rdhEhiq yaja#mAnAyaq pOSha#maqSvinA$&ddhvaqryU sA#dayatAmiqha tvA$ || aqgnEH purI#Shamasi dEvaqyAnIq tAM tvAq viSvE# aqBi gRu#Nantu dEqvAH | stOma#pRuShThA GRuqtava#tIqha sI#da praqjAva#daqsmE draviqNA &&*ya#jasvAqSvinA$ &ddhvaqryU sA#dayatAmiqha tvA$ || diqvO mUqd^^rdhA&si# pRuthiqvyA nABi#rviqShTaMBa#nI diqSAmadhi#patnIq Buva#nAnAM | 8",
+      "citta": {
+        "section_count": "(8)",
+        "anuvaka": "(A4)"
+      }
+    },
+    {
+      "index": "TS 4.3.4.3",
+      "samhita": "UqrmirdraqPsO aqpAma#si viqSvaka#rmA taq RuShi#raqSvinA$&ddhvaqryU sA#dayatAmiqha tvA$ || saqjUr.RuqtuBi#H saqjUrviqdhABi#H saqjUrvasu#BiH saqjU ruqdraiH saqjUrA#diqtyaiH saqjUrviSvai$rdEqvaiH saqjUrdEqvaiH saqjUrdEqvairva#yO-nAqdhairaqgnayE$ tvA vaiSvAnaqrAyAqSvinA$&ddhvaqryU sA#dayatAmiqha tvA$ || prAqNaM mE# pAhyapAqnaM mE# pAhi vyAqnaM mE# pAhiq cakShu#rma uqrvyA ( ) vi BA#hiq SrOtra#M mE SlOkayAqpa-spiqnvauSha#dhIrjinva dviqpAt pA#hiq catu#ShpAdava diqvO vRuShTiqmEra#ya || 9",
+      "citta": {
+        "section_count": "(9)",
+        "anuvaka": "(A4)",
+        "marker": "(suqvIraqM - Buva#nAnA - muqrvyA - saqptada#Sa ca)"
+      }
+    }
+  ]
+}

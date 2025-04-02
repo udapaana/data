@@ -1,0 +1,30 @@
+{
+  "anuvaka": "TS 4.5.1",
+  "verses": [
+    {
+      "index": "TS 4.5.1.1",
+      "samhita": "nama#stE rudra maqnyava# uqtOtaq iSha#vEq nama#H | nama#stE astuq dhanva#nE bAqhuByA#muqta tEq nama#H || yA taq iShu#H Siqvata#mA SiqvaM baqBUva# tEq dhanu#H | SiqvA Sa#raqvyA# yA tavaq tayA# nO rudra mRuDaya || yA tE# rudra SiqvA taqnUraGOqrA &pA#pakASinI | tayA# nastaqnuvAq Santa#mayAq giri#SantAqBi cA#kaSIhi || YAmiShu#M giriSantaq hastEq - [  ] 1",
+      "citta": {
+        "section_count": "(1)",
+        "anuvaka": "(A1)"
+      }
+    },
+    {
+      "index": "TS 4.5.1.2",
+      "samhita": "biBaqrShyasta#vE | SiqvAM gi#ritraq tAM ku#ruq mA hi(gm)#sIqqH puru#ShaMq jaga#t || SiqvEnaq vaca#sA tvAq giriqSAcCA# vadAmasi | yathA# naqH sarvaqmi-jjaga#dayaqkShma(gm) suqmanAq asa#t || addhya#vOcadadhivaqktA pra#thaqmO daivyO# BiqShak | ahI(gg)#Scaqq sarvA$n jaqBaMyaqnth sarvA$Sca yAtu dhAqnya#H || aqsau yastAqmrO a#ruqNa uqta baqBruH su#maq~ggala#H | yE cEqmA(gm) ruqdrA aqBitO# diqkShu - [  ] 2"
+    },
+    {
+      "index": "TS 4.5.1.3",
+      "samhita": "SriqtAH sa#hasraqSO &vai#ShAq(gm)q hEDa# ImahE || aqsau yO# &vaqsarpa#tiq nIla#grIvOq vilO#hitaH | uqtainaM# gOqpA a#dRuSaqn-nadRu#San-nudahAqrya#H | uqtainaMq ~MviSvA# BUqtAniq sa dRuqShTO mRu#DayAti naH || namO# astuq nIla#grIvAya sahasrAqkShAya# mIqDhuShE$ | athOq yE a#syaq satvA#nOq&haM tEByO# &karaqnnama#H || pramuM#caq dhanva#naqstva muqBayOq-rArtni#yOqrjyAM | yASca# tEq hastaq iSha#vaqH - [  ] 3"
+    },
+    {
+      "index": "TS 4.5.1.4",
+      "samhita": "parAq tA Ba#gavO vapa || aqvaqtatyaq dhanuqstva(gm) saha#srAkShaq SatE#ShudhE | niqSIrya# SaqlyAnAMq muKA# SiqvO na#H suqmanA# Bava || vijyaMq dhanuH# kapaqrdinOq viSa#lyOq bANa#vA(gm) uqta | anE#SannaqsyESha#va AqBura#sya niShaq~ggathi#H || YA tE# hEqti-rmI#DhuShTamaq hastE# baqBUva# tEq dhanu#H | tayAq&smAn viqSvataq stvama#yaqkShmayAq pari#bBuja || nama#stE aqstvAyu#dhAqyA-nA#tatAya dhRuqShNavE$ | uqBAByA# ( ) muqta tEq namO# bAqhuByAMq tavaq dhanva#nE || pari# tEq dhanva#nO hEqtiraqsmAn vRu#Naktu viqSvata#H | athOq ya i#ShuqdhistavAqrE aqsma-nnidhE#hiq taM || 4",
+      "citta": {
+        "section_count": "(4)",
+        "anuvaka": "(A1)",
+        "marker": "(hastE# - diqkShvi - Sha#va - uqBAByAqM - dvAvi(gm)#SatiSca)"
+      }
+    }
+  ]
+}

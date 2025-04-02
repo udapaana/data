@@ -1,0 +1,64 @@
+{
+    "anuvaka": "TS 4.1.11",
+    "verses": [
+        {
+            "index": "TS 4.1.11.1",
+            "samhita": "agnEq yaM ~Myaqj~jama#ddhvaqraM ~MviqSvata#H pariqBUrasi# | sa iddEqvEShu# gacCati || sOmaq yAstE# mayOqBuva# UqtayaqH santi# dAqSuShE$ | tABi#rnO&viqtA Ba#va || aqgnirmUqrdhA >1 , Buva#H > 2 || tvanna#H sOmaq >3 , yA tEq dhAmA#ni >4 || tath sa#viqturvarE$NyaqM BargO# dEqvasya# dhImahi | dhiyOq yO na#H pracOqdayA$t || aci#ttIq yacca#kRuqmA daivyEq janE# dIqnairdakShaiqH praBU#tI pUruShaqtvatA$ | 43",
+            "citta": {
+                "section_count": "(43)",
+                "anuvaka": "(A11)"
+            }
+        },
+        {
+            "index": "TS 4.1.11.2",
+            "samhita": "dEqvEShu# ca savitaqrmAnu#ShEShu caq tvannOq atra# suvatAqdanA#gasaH || cOqdaqyiqtrI sUqnRutA#nAqM cEta#ntI sumatIqnAM | yaqj~jaM da#dhEq sara#svatI || pAvI#ravI kaqnyA# ciqtrAyuqH sara#svatI vIqrapa#tnIq dhiya#M dhAt | gnABiqracCi#dra(gm) SaraqNa(gm) saqjOShA# durAqdhar.Sha#M gRuNaqtE Sarma# ya(gm)sat || pUqShA gA anvE#tu naH pUqShA ra#kShaqtvarva#taH | pUqShA vAja(gm)# sanOtu naH || SuqkraM tE# aqnyadya#jaqtaM tE# aqnya - [  ] 44",
+            "citta": {
+                "section_count": "(44)",
+                "anuvaka": "(A11)"
+            }
+        },
+        {
+            "index": "TS 4.1.11.3",
+            "samhita": "-dviShu#rUpEq aha#nIq dyauri#vAsi | viSvAq hi mAqyA ava#si svadhAvO BaqdrA tE# pUShanniqha rAqtira#stu || tE#&vad^^rdhantaq svata#vasO mahitvaqnA &&nAka#M taqsthuruqru ca#krirEq sada#H | viShNuq ryaddhA&&vaqd-vRuSha#NaM madaqcyutaqM ~MvayOq na sI#daqnnadhi# baqrq.hiShi# priqyE || praciqtramaqrkaM gRu#NaqtE tuqrAyaq mAru#tAyaq svata#vasE BaraddhvaM | yE sahA(gm)#siq saha#sAq saha#ntEq - [  ] 45",
+            "citta": {
+                "section_count": "(45)",
+                "anuvaka": "(A11)"
+            }
+        },
+        {
+            "index": "TS 4.1.11.4",
+            "samhita": "rEja#tE agnE pRuthiqvI maqKEBya#H || viSvE# dEqvA >5, viSvE# dEvAH >6 || dyAvA# naH pRuthiqvI iqma(gm) siqddhramaqdya di#viqspRuSa$M | yaqj~jaM dEqvEShuq yacCatAM || pra pU$rvaqjE piqtarAq navya#sIBirgIqrBiH kRu#Nuddhvaq(gm)q sada#nE Ruqtasya# | A nO$ dyAvApRuthivIq daivyE#naq janE#na yAtaqM mahi# vAqM ~MvarU#thaM || aqgni(gg) stOmE#na bOdhaya samidhAqnO ama#rtyaM | haqvyA dEqvEShu# nO dadhat || sa ha#vyaqvADama#rtya uqSigdUqtaScanO#hitaH ( ) | aqgnirddhiqyA samRu#Nvati || SannO# Bavantuq>7 , vAjE#vAjE> 8 || 46",
+            "citta": {
+                "section_count": "(46)",
+                "anuvaka": "(A11)",
+                "marker": "(puqruqShaqtvatA# - yajaqtantE# aqnyath - saha#ntEq - canO#hitOq - &ShTau ca#)"
+            }
+        }
+    ],
+    "prashna_korvai": [
+        "yuq~jjAqna",
+        "iqmAma#gRuBNan",
+        "dEqvasyaq",
+        "santEq",
+        "vi pAja#sAq",
+        "vasa#vastvAq",
+        "samA$stvOq",
+        "d^^rdhvA",
+        "aqsyAkU#tiqM",
+        "~Myada#gnEq yAn",
+        "yagnEq yaM ~Myaqj~ja",
+        "mEkA#daSa"
+    ],
+    "korvai_series_panchati": [
+        "yuq~jjAqnO",
+        "varma# ca stha",
+        "AdiqtyastvAq",
+        "BAra#tIq",
+        "svA(gm) aqha(gm)",
+        "ShaTca#tvAri(gm)Sat"
+    ],
+    "first_last_padam": [
+        "yuq~jjAqnO",
+        "vAjE#vAjE"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+  "anuvaka": "TS 4.4.5",
+  "verses": [
+    {
+      "index": "TS 4.4.5.1",
+      "samhita": "iqndrAqgniByA$M tvA saqyujA# yuqjA yu#najmyA GAqrAByAqM tEja#sAq varca#sOq kthEBiqH stOmE#Biq SCandO#BI raqyyai pOShA#ya sajAqtAnA$M maddhyamaqsthEyA#yaq mayA$ tvA saqyujA# yuqjA yu#najmyaqbAM duqlA ni#taqtni raqBraya#ntI mEqGaya#ntI vaqrq.Shaya#ntI cupuqNIkAq nAmA#si praqjApa#tinA tvAq viSvA#Bid^^rdhIqBirupa# dadhAmi pRuthiqvyu#dapuqramannE#na viqShTA ma#nuqShyA$stE gOqptArOq &gnirviya#ttO&syAqM tAmaqhaM pra# padyEq sA - [  ] 18",
+      "citta": {
+        "section_count": "(18)",
+        "anuvaka": "(A5)"
+      }
+    },
+    {
+      "index": "TS 4.4.5.2",
+      "samhita": "mEq Sarma# caq varma# cAqstvadhi# dyauraqntari#kShaqM brahma#NA viqShTA maqruta#stE gOqptArO# vAqyurviya#ttO&syAqM tAmaqhaM pra pa#dyEq sA mEq Sarma# caq varma# cAstuq dyaurapa#rAjitAq&mRutE#na viqShTA&&diqtyAstE# gOqptAraqH sUryOq viya#ttO&syAqM tAmaqhaM pra pa#dyEq sA mEq Sarma# caq varma# cAstu || 19",
+      "citta": {
+        "section_count": "(19)",
+        "anuvaka": "(A5)",
+        "marker": "(sA - &ShTAca#tvAri(gm)Sacca)"
+      }
+    }
+  ]
+}

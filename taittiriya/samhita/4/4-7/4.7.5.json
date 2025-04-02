@@ -1,0 +1,22 @@
+{
+  "anuvaka": "TS 4.7.5",
+  "verses": [
+    {
+      "index": "TS 4.7.5.1",
+      "samhita": "aSmA# ca mEq mRutti#kA ca mE giqraya#Sca mEq parva#tASca mEq sika#tASca mEq vanaqspata#yaSca mEq hira#NyaM caq mE &ya#Sca mEq sIsaM# ca mEq trapu#Sca mE SyAqmaM ca# mE lOqhaM ca# mEq&gniSca# maq Apa#Sca mEvIqrudha#Sca maq OSha#dhayaSca mE kRuShTapaqcyaM ca# - [  ] 9",
+      "citta": {
+        "section_count": "(9)",
+        "anuvaka": "(A5)"
+      }
+    },
+    {
+      "index": "TS 4.7.5.2",
+      "samhita": "mE &kRuShTapaqcyaM ca# mE grAqyAMSca# mE paqSava# AraqNyASca# yaqj~jEna# kalpantAM ~MviqttaM ca# mEq vitti#Sca mE BUqtaM ca# mEq BUti#Sca mEq vasu# ca mE vasaqtiSca# mEq karma# ca mEq Sakti#Scaq mE&rtha#Sca maq Ema#Sca maq iti#Sca mEq gati#Sca mE || 10",
+      "citta": {
+        "section_count": "(10)",
+        "anuvaka": "(A5)",
+        "marker": "(kRuqShTaqpaqcyaM cAq - &ShTAca#tvAri(gm)Sacca)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "anuvaka": "TS 4.3.12",
+  "verses": [
+    {
+      "index": "TS 4.3.12.1",
+      "samhita": "agnE# jAqtAn praNu#dA naH saqpatnAqn pratyajA#tA~jjAtavEdO nudasva | aqsmE dI#dihi suqmanAq ahE#Daqn tava# syAq(gm)q Sarma#n triqvarU#tha uqdBit || saha#sA jAqtAn praNu#dAnaH saqpatnAqn pratyajA#tA~jjAtavEdO nudasva | adhi# nO brUhi sumanaqsyamA#nO vaqya(gg) syA#maq praNu#dA naH saqpatnAn# || caqtuqScaqtvAqriq(gm)qSaH stOmOq varcOq dravi#Na(gm) ShODaqSaH stOmaq OjOq dravi#NaM pRuthiqvyAH purI#Shamaqsya- [  ] 26",
+      "citta": {
+        "section_count": "(26)",
+        "anuvaka": "(A12)"
+      }
+    },
+    {
+      "index": "TS 4.3.12.2",
+      "samhita": "-PsOq nAma# | Evaq SCandOq vari#vaq SCanda#H SaqBUM SCanda#H pariqBU SCanda# AqcCacCandOq manaq SCandOq vyacaq SCandaqH sindhuq SCanda#H samuqdraM Canda#H saliqlaM Canda#H saqM~MyacCandO# viqyacCandO# bRuqhacCandO# rathantaqraM CandO# nikAqya SCandO# vivaqdha SCandOq giraq SCandOq Brajaq SCanda#H saqShTup CandO# &nuqShTup Canda#H kaqkucCanda# strikaqkucCanda#H kAqvyaM CandO$ -&~gkuqpaM Canda#H - [  ] 27"
+    },
+    {
+      "index": "TS 4.3.12.3",
+      "samhita": "paqdapa#~gktiq SCandOq &kShara#pa~gktiq SCandO# viShTAqrapa#~gktiq SCanda#H kShuqrO BRujvAq~jCanda#H praqcCacCanda#H paqkSha SCandaq Evaq SCandOq vari#vaq SCandOq vayaq SCandO# vayaqskRucCandO# viSAqlaM CandOq viShpa#d^^rdhAq SCanda# SCaqdi SCandO# dUrOhaqNaM Canda#staqndraM CandO$ &~gkAq~gkaM Canda#H || 28",
+      "citta": {
+        "section_count": "(28)",
+        "anuvaka": "(A12)",
+        "marker": "(aqsyaq - ~gkuqpa~jCandaq - straya#stri(gm)Sacca)"
+      }
+    }
+  ]
+}

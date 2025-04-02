@@ -1,0 +1,35 @@
+{
+  "anuvaka": "TS 4.1.1",
+  "verses": [
+    {
+      "index": "TS 4.1.1.1",
+      "samhita": "yuq~jjAqnaH pra#thaqmaM mana#staqtvAya# saviqtA dhiya#H | aqgniM jyoti#rniqcAyya# pRuthiqvyA addhyA &Ba#rat || yuqktvAyaq mana#sA deqvAnth suva#ryaqto dhiqyA diva$M | bRuqhajjyoti#H kariShyaqtaH sa#viqtA pra su#vAtiq tAn || yuqktenaq mana#sA vaqyaM deqvasya# saviqtuH saqve | suqvaqrgeyA#yaq Saktyai$ || yuq~jjateq mana# uqta yu#~jjateq dhiyoq viprAq vipra#sya bRuhaqto vi#paqScita#H | vi hotrA# dadhe vayunAqvidekaq in - [ ] 1",
+      "citta": {
+        "section_count": "(50)"
+      }
+    },
+    {
+      "index": "TS 4.1.1.2",
+      "samhita": "maqhI deqvasya# saviqtuH pari#ShTutiH || yuqje vAqM brahma# pUqrvyaM namo#Biqr vi SlokA# yanti paqthye#vaq sUrA$H | SRuqNvantiq viSve# aqmRuta#sya puqtrA A ye dhAmA#ni diqvyAni# taqsthuH || yasya# praqyANaq-manvavaqnya id-yaqyur deqvA deqvasya# mahiqmAnaq-marca#taH | yaH pArtthi#vAni vimaqme sa eta#Soq rajA(gm)#si deqvaH sa#viqtA ma#hitvaqnA || deva# savitaqH pra su#va yaqj~jaM pra su#va - [ ] 2",
+      "citta": {
+        "section_count": "(50)"
+      }
+    },
+    {
+      "index": "TS 4.1.1.3",
+      "samhita": "yaqj~japa#tiqM BagA#ya diqvyo ga#ndhaqrvaH | keqtaqpUH keta#M naH punAtu vAqcaspatiqr vAca#maqdya sva#dAti naH || iqmaM no# deva savitar yaqj~jaM pra su#va devAqyuva(gm)# saKiqvida(gm)# satrAqjita#M dhanaqjita(gm)# suvaqrjita$M || RuqcA stomaq(gm)q sama#rddhaya gAyaqtreNa# rathantaqraM | Bṛuqhad-gA#yaqtrava#rtani || deqvasya# tvA saviqtuH pra#saqve$&Svino$r bAqhuByA$M PūqShNo hastA$ByAM gAyaqtreNaq CandaqsA && da#de &~ggiraqsvadaBri#rasiq nAri# - [ ] 3",
+      "citta": {
+        "section_count": "(50)"
+      }
+    },
+    {
+      "index": "TS 4.1.1.4",
+      "samhita": "-rasi pRuthiqvyAH saqdhasthA#daqgniM pu#rIqShya#ma~ggiraqsvadA Ba#raq traiShTu#Bena tvAq CandaqsA && da#de &~ggiraqsvad-baBri#rasiq nAri#rasiq tvayA# vaqya(gm) saqdhasthaq Agni(gm) Sa#kemaq Kani#tuM purIqShya#M jAga#tena tvAq CandaqsA && da#de &~ggiraqsvaddhasta# AqdhAya# saviqtA biBraqdaBri(gm)# hiraqNyayI$M | tayAq jyotiqraja#sraq-midaqgniM KAqtvI naq A BaqrA*nu#ShTuBena tvAq CandaqsA ( ) && da#de &~ggiraqsvat || 4",
+      "citta": {
+        "section_count": "(53)",
+        "id": "yaqj~jaM prasu#vaq - nAriq - rAnu#ShTuBena tvAq Canda#sAq - trINi# ca",
+        "anuvaka": "(A1)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+    "anuvaka": "TS 4.2.11",
+    "verses": [
+        {
+            "index": "TS 4.2.11.1",
+            "samhita": "indrA$gnI rOcaqnA diqvaH pariq vAjE#Shu BUShathaH | tadvA$M cEtiq pravIqrya$M || Snatha#d-vRuqtramuqta sa#nOtiq vAjaqmindrAq yO aqgnI sahu#rI sapaqryAt | iqraqjyantA# vasaqvya#syaq BUrEqH saha#stamAq saha#sA vAjaqyantA$ || pra ca#r.ShaqNiBya#H pRutanAq havE#Shuq pra pRu#thiqvyA ri#ricAthE diqvaSca# | pra sindhu#ByaqH pragiqriByO# mahiqtvA prEndrA$gnIq viSvAq BuvaqnA&tyaqnyA || maru#tOq yasyaq hi - [  ] 46",
+            "citta": {
+                "section_count": "(46)",
+                "anuvaka": "(A11)"
+            }
+        },
+        {
+            "index": "TS 4.2.11.2",
+            "samhita": "kShayE# pAqthA diqvO vi#mahasaH | sa su#gOqpAta#mOq jana#H || yaqj~jairvA# yaj~javAhasOq vipra#sya vA matIqnAM | maru#taH SRuNuqtA hava$M || SriqyasEq kaM BAqnuBiqH saM mi#mikShirEq tE raqSmiBiqsta Rukva#BiH suKAqdaya#H | tE vASI#manta iqShmiNOq aBI#ravO viqdrE priqyasyaq mAru#tasyaq dhAmna#H || ava# tEq hEDaq> 1, udu#ttaqmaM >2 || kayA# naSciqtra A Bu#vadUqtI saqdA vRu#dhaqH saKA$ | kayAq Saci#ShThayA vRuqtA || 47",
+            "citta": {
+                "section_count": "(47)",
+                "anuvaka": "(A11)"
+            }
+        },
+        {
+            "index": "TS 4.2.11.3",
+            "samhita": "kO aqdya yu#~gktE dhuqri gA Ruqtasyaq SimI#vatO BAqminO# dur.hRuNAqyUn | Aqsanni#ShUn. hRuqthsvasO# mayOqBUn. ya E#ShAM BRuqtyAmRuqNadhaqth sa jI#vAt || agnEq nayA > 3, &&dEqvAnAq(gm)q >4, SannO# Bavantuq > 5, vAjE#vAjE>6 | aqPsva#gnEq sadhiqShTavaq sauSha#dhIqranu# ruddhyasE | garBEq sa~jjA#yasEq puna#H || vRuShA# sOma dyuqmA(gm) a#siq vRuShA# dEvaq vRuSha#vrataH | vRuShAq dharmA#Ni dadhiShE || iqmaM mE# ( ) varuNaq > 7, tattvA# yAmiq>8, tvaM nO# agnEq>9, sa tvaM nO# agnE> 10 || 48",
+            "citta": {
+                "section_count": "(48)",
+                "anuvaka": "(A11)",
+                "marker": "(hi - vRuqtA - maq - EkA#daSa ca)"
+            }
+        }
+    ],
+    "prashna_korvai": [
+        "viShNOqH kramO#&si", "diqvaspa", "ryanna#paqtE", "&pE#taq", "sami#taqM",
+        "~MyA jAqtA", "mA nO# hi(gm)sI", "daqBya#sthAd", "dhruqvA",
+        "&syA#diqtya~ggarBaq", "mindrA$gnI rOcaq", "naikA#daSa"
+    ],
+    "korvai_series_panchati": [
+        "viShNO#", "rasmin. haqvyE", "ti# tvAq&haM", "dhIqtiBiq", "r.hOtrA#",
+        "aqShTAca#tvAri(gm)Sat"
+    ],
+    "first_last_padam": [
+        "viShNOqH kramO#&siq", "tvannO# agnEq sa tvannO# agnE"
+    ]
+}

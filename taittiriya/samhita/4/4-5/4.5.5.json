@@ -1,0 +1,22 @@
+{
+  "anuvaka": "TS 4.5.5",
+  "verses": [
+    {
+      "index": "TS 4.5.5.1",
+      "samhita": "namO# BaqvAya# ca ruqdrAya# caq nama#H SaqrvAya# ca paSuqpata#yE caq namOq nIla#grIvAya ca SitiqkaNThA#ya caq namaH# kapaqrdinE# caq vyu#ptakESAya caq nama#H sahasrAqkShAya# ca Saqtadha#nvanE caq namO# giriqSAya# ca SipiviqShTAya# caq namO# mIqDhuShTa#mAyaq cEShu#matE caq namO$ hraqsvAya# ca vAmaqnAya# caq namO# bRuhaqtE caq var.ShI#yasE caq namO# vRuqddhAya# ca saMq~MvRuddhva#nE caq-[  ] 11",
+      "citta": {
+        "section_count": "(11)",
+        "anuvaka": "(A5)"
+      }
+    },
+    {
+      "index": "TS 4.5.5.2",
+      "samhita": "namOq agri#yAya ca prathaqmAya# caq nama# AqSavE# cAjiqrAya# caq namaHq SIGri#yAya caq SIByA#ya caq nama# UqrmyA#ya cAvasvaqnyA#ya caq nama#H srOtaqsyA#ya caq dvIpyA#ya ca || 12",
+      "citta": {
+        "section_count": "(12)",
+        "anuvaka": "(A5)",
+        "marker": "(saMq~MvRuddhva#nE caq - pa~jca#vi(gm)SatiSca)"
+      }
+    }
+  ]
+}

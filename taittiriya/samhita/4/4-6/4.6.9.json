@@ -1,0 +1,56 @@
+{
+  "anuvaka": "TS 4.6.9",
+  "verses": [
+    {
+      "index": "TS 4.6.9.1",
+      "samhita": "yE vAqjina#M pariqpaSya#nti paqkvaM ~Mya I#mAqhuH su#raqBirnir.haqrEti# | yE cArva#tO mA(gm)saBiqkShAmuqpAsa#ta uqtO tEShA#maqBigU$rtirna invatu || yannIkSha#NaM mAq(gg)qspaca#nyA uqKAyAq yA pAtrA#Ni yUqShNa AqsEca#nAni | UqShmaqNyA#&piqdhAnA# carUqNAmaq~gkAH sUqnAH pari# BUShaqntyaSva$M || niqkrama#NaM niqShada#naM ~Mviqvarta#naqM ~Myaccaq paDbI#Saqmarva#taH | yacca# paqpau yacca# GAqsiM -[  ] 43",
+      "citta": {
+        "section_count": "(43)",
+        "anuvaka": "(A9)"
+      }
+    },
+    {
+      "index": "TS 4.6.9.2",
+      "samhita": "jaqGAsaq sarvAq tA tEq api# dEqvEShva#stu || mA tvAq&gni-d^^rdhva#nayid-dhUqmaga#ndhiqrmOKA BrAja#ntyaqBi vi#ktaq jaGri#H | iqShTaM ~MvIqtamaqBigU$rtaqM ~MvaSha#TkRutaqM taM dEqvAsaqH prati# gRuBNaqntyaSva$M || yadaSvA#yaq vAsa# upastRuqNantya#dhIvAqsaM ~MyA hira#NyAnyasmai | saqndAnaqmarva#ntaqM paDbI#SaM priqyA dEqvEShvA yA#mayanti || yat tE# sAqdE maha#sAq SUkRu#tasyaq pArShNi#yA vAq kaSa#yA - [  ] 44"
+    },
+    {
+      "index": "TS 4.6.9.3",
+      "samhita": "vA tuqtOda# | sruqcEvaq tA haqviShO# addhvaqrEShuq sarvAq tA tEq brahma#NA sUdayAmi || catu#stri(gm)Sad-vAqjinO# dEqvaba#ndhOq-rva~gkrIq-raSva#syaq svadhi#tiqH samE#ti | acCi#drAq gAtrA# vaqyunA# kRuNOtaq paru#ShparuranuqGuShyAq vi Sa#sta || EkaqstvaShTuqraSva#syA viSaqstA dvA yaqntArA# BavataqstathaqrtuH | yA tEq gAtrA#NAmRutuqthA kRuqNOmiq tAtAq piNDA#nAqM pra ju#hOmyaqgnau || mA tvA# tapat - [  ] 45"
+    },
+    {
+      "index": "TS 4.6.9.4",
+      "samhita": "priqya AqtmA&piqyantaqM mA svadhi#tistaqnuvaq A ti#ShThipat tE | mA tE# gRuqddhnu-ra#viSaqstA&tiqhAya# CiqdrA gAtrA$NyaqsinAq mithU# kaH || na vA u#vEqtanmri#yasEq na ri#Shyasi dEqvA(gm) idE#Shi paqthiBi#H suqgEBi#H | harI# tEq yu~jjAq pRuSha#tI aBUtAqmupA$sthAd-vAqjI dhuqri rAsa#Basya || suqgavya#M nO vAqjI svaSvi#yaM puq(gm)qsaH puqtrA(gm) uqta vi#SvAqpuSha(gm)# raqyiM ( ) | aqnAqgAqstvaM nOq adi#tiH kRuNOtu kShaqtraM nOq aSvO# vanatA(gm) haqviShmAn# || 46",
+      "citta": {
+        "section_count": "(46)",
+        "anuvaka": "(A9)",
+        "marker": "(GAqsiM-kaSa#yA - tapad - raqyiM - nava# ca )"
+      }
+    }
+  ],
+  "prasna_korvai": {
+    "starting_padams": [
+      "aSmaqn",
+      "ya iqmO",
+      "dE#na",
+      "mAqSuH",
+      "prAcI$M",
+      "jIqmUta#syaq",
+      "yadakra#ndOq",
+      "mA nO# miqtrO",
+      "yE vAqjinaqM",
+      "nava#"
+    ],
+    "series_of_panchaatis": [
+      "aSma#n",
+      "manOqyujaqM",
+      "prAcIqmanuq",
+      "Sarma# yacCatuq",
+      "tEShA#maqBigU$rtiqH",
+      "ShaTca#tvAri(gm)Sat"
+    ],
+    "first_last_padam": [
+      "aSma#n",
+      "haqviShmAn#"
+    ]
+  }
+}
