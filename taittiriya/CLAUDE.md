@@ -38,11 +38,19 @@ This repository contains a complete parsing pipeline for Taittiriya Sanskrit tex
 - `create_complete_dataset.py` - Creates unified corpus combining all text types
 - `create_enhanced_web_format.py` - Generate samhita/padam web formats
 - `create_brahmana_aranyaka_web_format.py` - Generate brahmana/aranyaka web formats
+- **`add_static_transliterations.py` - Add static transliterations using vidyut-lipi**
+
+### Transliteration System
+- **Static transliterations** using vidyut-lipi (preferred) or indic-transliteration (fallback)
+- Supports 13 scripts: Devanagari, IAST, Harvard-Kyoto, Tamil, Telugu, etc.
+- Pre-generated for better performance and quality
+- See `TRANSLITERATION_README.md` for details
 
 ### Commands
 - Parse samhita/padam: `python3 enhanced_parser.py`
 - Parse brahmana/aranyaka: `python3 brahmana_aranyaka_parser.py`
 - Create complete corpus: `python3 create_complete_dataset.py`
+- **Add transliterations: `python3.11 add_static_transliterations.py`**
 - Create individual web formats: `python3 create_enhanced_web_format.py` or `python3 create_brahmana_aranyaka_web_format.py`
 
 ### Output Structure
@@ -54,7 +62,8 @@ This repository contains a complete parsing pipeline for Taittiriya Sanskrit tex
   - **Complete corpus: `taittiriya_complete_corpus.json`**
 - `web_enhanced/` - Samhita/padam web formats
 - `web_brahmana_aranyaka/` - Brahmana/aranyaka web formats
-- `web_complete/` - **Complete corpus web formats (RECOMMENDED)**
+- `web_complete/` - Complete corpus web formats
+- **`web_transliterated/` - Complete corpus with static transliterations (RECOMMENDED)**
 - Checkpoint files enable resuming interrupted processing
 
 ### Complete Corpus Data Quality
