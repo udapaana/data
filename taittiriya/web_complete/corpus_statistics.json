@@ -1,0 +1,15 @@
+{
+  "corpus_overview": {
+    "total_components": 3,
+    "total_texts": 4903,
+    "components": {
+      "samhita_verses": 2198,
+      "brahmana_sections": 1997,
+      "aranyaka_sections": 708
+    }
+  },
+  "quality_metrics": {
+    "samhita_match_rate": "100.0%",
+    "total_searchable_items": 4903
+  }
+}

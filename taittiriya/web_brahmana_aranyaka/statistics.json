@@ -1,0 +1,31 @@
+{
+  "total_files": 9,
+  "total_sections": 2705,
+  "brahmana": {
+    "files": 6,
+    "sections": 1997,
+    "books": 3
+  },
+  "aranyaka": {
+    "files": 3,
+    "sections": 708,
+    "books": 8
+  },
+  "distribution": {
+    "brahmana_by_book": {
+      "1": 504,
+      "2": 667,
+      "3": 826
+    },
+    "aranyaka_by_book": {
+      "1": 177,
+      "2": 53,
+      "3": 75,
+      "4": 48,
+      "5": 44,
+      "6": 101,
+      "7": 102,
+      "8": 108
+    }
+  }
+}
