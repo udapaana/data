@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "source": "vedanidhi",
+    "veda": "samaveda",
+    "shakha": "कौथुमशाखा",
+    "text_type": "प्रकृति, आरण्यकगानम् - (03030202) काण्डम्",
+    "source_id": "03030202",
+    "total_texts": 1,
+    "accent_percentage_sample": 100.0,
+    "downloaded_at": "2025-05-28T23:14:17.036427"
+  },
+  "texts": [
+    {
+      "location": [
+        "सा",
+        "कौ",
+        null
+      ],
+      "vaakya_pk": 35536,
+      "vaakya_text": "प्रकृतिगाने ऐन्द्रं पर्व।",
+      "vaakya_sk": "03030202",
+      "permission": false
+    }
+  ],
+  "meta": {
+    "source_id": "03030202_प्रकृति,_आरण्यकगानम्_-_(03030202)_काण्डम्",
+    "file_name": "03030202_प्रकृति,_आरण्यकगानम्_-_(03030202)_काण्डम्.json",
+    "total_records": 0
+  }
+}

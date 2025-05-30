@@ -1,0 +1,145 @@
+{
+  "accented_sources": {
+    "accented_sources": {
+      "Rigveda Sakala (JB/ER/VK)": {
+        "url": "https://sanskritdocuments.org/rigveda/",
+        "format": "PDF with full Vedic accents",
+        "encoding": "Devanagari with svaras",
+        "completeness": "Complete with udātta, anudātta, svarita",
+        "notes": "Jamison-Brereton edition preserves accents"
+      },
+      "Taittiriya Samhita": {
+        "status": "Already in collection",
+        "format": "Baraha with accent notation",
+        "notes": "Current source has svara markings"
+      },
+      "Rigveda - Aurobindo.ru": {
+        "url": "https://www.aurobindo.ru/workings/matherials/rigveda/rv_01.htm",
+        "format": "HTML with transliterated accents",
+        "encoding": "Modified Harvard-Kyoto with accent marks",
+        "completeness": "Complete, with numbered accent system",
+        "example": "agni1m i1Le puro1hitaM (numbers indicate svaras)"
+      },
+      "Maharshi University Vedic Literature": {
+        "url": "https://vedicreserve.miu.edu/",
+        "format": "Various with accent preservation",
+        "notes": "Some texts maintain traditional svara notation"
+      },
+      "IMPORTANT": {
+        "note": "Most digital texts are asvara (without accents)",
+        "reason": "Accent marks require special fonts/encoding",
+        "challenge": "Need to verify each source preserves svaras"
+      }
+    },
+    "non_accented_sources": {
+      "GRETIL texts": "Most are transliterated WITHOUT accents",
+      "VedaWeb API": "Has word-level accent data but not in traditional notation",
+      "Standard Unicode texts": "Usually lack accent marks",
+      "Wikipedia/Wikisource": "Generally asvara versions"
+    }
+  },
+  "kanva_sakha": {
+    "Kanva Samhita Status": {
+      "traditional_availability": "Rare - mostly in manuscript form",
+      "digital_availability": "Very limited",
+      "accent_preservation": "Unknown in digital format"
+    },
+    "Known Sources": {
+      "GRETIL Kanva": {
+        "url": "http://gretil.sub.uni-goettingen.de/gretil/1_sanskr/1_veda/2_yv/kanvsamu.htm",
+        "status": "ASVARA - No accent marks",
+        "completeness": "Partial text only"
+      },
+      "Manuscript Collections": {
+        "status": "May have svara markings",
+        "accessibility": "Requires manuscript digitization",
+        "locations": [
+          "BORI Pune",
+          "Oriental manuscripts libraries"
+        ]
+      }
+    },
+    "Recommendation": "Kanva with svaras not readily available digitally"
+  },
+  "sanskrit_documents": {
+    "Rigveda": {
+      "url": "https://sanskritdocuments.org/doc_veda/rigveda.html",
+      "format": "Multiple formats (PDF, ITRANS, Devanagari)",
+      "includes": [
+        "Samhita",
+        "Pada patha",
+        "Various commentaries"
+      ]
+    },
+    "Shukla Yajurveda": {
+      "url": "https://sanskritdocuments.org/doc_veda/yajurveda.html",
+      "format": "ITRANS, Devanagari",
+      "includes": [
+        "Madhyandina",
+        "Kanva versions"
+      ]
+    },
+    "Samaveda": {
+      "url": "https://sanskritdocuments.org/doc_veda/samaveda.html",
+      "format": "ITRANS, Devanagari",
+      "includes": [
+        "Kauthuma sakha"
+      ]
+    }
+  },
+  "vedaweb_api": {
+    "description": "Complete Rigveda with morphological analysis",
+    "api_endpoints": {
+      "documents": "https://vedaweb.uni-koeln.de/rigveda/api/documents",
+      "export": "https://vedaweb.uni-koeln.de/rigveda/api/export/",
+      "search": "https://vedaweb.uni-koeln.de/rigveda/api/search/"
+    },
+    "features": [
+      "Complete Rigveda text",
+      "Pada patha",
+      "Morphological annotations",
+      "Multiple translations",
+      "RESTful API access"
+    ],
+    "format": "JSON API responses",
+    "sakha": "Sakala"
+  },
+  "acquisition_plan": {
+    "immediate_targets": [
+      {
+        "text": "Rigveda Sakala (Aurobindo.ru)",
+        "source": "https://www.aurobindo.ru/workings/matherials/rigveda/",
+        "reason": "Complete text with numbered svara notation",
+        "effort": "Medium - Parse HTML, convert number notation to standard",
+        "svara_type": "Numbered (1,2,3) system needs conversion"
+      }
+    ],
+    "investigation_needed": [
+      {
+        "text": "Samaveda with svaras",
+        "issue": "Samaveda uses musical notation, not just accent marks",
+        "sources_to_check": [
+          "Vedic Heritage Portal",
+          "Traditional publications"
+        ]
+      },
+      {
+        "text": "Madhyandina/Kanva with svaras",
+        "issue": "Most digital versions are asvara",
+        "action": "Check printed editions from Vedic institutions"
+      }
+    ],
+    "challenges": [
+      "Most digital texts omit svara markings",
+      "Different accent notation systems (numbers, symbols, diacritics)",
+      "Samaveda has unique musical notation beyond simple accents",
+      "Need to preserve original accent system accurately"
+    ],
+    "best_practices": [
+      "Prioritize sources that preserve traditional svara notation",
+      "Document the accent notation system used",
+      "Consider creating accent conversion utilities",
+      "Verify with traditional scholars when possible"
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "transformation_pipeline": {
+    "version": "1.0",
+    "created": "2025-05-29",
+    "description": "Iterative transformation pipeline with complete logging"
+  },
+  "pipeline_stages": [
+    {
+      "stage": "01_source_extraction",
+      "description": "Extract raw text from source files (DOCX/JSON)",
+      "input": "source/ directory files",
+      "output": "extracted_text.json, extraction_log.json",
+      "tools": [
+        "docx_parser",
+        "json_extractor"
+      ],
+      "validation": [
+        "encoding_check",
+        "completeness_check"
+      ]
+    },
+    {
+      "stage": "02_text_normalization",
+      "description": "Normalize Unicode, clean formatting, standardize punctuation",
+      "input": "01_source_extraction/extracted_text.json",
+      "output": "normalized_text.json, normalization_log.json",
+      "tools": [
+        "unicode_normalizer",
+        "text_cleaner"
+      ],
+      "validation": [
+        "character_set_check",
+        "consistency_check"
+      ]
+    },
+    {
+      "stage": "03_accent_standardization",
+      "description": "Convert accent marks to Extended Baraha ASCII format",
+      "input": "02_text_normalization/normalized_text.json",
+      "output": "eba_text.json, accent_conversion_log.json",
+      "tools": [
+        "eba_converter",
+        "accent_mapper"
+      ],
+      "validation": [
+        "accent_coverage_check",
+        "round_trip_test"
+      ]
+    },
+    {
+      "stage": "04_structure_mapping",
+      "description": "Map to śākhā-specific hierarchical structure",
+      "input": "03_accent_standardization/eba_text.json",
+      "output": "structured_text.json, structure_mapping_log.json",
+      "tools": [
+        "hierarchy_mapper",
+        "metadata_extractor"
+      ],
+      "validation": [
+        "structure_completeness",
+        "hierarchy_consistency"
+      ]
+    },
+    {
+      "stage": "05_cross_references",
+      "description": "Add internal cross-references and parallel passages",
+      "input": "04_structure_mapping/structured_text.json",
+      "output": "cross_referenced_text.json, cross_ref_log.json",
+      "tools": [
+        "reference_detector",
+        "parallel_finder"
+      ],
+      "validation": [
+        "reference_validity",
+        "link_integrity"
+      ]
+    },
+    {
+      "stage": "06_validation",
+      "description": "Final quality validation and scholar review",
+      "input": "05_cross_references/cross_referenced_text.json",
+      "output": "validated_text.json, validation_report.json",
+      "tools": [
+        "quality_validator",
+        "scholar_review"
+      ],
+      "validation": [
+        "complete_pipeline_check",
+        "accuracy_metrics"
+      ]
+    },
+    {
+      "stage": "07_final_format",
+      "description": "Generate final format for parsed/ directory",
+      "input": "06_validation/validated_text.json",
+      "output": "final_corpus.json, transformation_summary.json",
+      "tools": [
+        "format_generator",
+        "metadata_compiler"
+      ],
+      "validation": [
+        "format_compliance",
+        "completeness_final"
+      ]
+    }
+  ],
+  "logging_standards": {
+    "log_format": "JSON with timestamp, stage, action, input, output, status",
+    "error_handling": "Continue pipeline with error flagging",
+    "rollback_support": "Each stage can be reverted independently",
+    "audit_trail": "Complete provenance from source to final"
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "chapter": "1.3",
+  "source_padam_file": "TS 1.3 Baraha Pada paatam.docx",
+  "verse_count": 31,
+  "matched_count": 31,
+  "verses": [
+    {
+      "verse_id": "1.3.1.1",
+      "chapter": "1.3",
+      "padam": "- Padam dEvasya|tvA|savituḥ|prasava̍ iti# pra - savE|aśvinO̱ḥ|bAhuByAmiti# bAhu - ByAm|pUṣṇaḥ|hastA̱ByAm|Eti|dadE|aBri̍ḥ|asi|nAri̍ḥ|asi|pari̍liKitamiti̍ pari# - liKitam|rakṣaḥ|pari̍liKitA̍ iti pari# - liKitAḥ|arAtayaḥ|idam|aham|rakṣa̍saḥ|grIvAḥ|apIti̍|kRuntAmi|yaḥ|asmAn|dvEṣṭi̍|yam|ca|vayam|dviṣmaḥ|idam|asya|grIvAḥ|apIti̍|kRuntAmi|divE|tvA|antari̍kṣAya|tvA|pRuthivyai|tvA|śundha̍tAm|lOkaḥ|pitRuṣada̍na̍ iti# pitRu - sadanaḥ|yava̍ḥ|asi|yavaya̍|asmat|dvEṣa̍ḥ|1̍ (50)",
+      "samhita": "dEvasya# tvA savituḥ prasavE̱&śvinO̱r̍ bAhuByA̱M pUṣṇO hastA̱ByAmA dadE&Brirasi̍ nArirasi̍ pariliKitaṃq̍ rakṣaḥ pariliKitA̍ arAtaya̍ idamahaṃ rakṣasO̍ grIvA api# kRuntAmi yO̱&smAn dvEṣṭi yaM ca# vayaM dviṣma idamasya̍ grIvA api# kRuntAmi divE tvA&ntarikṣAya̍ tvA pRuthivyai tvA śundhatAM̍ ~MlOkaḥ pitRuṣada̍nO̍ yavO&si̍ yavayAsmad dvEṣO# - [ ] 1",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.1.2",
+      "chapter": "1.3",
+      "padam": "- Padam yavaya|arA̍tIḥ|pitRuṇAm|sada̍nam|asi|uditi̍|diva̱m|staBAna|Eti̍|antari̍kṣam|pRuṇa|pRuthivIm|dRuṃqha|dyutAnaḥ|tvA|mArutaḥ|minOtu|miqtrAvaru̍ṇayOriti̍# mitrA - varuṇayOḥ|dhruvEṇa̍|dharma̍ṇA|brahmavanimiti̍# brahma - vani̱m|tvA|kṣatravanimiti# kṣatra - vani̱m|suprajAvanimiti# suprajA - vani̱m|rAyaspOṣavanimiti# rAyasyOṣa - vani̱m|parIti|UhAmi|brahma̍|dRuṃqha|kṣatram|dRuṃqha|prajAmiti̍# pra - jAm|dRuṃqha|rAyaḥ|pOṣa̱m|dRuṃqha|GRutEna|dyAvA̍ pRuthivI iti# dyAvA - pRuthivI|Eti|pRuṇEthAm|indra̍sya|sada̍ḥ|asi|viśvajanasyEti̍# viśva - janasya|CAyA|parIti̍|tvA|girvaṇaḥ|gira̍ḥ|imAḥ̍ ()|Bavantu|viśvataḥ|vRuddhAyumiti̍# vRuddha - Ayum|anviti|vRuddha̍yaḥ|juṣṭA̱ḥ|Bavantu|juṣṭa̍yaḥ|indra̍sya|syUḥ|asi|indra̍sya|dhruvam|asi|aindram|asi|indrA̍ya|tvA||2̍ (68)",
+      "samhita": "yavayArAtIḥ̍ pitRuṇAṃ sadanamasyuddivaṅ̍# staBAnA&ntarikṣaM̍ pRuṇa pRuthivIM dRuṃha̍ dyutAnastvA# mArutO minOtu̍ mitrAvaruṇayOr̍ dhruvEṇa dharmaṇA̍ brahmavaniM̍ tvA kṣatravaniṃ# suprajAvaniṃ# rAyaspOṣavaniM paryUhAmi̍ brahma# dRuṃha kṣatraM dRuṃha̍ prajAM dRuṃha̍ rAyaspOṣaM̍ dRuṃha GRutEna# dyAvApRuthivI A pRuṇEthAmindra̍sya̍ sadO&si̍ viśvajanasya# CAyA pari# tvA girvaṇO gira# imA ( ) Bavantu̍ viśvatO# vRuddhAyumanu vRuddhayO̍ juṣṭA# Bavantu juṣṭaya̍ indrasya̍ syUrasIndrasya̍ dhruvamasyaindramasIndrA̍ya̍ tvA||2",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.2.1",
+      "chapter": "1.3",
+      "padam": "- Padam rakṣOhaṇa iti# rakṣaḥ - hanaḥ|valagahana̍ iti# valaga - hanaḥ|vaiṣṇavAn|KanAmi|idam|aham|tam|valagamiti̍# vala - gam|uditi|vapAmi|yam|naḥ|samAnaḥ|yam|asa̍mAnaḥ|nicaKAnEti̍# ni - caKAna|idam|Enam|addha̍ram|karOmi|yaḥ|naḥ|samAnaḥ|yaḥ|asa̍mAnaḥ|arAtIyati̍|gAyatrEṇa̍|Canda̍sA|ava̍bAḍha̍ ityava# - bAḍhaḥ|valaga iti# vala - gaḥ|kim|atra|Badram|tat|nau|saha|virAḍiti̍# vi - rAṭ|asi|sapatnahEti# sapatna - hA|samrAḍiti# sam - rAṭ|asi|BrAtRuvyahEti# BrAtRuvya - hA|svarAḍiti# sva - rAṭ|asi|aBimAtihEtyaBimAti̍ - hA|viśvArAḍiti# viśva - rAṭ|asi|viśvAsAm|nAṣṭrAṇA̱m|hantA|3̍ (50)",
+      "samhita": "rakṣOhaṇO# valagahanO# vaiṣṇavAn KanAmIdamahaM̍ taM ~Mvalagamudva̍pAmi̍ yaM naḥ̍ samAnO yamasamAnO̍ nicaKAnEdamEnamadha̍raM̍ karOmi yO naḥ̍ samAnO yO&samAnO&rAtIyati̍# gAyatrEṇa CandasA&vabAḍhO̍ valagaḥ kimatra# BadraM tannau# saha virAḍasi̍ sapatnahA samrAḍasi̍ BrAtRuvyahA svarAḍasyaBimAtihA̍ viśvArAḍa̍si̍ viśvAsAM̍ nAṣṭrAṇAṃ# hantA - [ ] 3",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.2.2",
+      "chapter": "1.3",
+      "padam": "- Padam rakṣOhaṇa iti# rakṣaḥ - hanaḥ|valagahana̍ iti# valaga - hanaḥ|prEti̍|ukṣAmi|vaiṣṇavAn|rakṣOhaṇa̍ iti# rakṣaḥ - hanaḥ|valagahana̍ iti# valaga - hanaḥ|avEti̍|nayAmi|vaiṣṇavAn|yava̍ḥ|asi|yavaya̍|asmat|dvEṣa̍ḥ|yavaya̍|arA̍tIḥ|rakṣOhaṇa̍ iti# rakṣaḥ - hanaḥ|valagahana̍ iti# valaga - hanaḥ|avEti̍|stRuṇAmi|vaiṣṇavAn|rakṣOhaṇa̍ iti# rakṣaḥ - hanaḥ|valagahana̍ iti# valaga - hanaḥ|aBIti̍|juhOmi|vaiṣṇavAn|rakṣOhaṇAviti̍# rakṣaḥ - hanau̱|valagahanAviti# valaga - hanau̱|upEti|dadhAmi|vaiṣṇavI̍ iti|rakṣOhaṇAviti̍# rakṣaḥ - hanau̱|valagahanAviti# valaga - hanau̱|parIti|UhAmi|vaiṣṇavI̍ iti|rakṣOhaṇAviti̍# rakṣaḥ - hanau̱|valagahanAviti# valaga - hanau̱|parIti|stRuṇAmi|vaiṣṇavI̍ iti|rakṣOhaṇAviti̍# rakṣaḥ - hanau̱|valagahanAviti# valaga - hanau̱|vaiṣṇavI iti|bRuhann|asi|bRuhadgrAvEti̍# bRuhat - grAvA|bRuhatIm|indrAya̍ ( )|vAca̱m|vada||4 (52)",
+      "samhita": "rakṣOhaṇO̍# valagahanaḥ prOkṣAmi̍ vaiṣṇavAn rakṣOhaṇO̍# valagahanO&va# nayAmi vaiṣṇavAn yavO&si̍ yavayAsmad dvEṣO# yavayArAtI̍ rakṣOhaṇO# valagahanO&va# stRuṇAmi vaiṣṇavAn rakṣOhaṇO̍# valagahanO&Bi juhOmi̍ vaiṣṇavAn rakṣOhaṇau̍# valagahanAvupa# dadhAmi vaiṣṇavI rakṣOhaṇau̍# valagahanau paryUhAmi̍ vaiṣṇavI rakṣOhaṇau̍# valagahanau pari# stRuṇAmi vaiṣṇavI rakṣOhaṇau̍# valagahanau# vaiṣṇavI bRuhannasi̍ bRuhadgrAvA̍ bRuhatImindrAya̍ ( ) vAcaM̍ ~Mvada||4",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.3.1",
+      "chapter": "1.3",
+      "padam": "- Padam viBUriti# vi - BUḥ|asi|pravAhaṇa̍ iti# pra - vAhanaḥ|vahni̍ḥ|asi|havyavAha̍na̍ iti# havya - vAhanaḥ|śvAtraḥ|asi|pracE̍tA̍ iti pra - cEtAḥ|tuthaḥ|asi|viśvavEdA̍ iti# viśva - vEdAḥ|uśik|asi|kaviḥ|a~gGAriḥ|asi|baMBA̍riḥ|avasyuḥ|asi|duva̍svAn|śundhyUḥ|asi|mArjAlIya̍ḥ|samrAḍiti̍# saM - rAṭ|asi|kRuśAnuriti# kRuśa - anuḥ|pariṣadya iti# pari - sadyaḥ|asi|pava̍mAnaḥ|pratakvEti̍# pra - takvA̱|asi|naBasvAn|asa̍mRuMṣṭa̍ ityasa̱M - mRuṣṭaḥ|asi|havyasUda iti# havya - sUdaḥ|RutadhAmEtyRuta̍ - dhAmA|asi|suvarjyOtiriti̍ suvaḥ̍ - jyOtiḥq|brahmajyOtiriti̍ brahma# - jyOtiḥ|asi|suvardhAmEti̍ suvaḥ̍ - dhAmA|ajaḥ|asi|EkapAdityEka̍# - pAt|ahiḥ|asi|buddhniya̍ḥ|raudrE̍ṇa|anI̍kEna̍ ( )|pAhi|mA|agnE|pipRuhi|mA|mA|mA|hiṃqsIḥ||5 (58)",
+      "samhita": "viBUrasi̍ pravAhaṇO̍ vahnirasi̍ havyavAhanaḥ̍ śvAtrO&si̍ pracEtAstuthO̍&si̍ viśvavEdA̍ uśigasi̍ kavira~gGArirasi̍ baMBAriravasyura̍si̍ duvasvA~jCundhyUra̍si̍ mArjAlIyaḥ̍ samrAḍasi̍ kRuśAnuḥ̍ pariṣadyO&si̍ pavamAnaḥ̍ pratakvA&si̍ naBasvAnasa̍MmRuṣṭO&si̍ havyasUda# RutadhAmA&si̍ suvarjyOtir brahmajyOtirasi̍ suvarddhAmA&jO̱̍ &syEkapAdahi̍rasi̍ buddhniyO raudrEṇAnIkEna̍ ( ) pAhi mA̱&gnE pipRuhi mA mA mA# hiṃsIḥ||5",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.4.1",
+      "chapter": "1.3",
+      "padam": "- Padam tvam|sOma|tanUkRudBya iti# tanUkRut - Byaḥ|dvEṣO̱Bya iti dvEṣaḥ̍ - Byaḥ|anyakRutEBya̍ ityanya - kRutEByaḥ|uru|yantA|asi|varUtham|svAhA̱|juṣAṇaḥ|aptuḥ|Ajya̍sya|vEtu|svAhA̱|ayaM|naḥ|agniḥ|vari̍vaḥ|kRuṇOtu|ayam|mRudha̍ḥ|puraḥ|Etu|praBindanniti̍# pra - Bindann||ayam|śatrUn|jayatu|jaṛhRu̍ṣAṇaḥ|ayam|vAja̱m|jayatu|vAja̍sAtAviti̍ vAja# - sAtau||uru|viṣṇO iti|vIti̍|kramasva|uru|kṣayA̍ya|naḥ|kRudhi||GRutam|GRutayOna̍ iti# GRuta - yOnE|piba|praprEti pra - pra|yajñapatimiti̍# yajña - patim|tira||sOmaḥ|jigAti|gAtuviditi̍# gAtu - vit|6 (50)",
+      "samhita": "tvaṃ sOma̍ tanUkRudByO dvEṣO̱ByO&nyakRutEBya̍ uru yantA&si varUthaṅq̍ svAhA# juṣAṇO apturAjyasya̍ vEtu svAhA&yannO# agnirvarivaḥ̍ kRuṇOtvayaM mRudhaḥ̍ pura Etu̍ praBindann|ayaṃ śatrU̱~jjayatu jaṛhRuṣAṇO&yaM̍ ~MvAjaM̍ jayatu vAjasAtau|uru̍ viṣṇO̍ vi kramasvOru̍ kṣayAya̍ naḥ kRudhi|GRutaM GRutayOnE̍ piba prapra# yajñapatiM̍ tira|sOmO# jigAti gAtuvid - [ ] 6",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.4.2",
+      "chapter": "1.3",
+      "padam": "- Padam dEvAnA̱m|Eti|niṣkRutamiti# niḥ - kRutam|Rutasya|yOni̱m|AsadamityA̱̍ - sada̱m|adityAḥ|sada̍ḥ|asi|adi̍tyAḥ|sada̍ḥ|Eti̍|sIda|Eṣaḥ|vaḥ|dEva|savitaḥ|sOma̍ḥ|tam|rakṣaddhvam|mA|vaḥ|daBaqt|Etat|tvam|sOma|dEvaḥ|dEvAn|upEti̍|agAḥ|idam|aham|manuṣya̍ḥ|manuṣyAn̍|saha|prajayEti̍# pra - jayA̱|saha|rAyaḥ|pOṣEṇa|nama̍ḥ|dEvEBya̍ḥ|svadhEti̍# sva - dhA|pitRuBya iti# pitRu - Byaḥ|idam|aham|niriti|varu̍ṇasya|pAśA̱t|suva̍ḥ|aBi|7̍ (50)",
+      "samhita": "dEvAnAmEti̍ niṣkRutamRutasya yOnimAsadamadi̍tyAḥ̍ sadO&syadityAḥ̍ sada A sIdaiṣa̍ vO# dEva savitaḥ sOmastaṃ rakṣaddhvaM̍ mA vO# daBadEtattvaṃ sOma̍ dEvO dEvAnupAgA̍ idamahaM manuṣyO̍# manuṣyA̱nth saha prajayA# saha rAyaspOṣEṇa̍ namO# dEvEByaḥ̍ svadhA pitRuBya# idamahaM nirvaruṇasya̍ pAśAth suvaraBi̍ - [ ] 7",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.4.3",
+      "chapter": "1.3",
+      "padam": "- Padam vIti|KyEṣam|vaiśvAnaram|jyOti̍ḥ|agnE̱|vratapata̍ iti# vrata - patE|tvam|vratAnA̱m|vratapatiriti̍# vrata - patiḥ|asi|yA|mama|tanUḥ|tvayi̍|aBU̱t|iyam|sA|mayi̍|yA|tava̍|tanUḥ|mayi̍|aBU̱t|EṣA|sA|tvayi̍|yathAyathamiti̍# yathA - yatham|nau|vratapata iti# vrata - patE|vratinO̱ḥ|vratAni||8̍ (31) (gAtuvida - ByE - katriṃśacca)̍ (A4)",
+      "samhita": "vi KyEṣaM̍ ~MvaiśvAnaraM jyOtiragnE̱ vratapatE tvaM ~MvratAnA̱M ~Mvratapatirasi̍ yA mama# tanUstvayyaBUdiyaṃ̍ sA mayi yA tava# tanUr mayyaBUdEṣA̍ sA tvayi# yathAyathaM nau̱ vratapatE vratinO̱r vratAni||8̍ (gAtuvida-ByE-katriṃśacca)̍",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.5.1",
+      "chapter": "1.3",
+      "padam": "- Padam atIti|anyAn|agA̱m|na|anyAn|upEti̍|agAm|arvAk|tvA|parai̱ḥ|avidam|paraḥ|ava̍raiḥ|tam|tvA|juṣE|vaiṣṇavam|dEvayajyAyA̍ iti# dEva - yajyAyai̱|dEvaḥ|tvA|savitA|maddhvA̱|anaktu|OṣadhE|trAya̍sva|Enam|svadhi̍ta̍ iti sva - dhitE|mA|Enam|hiṃqsIḥ|diva̱m|agrEṇa|mA|laKIḥ|antari̍kṣam|maddhyE̍na|mA|hiṃqsIḥ|pRuthivyA|samiti̍|Bava|vana̍spatE|śatava̍ḷśa̍ iti# śata - valq.śaḥ|vIti|rOha|sahasra̍vaḷśA̍ iti# sahasra# - valq.śAḥ|vIti|vayam|ruhEma|yam̍ ( )|tvA|ayam|svadhitiriti̍ sva - dhitiḥ|tEtijAnaḥ|praṇinAyEti̍# pra - ninAya|mahatE|sauBa̍gAya|acCi̍nnaḥ|rAya̍ḥ|suvIra̍ iti# su - vIraḥ||9̍ (60)",
+      "samhita": "atyanyAnagAM nAnyAnupAgAmarvAktvA̍ parairavidaM̍ parO&varaistaM̍ tvA# juṣE vaiṣṇavaM dEvayajyAyai̍# dEvastvA# savitA maddhvA&naktvOṣa̍dhE̍ trAyasvainaṅq̍ svadhitE̍ mainaṃ# hiṃsIr divamagrEṇa̍ mA lEKIrantari̍kṣaM̍ maddhyEna̍ mA hiṃsIḥ̍ pRuthivyA saM Bava̍ vanaspatE̍ śatavaḷśO̍ vi rOha̍ sahasravaḷśA̍ vi vayaṃ ruhEma̍ yaM ( ) tvA&yaṅ svadhitistEti̍jAnaḥ̍ praṇinAya# mahatE sauBagAyAcCi̍nnO̍ rAyaḥ̍ suvIraḥ||9̍",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.6.1",
+      "chapter": "1.3",
+      "padam": "- Padam pRuthivyai|tvA|antarikṣAya|tvA|divE|tvA|śundha̍tAm|lOkaḥ|pitRuṣada̍na̍ iti# pitRu - sadanaḥ|yava̍ḥ|asi|yavaya̍|asmat|dvEṣa̍ḥ|yavaya̍|arA̍tIḥ|pitRuṇAm|sada̍nam|asi|svAvEśa̍ iti# su - AvEśaḥ|asi|agrEgA ityagrE̍ - gAḥ|nEtRuṇAm|vanaspatiḥ|adhIti̍|tvA|sthAsyati|tasya̍|vittAt|dEvaḥ|tvA|savitA|maddhvA̱|anaktu|supippalABya̍ iti# su - pippalAByaḥ|tvA|Oṣa̍dhIBya̍ ityOṣadha̍ - Byaḥ|uditi|diva̱m|staBAna|Eti̍|antari̍kṣam|pRuṇa|pRuthivIm|upa̍rEṇa|dRuṃqha|tE|tE|dhAmA̍ni|uśmasi|10̍ (50)",
+      "samhita": "pRuthivyai tvAntarikṣAya̍ tvA divE tvA śundhatAM̍ ~MlOkaḥ pitRuṣada̍nO̍ yavO&si̍ yavayAsmad dvEṣO# yavayArAtIḥ̍ pitRuṇAṃ sadanamasi̍ svAvEśO̱-&syagrEgA nEtRuṇAM̍ ~Mvanaspatiradhi# tvA sthAsyati tasya# vittAd dEvastvA# savitA maddhvA&naktu̍ supippalABya-stvauṣadhIBya̍ uddivaṅ# staBAnA&ntarikṣaM̍ pRuṇa pRuthivImuparEṇa̍ dRuṃha tE tE dhAmA̱nyuśmasI - [ ] 10",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.6.2",
+      "chapter": "1.3",
+      "padam": "- Padam gamaddhyE̱|gAvaḥ|yatra̍|BUri̍śRu~ggA̍ iti BUri# - śRu~ggAḥ|ayAsaḥ||atra̍|aha̍|tat|urugAyasyEtyu̍ru̍ - gAyasya|viṣṇO̱ḥ|paramam|padam|avEti̍|BAti|BUrE̱ḥ||viṣṇO̱ḥ|karmA̍ṇi|paśyata|yata̍ḥ|vratAni̍|paspaśE||indra̍sya|yujya̍ḥ|saKA̱||tat|viṣṇO̱ḥ|paramam|padam|sadA̱|paśyanti|sUraya̍ḥ||divi|iva|cakṣu̍ḥ|Ata̍tamityA̍ - tatam||brahmavanimiti# brahma - vani̱m|tvA|kṣatravanimiti# kṣatra - vani̱m|suprajAvanimiti# suprajA - vani̱m|rAyaspOṣavanimiti# rAyaspOṣa - vani̱m|parIti|UhAmi|brahma̍|dRuṃqha|kṣatram|dRuṃqha|prajAmiti̍# pra - jAm|dRuṃqha|rAyaḥ|pOṣa̱m ( )|dRuṃqha|parivIriti# pari - vIḥ|asi|parIti|tvA|daivI̱ḥ|viśa̍ḥ|vyayantAm|parIti̍|imam|rAyaḥ|pOṣa̍ḥ|yaja̍mAnam|manuṣyA̱ḥ|antari̍kṣasya|tvA|sAnau̱|avEti̍|gUhAmi||11̍ (69) (uśmasI - pOṣamE - kAnna viṃśatiśca̍)̍ (A6)",
+      "samhita": "gamaddhyE gAvO yatra BUriśRu~ggA̍ ayAsaḥ|atrAha̍ tadurugAyasya̍ viṣṇO̱ḥ paramaM padamava# BAti BUrE̱ḥ||viṣṇOḥ karmAṇi̍ paśyata yatO̱ vratAni# paspaśE|indrasya̍ yujyaḥ saKA̱||tad-viṣṇO̱ḥ paramaM padaṃ sadA# paśyanti sUrayaḥ|divIva̍ cakṣurAtataM||brahmavani̍M̍ tvA kṣatravaniṃ# suprajAvaniṃ# rAyaspOṣavaniM paryUhAmi̍ brahma# dRuṃha kṣatraM dRuṃha̍ prajAM dRuṃha̍ rAyaspOṣaM̍ ( ) dRuṃha parivIrasi̍ pari# tvA daivIrviśO̱ vyayantAM parImaṃ rAyaspOṣO yajamAnaM̍ manuṣyA# antarikṣasya̍ tvA sAnAvava# gUhAmi||11 (uśmasI-pOṣamE-kAnnaviṃśatiśca̍)̍",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.7.1",
+      "chapter": "1.3",
+      "padam": "- Padam iṣE|tvA|upavIrityupa̍ - vIḥ|asi|upO iti|dEvAn|daivI̱ḥ|viśa̍ḥ|prEti̍|aguḥ|vahnI̱ḥ|uśija̍ḥ|bRuha̍spatE|dhAraya̍|vasU̍ni|havyA|tE|svadantAm|dEva̍|tvaṣṭaḥ|vasu̍|raṇva|rEva̍tIḥ|rama̍ddhvam|agnEḥ|janitra̱m|asi|vRuṣa̍ṇau|sthaḥ|urvaśI̱|asi|Ayuḥ|asi|purUravA̱ḥ|GRutEna̍|aktE̍ iti|vRuṣa̍ṇam|dadhAthAm|gAyatram|Canda̍ḥ|anu̍|prEti̍|jAyasva|traiṣṭu̍Bam|jAga̍tam|Canda̍ḥ|anu̍|prEti̍|jAyasva|Bava̍tam|12̍ (50)",
+      "samhita": "iṣE tvOpavIrasyupO̍# dEvAn daivIr viśaḥ prAgur vahnIruśijO̍ bRuhaspatE̍ dhArayA vasUni̍ havyA tE̱ svadantAM dEva# tvaṣṭarvasu# raṇva rEvatI̍ ramaddhva-magnEr̍ janitramasi̍ vRuṣaṇau̍ stha urvaśyasyAyura̍si̍ purUravA# GRutEnAktE vRuṣaṇaM̍ dadhAthAM gAyatraM CandO&nu pra jAyasva̍ traiṣṭuBaM̍ jAgataM̍ CandO&nu pra jAyasva̍ BavataM̍ - [ ] 12",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.7.2",
+      "chapter": "1.3",
+      "padam": "- Padam naḥ|samanasAviti̍ sa - manasau|samOkasAviti̍ saM - Okasau|arEpasau̱||mA|yajñam|hiṃqsiṣṭam|mA|yajñapatimiti̍# yajña - patim|jAtavEdasAviti# jAta - vEdasau|śivau|Bavatam|adya|naḥ||agnau|agniḥ|carati|praviṣṭa̍ iti pra - viṣṭaḥ|RuṣIṇAm|putraḥ|adhirAja̍ ityadhi̍ - rAjaḥ|Eṣaḥ||svAhAkRutyEti# svAhA - kRutya|brahma̍ṇA|tE|juhOmi|mA|dEvAnA̱m|mithuyA|kaḥ|BAgadhEyamiti̍# BAga - dhEya̱m||13 (31) (Bavata̍ - mEkatriṃśacca)̍ (A7)",
+      "samhita": "naḥ samanasau̍ samOkasAvarEpasau̱|mA̍ yajñaṃ hiṃsiṣṭaM̍ mA yajñapatiM̍ jAtavEdasau śivau Bavatamadya̍ naḥ||agnAvagniśca̍rati̍ praviṣṭa̍ RuṣIṇAM̍ putrO adhirAja̍ Eṣaḥ|svAhAkRutya brahmaṇA̍ tE juhOmi mA dEvAnA̱M mithuyA karBAgadhEya̱M||13̍ (Bavata-mEka̍triṃśacca)̍",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.8.1",
+      "chapter": "1.3",
+      "padam": "- Padam Eti|dadE|Rutasya̍|tvA|dEvahaviriti̍# dEva - haviḥ|pAśEna|Eti̍|raBE|dhaṛṣa̍|mAnu̍ṣAn|adBya̍ ityat̍ - Byaḥ|tvA|OṣadhIBya̍ ityOṣadhi̍ - Byaḥ|prEti|ukṣAmi|apAm|pEruḥ|asi|svAttam|cit|sadE̍vamiti̍ sa - dEvam|havyam|Apaḥ|dEvIḥ|svada̍ta|Enam|samiti̍|tE|prAṇa̍ iti# pra - anaḥ|vAyunA̱|gacCatAm|samiti|yaja̍traiḥ|a~ggA̍ni|samiti̍|yajñapa̍tiriti̍# yajña - patiḥ|AśiṣEtyA̱ - śiṣA̱|GRutEna|aktau|paśum|trAyEthAm|rEva̍tIḥ|yajñapa̍timiti̍# yajña - patim|priyadhEti# priya - dhA|Eti|viśata|urO̍ iti|antarikṣa|sajUriti̍# sa - jUḥ|dEvEna|14̍ (50)",
+      "samhita": "A dada̍ Rutasya# tvA dEvahaviḥ pAśEnA&&raBE̍ dhaṛṣA mAnuṣAnadByastvauṣa̍dhIByaḥ̍ prOkṣA̱myapAM pErurasi̍ svAttaM cith sadEvaṃ̍ havyamApO# dEvIḥ svadatainaṃq̍ saM tE̱ prAṇO vAyunA# gacCatAṃq saM ~Myajatraira~ggA̍ni̍ saM ~MyajñapatirAśiṣA̍# GRutEnAktau paśuM trAyEthAṃq̍ rEvatIr̍ yajñapatiM̍ priyadhA&&* viśatOrO̍# antarikṣa sajUr dEvEna - [ ] 14",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.8.2",
+      "chapter": "1.3",
+      "padam": "- Padam vAtEna|asya|haviṣa̍ḥ|tmanA̱|yaja|samiti̍|asya|tanuvA̱|Bava|vaṛṣI̍yaḥ|vaṛṣI̍yasi|yajñE|yajñapa̍timiti̍# yajña - patim|dhAḥ|pRuthivyAḥ|sampRuca iti# sam - pRucaḥ|pAhi|nama̍ḥ|tE|AtAnEtyA̱̍ - tAna|anarvA|prEti|ihi|GRutasya̍|kuqlyAm|anviti̍|saha|prajayEti̍# pra - jayA̱|saha|rAyaḥ|pOṣEṇa|Apa̍ḥ|dEvIḥ|śuddhAyuva̍ iti# śuddha - yuvaḥ|śuddhAḥ|yUyam|dEvAn|Uḍhvam|śuddhAḥ|vayam|pariviṣṭA̍ iti pari# - viṣṭAḥ|parivEṣṭAra iti# pari - vEṣṭAraḥ|vaḥ|BUyAsma||15̍ (44) (dEvana - catuścatvAriṃśacca)̍ (A8)",
+      "samhita": "vAtEnAsya̍ haviṣastmanA# yaja samasya̍ tanuvA# Bava vaṛṣIyO̍ vaṛṣIyasi̍ yajñE yajñapatiM̍ dhAḥ pRuthivyAḥ̍ saMpRucaḥ̍ pAhi namasta̍ AtAnA&narvA prEhi# GRutasya# kuqlyAmanu# saha prajayA# saha rAyaspOṣEṇA &&pO# dEvIḥ śuddhAyuvaḥ śuddhA yUyaM dEvAṃ U̱ḍhvaṃ śuddhA vayaM pariviṣṭAḥ̍ parivEṣṭArO# vO BUyAsma||15 (dEvana-catuścatvAriṃśacca)̍",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.9.1",
+      "chapter": "1.3",
+      "padam": "- Padam vAk|tE|Eti|pyAyatAm|prAṇa̍ iti# pra - anaḥ|tE|Eti|pyAyatAm|cakṣu̍ḥ|tE|Eti̍|pyAyatAm|śrOtra̱m|tE|Eti̍|pyAyatAm|yA|tE|prAṇAniti̍# pra - anAn|śuk|jagAma|yA|cakṣu̍ḥ|yA|śrOtra̱m|yat|tE|krUram|yat|Asthi̍tamityA̍ - sthitam|tat|tE|Eti|pyAyatAm|tat|tE|EtEna̍|śundhatAm|nABi̍ḥ|tE|Eti̍|pyAyatAm|pAyuḥ|tE|Eti̍|pyAyatAm|śuddhAḥ|caritrA̱ḥ|śam|adBya̍ ityat̍ - Byaḥ|16 (50)",
+      "samhita": "vAkta A pyAyatAM̍ prAṇasta A pyAyatAM̍ cakṣusta̍ A pyAyatAṅq̍ śrOtraM̍ ta A pyAyatAM̍ ~MyA tE̱ prAṇA~jCugjagAma yA cakṣuryA śrOtraM ~MyattE̱ krUraM ~MyadAsthitaM̍ tatta A pyAyatAM̍ tatta# EtEna# śundhatAM nABista̍ A pyAyatAM̍ pAyusta A pyAyatAṃ̍ śuddhAścaritrAḥ śamadByaḥ - [ ] 16",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.9.2",
+      "chapter": "1.3",
+      "padam": "- Padam śam|OṣadhIBya̍ ityOṣAdha̍ - Byaḥ|śam|pRuthivyai|śam|ahO̱ByAmityahaḥ̍ - ByAm|OṣadhE|trAya̍sva|Enam|svadhi̍ta̍ iti sva - dhitE|mA|Enam|hiṃqsIḥ|rakṣasAm|BAgaḥ|asi|idam|aham|rakṣa̍ḥ|adhamam|tama̍ḥ|nayAmi|yaḥ|asmAn|dvEṣṭi̍|yam|ca|vayam|dviṣmaḥ|idam|Enam|adhamam|tama̍ḥ|nayAmi|iṣE|tvA|GRutEna̍|dyAvApRuthivI̍ iti# dyAvA - pRuthivI|prEti|UrṇvAthAm|acCi̍nnaḥ|rAya̍ḥ|suvIra̍ iti# su - vIraḥ|uru|antari̍kṣam|anviti̍|ihi|vAyO̍ iti|vIti̍|ihi̍ ( )|stOkAnA̱m|svAhA̱|UrddhvanaBasamityUrddhva̍ - naBasam|mArutam|gacCatam||17 (55)",
+      "samhita": "śamOṣadhIByaḥ̍ śaM pRuthivyai̍ śamahO̱ByA-mOṣadhE̍ trAyasvainaṅq̍ svadhitE̍ mainaṃ# hiṃsI rakṣasAM̍ BAgO&sIdamahaṃ̍ rakṣO&dhamaM̍ tamO# nayAmi yO̱&smAn dvEṣṭi yaM ca# vayaM dviṣma idamEnamadhamaM̍ tamO# nayAmIṣE tvA# GRutEna# dyAvApRuthivI prOrṇvAthA-macCi̍nnO̍ rAyaḥ̍ suvIra# urvantari̍kṣamanvi̍hi̍ vAyO vIhi# ( ) stOkAnAṅq svAhOrddhvanaBasaM̍ mArutaM gacCataM||17̍",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.10.1",
+      "chapter": "1.3",
+      "padam": "- Padam samiti|tE|mana̍sA|mana̍ḥ|samiti̍|prAṇEnEti̍# pra - anEna|prAṇa̍ iti# pra - anaḥ|juṣṭa̱m|dEvEByaḥ|havyam|GRutavaditi̍# GRuta - vat|svAhA̱|aindraḥ|prAṇa iti# pra - anaḥ|a~ggEa~gga̍ itya~ggE̱ - a~ggE|nIti|dEddhyat|aindraḥ|apAna̍ ityapa̍ - anaḥ|a~ggEa~gga̍ itya~ggE̱ - a~ggE|vIti|bOBuvat|dEva̍|tvaṣṭaḥ|BUri̍|tE|saṃsamiti̍ saM - sam|Etu|viṣurUpA̍ iti viṣu# - rUpAḥ|yat|salakṣmAṇa̍ iti sa - lakṣmAṇaḥ|Bavatha|dEvatrEti̍# dEva - trA|yanta̱m|avasE|saKA̍yaḥ|anviti̍|tvA|mAtA|pitaraḥ̍|madantu|śrIḥ|asI|agniḥ|tvA|śrIṇAtu|Apa̍ḥ|samiti̍|ariṇann|vAta̍sya|18̍ (50)",
+      "samhita": "saM tE manasA̍ manaḥq saM prAṇEna# prAṇO juṣṭaM̍ dEvEByO# havyaM GRutavath svAhaindraḥ prAṇO a~ggEa~ggE̍ ni dE̱ddhyadaindrO# &pAnO a~ggEa~ggE̍ vi bOBuvaddEva̍# tvaṣṭarBUri# tE saṃsamEtu̍ viṣurUpA̍ yath salakṣmAṇO̍ Bavatha̍ dEvatrA yantamavasE̍ saKAyO&nu# tvA mAtA pitarO# madantu śrIrasyagnistvA̱̍ śrIṇAtvApaḥ samariṇan̍ vAtasya-[̍ ] 18",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.10.2",
+      "chapter": "1.3",
+      "padam": "- Padam tvA|dhrajyai̱|pUṣṇaḥ|raṅhyai̱|apAm|OṣadhInAm|rOhi̍ṣyai|GRutam|GRutapAvAna̍ iti# GRuta - pAvAnaḥ|pibata|vasA̱m|vasApAvAna iti# vasA - pAvAnaḥ|pibata|antarikṣasya|haviḥ|asi|svAhA̱|tvA|antari̍kṣAya|diśa̍ḥ|pradiśa̍ iti# pra - diśaḥ|Adiśa̍ ityA̱ - diśaḥ|vidiśa̍ iti# vi - diśaḥ|uddiśa̍ ityut̍ - diśaḥ|svAhA̱|digBya̍ iti# dik - Byaḥ|namaḥ|digBya̍ iti# dik - Byaḥ||19 (28) (vAtasyA̍ - ṣṭAviṃśatiśca)̍ (A10)",
+      "samhita": "tvA dhrajyai# pUṣṇO raṅhyA# apAmOṣadhInAṃq̍ rOhiṣyai̍ GRutaM GRutapAvAnaḥ̍ pibata vasA̱M ~MvasApAvAnaḥ pibatA&ntarikṣasya̍ havirasi̍ svAhA̱ tvA&ntarikṣAya̍ diśaḥ̍ pradiśa# AdiśO# vidiśa# uddiśaḥ svAhA# digByO namO# digByaḥ||19 (vAtasyA-ṣṭAviṃ̍śatiśca)̍",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.11.1",
+      "chapter": "1.3",
+      "padam": "- Padam samudram|gacCa|svAhA̱|antarikṣam|gacCa|svAhA̱|dEvam|savitAra̱m|gacCa|svAhA̱|ahOrAtrE̍ ityahaḥ̍ - rAtrE|gacCa|svAhA̱|mitrAvaruṇAviti̍# mitrA - varuṇau|gacCa|svAhA̱|sOma̱m|gacCa|svAhA̱|yajñam|gacCa|svAhA̱|CandAṃ̍si|gacCa|svAhA̱|dyAvA̍pRuthivI̍ iti dyAvA̱ - pRuthivI|gacCa|svAhA̱|naBaḥ|divyam|gacCa|svAhA̱|agnim|vaiśvAnaram|gacCa|svAhA̱|adBya̍ ityat̍ - Byaḥ|tvA|OṣadhIBya̍ ityOṣadhi̍ - Byaḥ|manaḥ|mE|hArdi̍|yacCa|tanUm|tvaca̱m|putram|naptA̍ram|aśIya|śuk|asi̍ ( )|tam|aBIti|śOca|yaḥ|asmAn|dvEṣṭi̍|yam|ca|vayam|dviṣmaḥ|dhAmnO̍# dhAmna iti dhAmnaḥ̍ - dhAmnaḥ|rAjann|itaḥ|varuṇa|naḥ|mu~jca|yat|Apaḥ|aGni̍yAḥ|varu̍ṇa|iti̍|śapA̍mahE|tataḥ̍|varuṇa|naḥ|mu~jca||20̍ (76) (asi - ṣaḍviṃśatiśca̍ )(A11)",
+      "samhita": "samudraM gacCa̍ svAhA&ntarikṣaM̍ gacCa svAhA# dEvaṃ savitAra̍M̍ gacCa svAhA&hOrAtrE̍ gacCa̍ svAhA# mitrAvaruṇau̍ gacCa svAhA sOmaM̍ gacCa svAhA# yajñaM gacCa̍ svAhA CandAṃsi̍ gacCa svAhA dyAvApRuthivI̍ gacCa̍ svAhA naBO# divyaM gacCa̍ svAhA&gniM ~Mvai̱śvAnaraM gacCa̍ svAhA&dByastvauṣadhIByO̍ manO# mE hArdi# yacCa tanUM tvacaM̍ putraM naptAramaśIya̍ śugasi̍ ( ) tamaBi śOca̍ yO̱&smAn dvEṣṭi yaM ca# vayaM dviṣmO dhAmnOdhAmnO̍ rAjannitO varuṇa̍ nO mu~jca yadApO aGniyA̍ varuṇEti śapAmahE̍ tatO# varuṇa nO mu~jca||20",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.12.1",
+      "chapter": "1.3",
+      "padam": "- Padam haviṣmatIḥ|imAḥ|Apa̍ḥ|haviṣmAn̍|dEvaḥ|addhvaraḥ|haviṣmAn̍|Eti̍|vivAsati|haviṣmAn̍|astu|sUrya̍ḥ||agnEḥ|vaḥ|apa̍nnagRuhasyEtyapa̍nna̍ - gRuhasya|sadasi|sAdayAmi|sumnAya̍|sumninIḥ|sumnE|mA|dhatta|indrAgniyOritI̱ndra̍ - agniyOḥ|BAgadhEyIriti# BAga - dhEyI̱ḥ|stha|mitrAvaruṇayOriti̍# mitrA - varuṇayOḥ|BAgadhEyIriti̍# BAga - dhEyI̱ḥ|stha|viśvEṣAm|dEvAnA̱m|BAgadhEyIriti̍# BAga - dhEyI̱ḥ|stha|yajñE|jAgRuta||21 (34) (haviṣmatI̍ - ścatustriṃśat)̍ (A12)",
+      "samhita": "haviṣmatIrimA̍ ApO# haviṣmA̱n dEvO addhvarO̍ haviṣmAṃq A vivAsati̍ haviṣmAṃ# astu sUryaḥ||agnErvO̍ &pannagRuhasya̍ sadasi̍ sAdayAmi sumnAya# sumninIḥ sumnE mA# dhattEndrAgniyOr BAgadhEyI̱ḥ̍ stha mitrAvaruṇayOr̍ BAgadhEyI̱ḥ stha viśvEṣAM̍ dEvAnA̱M BAgadhEyI̱ḥ stha yajñE jAgRuta||21̍ (haviṣmatI-ścatu̍striṃśat)̍",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.13.1",
+      "chapter": "1.3",
+      "padam": "- Padam hRudE|tvA|manasE|tvA|divE|tvA|sUryA̍ya|tvA|Urddhvam|imam|addhvaram|kRudhi|divi|dEvEṣu̍|hOtrA̱ḥ|yacCa|sOma̍|rAjann|Eti̍|ihi|avEti̍|rOha|mA|BEḥ|mA|samiti̍|vikthAḥ|mA|tvA|hiṃqsiṣam|prajA̍ iti# pra - jAḥ|tvam|upAvarOhEtyu̍pa̍ - avarOha|prajA̍ iti# pra - jAḥ|tvAm|upAvarOhantvityu̍pa̍ - avarOhantu|śRuṇOtu̍|agniḥ|samidhEti̍# sam - idhA̱|hava̱m|mE|śRuṇvantu|Apa̍ḥ|dhiṣaṇA̱ḥ|ca|dEvIḥ||śRuṇOta̍|grAvAṇaḥ|viduṣa̍ḥ|nu|22̍ (50)",
+      "samhita": "hRudE tvA manasE̍ tvA divE tvA sUryAya̍ tvOrddhvamimamaddhvaraM̍ kRudhi̍ divi dEvEṣu hOtrA# yacCa sOma# rAjannEhyava# rOha mA BErmA saM ~MvikthA̍ mA tvA# hiṃsiṣaM prajAstvamupAvarOha̍ prajAstvAmupAvarOhantu̍ śRuṇOtvagniḥ samidhA havaM̍ mE śRuṇvantvApO# dhiṣaṇA̱śca dEvIḥ|śRuṇOta# grAvAṇO viduṣO nu - [ ] 22",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.13.2",
+      "chapter": "1.3",
+      "padam": "- Padam yajñam|śRuṇOtu|dEvaḥ|savitA|hava̱m|mE||dEvI̱ḥ|Apaḥ|apAm|napAt|yaḥ|Urmiḥ|haviṣya̍ḥ|indriyAvAnitI̱ndriya̍ - vAn|madintamaḥ|tam|dEvEBya̍ḥ|dEvatrEti̍# dEva - trA|dhatta|śukram|śukrapEBya iti# śukra - pEByaḥ|yEṣA̱m|BAgaḥ|stha|svAhA̱|kAṛṣi̍ḥ|asi|apEti̍|apAm|mRuddhram|samudrasya̍|vaḥ|akṣi̍tyai|uditi̍|nayE||yam|agnE|pRuthsviti̍# pRut - su|martya̱m|Avaḥ|vAjE̍ṣu|yam|junAḥ||saḥ|yantA̱|śaśva̍tIḥ|iṣa̍ḥ||23̍ (47) (nu - saptacatvAriṃśacca)̍ (A13)",
+      "samhita": "yajñaṃ śRuṇOtu# dEvaḥ savitA̍ havaM̍ mE|dEvIrApO̍ apAM napAdya Urmirhaviṣya̍# indriyAvA̱n madintamastaM̍ dEvEByO# dEvatrA dhatta̍ śukraṃ śukrapEByO̍ yEṣA̱M BAgaḥ stha svAhA kAṛṣirasyapA&pAM̍ mRuddhraṃ samudrasya̍ vO&kṣityA̍ unnayE|yama̍gnE̍ pRuthsu martyamAvO vAjEṣu̍ yaM junAḥ|sa yantA śaśvatIriṣa̍ḥ||23̍ ( nu-saptacatvAriṃśacca)̍",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.14.1",
+      "chapter": "1.3",
+      "padam": "- Padam tvam|agnE|rudraḥ|asuraḥ|mahaḥ|divaḥ|tvam|śardha̍ḥ|mAru̍tam|pRukṣaḥ|IśiṣE||tvam|vAtai̱ḥ|aruṇaiḥ|yAsi|śa~ggaya̍ iti# śaM - gayaḥ|tvam|pUṣA|vidhata iti# vi - dhataḥ|pAsi|nu|tmanA̱||Eti|vaḥ|rAjA̍nam|addhvarasya̍|rudram|hOtA̍ram|satyayajamiti̍# satya - yaja̱m|rOdasyOḥ||agnim|purA|tanayitnOḥ|acittA̱t|hira̍ṇyarUpamiti̍ hiraṇya̍ - rUpam|avasE|kRuṇuddhvam||agniḥ|hOtA̱|nIti̍|sasAda|yajI̍yAn|upastha̍ ityupa - sthE|mAtuḥ|suraBau|u|lOkE||yuvA̱|kaviḥ|puruniṣṭha iti# puru - niṣṭhaḥ|24 (50)",
+      "samhita": "tvamagnE̍ rudrO asurO̍ mahO divastvaṃ śarddhO mArutaM̍ pRukṣa IśiṣE|tvaM̍ ~MvAtairaruṇairyA̍si̍ śaMgayastvaM pUṣA vidhataḥ̍ pAsi̍ nutmanA̱||A vO rAjAnamaddhvarasya̍# rudraṃ hOtAraṃ̍ satyayajaṃq rOdasyOḥ|agniM̍ purA tanayitnO̍ racittAddhiraṇyarUpamava̍sE̍ kRuṇuddhvaM||agniṛhOtA ni ṣasAdA̍ yajIyAnupasthE̍# mAtuḥ suraBAvu̍# lOkE|yuvA# kaviḥ puruniṣṭha̍ - [ ] 24",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.14.2",
+      "chapter": "1.3",
+      "padam": "- Padam RutAvEtyRutA - vA|dhartA|kRuṣṭInAm|uta|maddhyE̱|iddhaḥ||sAddhvIm|akaḥ|dEvavItimiti̍# dEva - vItim|naḥ|adya|yajñasya|jihvAm|avidAma|guhyA̱m||saḥ|Ayu̍ḥ|Eti̍|agAt|suraBiḥ|vasA̍naḥ|BadrAm|akaḥ|dEvahU̍timiti̍# dEva - hUtim|naḥ|adya||akrandat|agniḥ|stanayann̍|iva|dyauḥ|kṣAma̍|rEri̍hat|vIrudha̍ḥ|sama~jjanniti̍# saM - a~jjann||sadyaḥ|jajñAnaḥ|vIti|hi|Im|iddhaḥ|aKya̍t|Eti̍|rOda̍sI̍ iti|BAnunA̱|BAti|antaḥ||tvE̍ iti|vasU̍ni|purvaṇIkEti̍# puru - anIka|25 (50)",
+      "samhita": "RutAvA# dhartA kRuṣṭInAmuta̍ maddhya# iddhaḥ||sAddhvImakar̍ dEvavItiM̍ nO adya yajñasya# jihvAmavidAma̍ guhyA̱M|sa AyurA&gA̱th suraBirvasAnO̍ BadrAmakar̍ dEvahUtiM̍ nO adya||akrandadagniḥ̍ stanayanniva̍ dyauḥ kṣAmA rErihadvIrudha̍ḥ̍ sama~jjann|sadyO jajñAnO̍ vi hImiddhO aKyadA rOdasI̍ BAnunA# BAtyantaḥ||tvE vasUni̍ purvaṇIka-[ ] 25",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.14.3",
+      "chapter": "1.3",
+      "padam": "- Padam hOtaḥ|dOṣA|vastO̱ḥ|Eti|IrirE|yajñiyA̍saḥ||kṣAma̍|iva|viśvA̱|Buva̍nAni|yasminn̍|samiti̍|sauBa̍gAni|dadhirE|pAvakE||tuBya̱m|tAḥ|a~ggirastamEtya̍~ggiraḥ̍ - tama|viśvA̱ḥ|sukṣitaya iti# su - kṣitayaḥ|pRutha̍k||agnE̱|kAmA̍ya|yEmirE||aśyAma̍|tam|kAma̱m|agnE|tava̍|UtI|aśyAma̍|rayim|rayiva̍ iti# rayi - vaḥ|suvIramiti# su - vIra̱m||aśyAma|vAja̱m|aBIti̍|vAjaya̍ntaḥ|aśyAma̍|dyumnam|ajara|ajara̱m|tE||śrEṣṭha̱m|yaviṣṭha|BArata|agnE̱|dyumantamiti̍# dyu - manta̱m|Eti|Bara||26̍ (50)",
+      "samhita": "hOtardOṣA vastOrErirE̍ yajñiyAsaḥ|kṣAmE̍va̍ viśvA BuvanAni̍ yasminth saṃ sauBagAni̍ dadhirE pAvakE||tuByaM̍ tA a~ggirastama̍ viśvA̱ḥ sukṣitayaḥ pRuthak|agnE̍ kAmAya̍ yEmirE||aśyAma taM kAmamagnE̍ tavOtyaśyAma̍# rayiṃ rayivaḥ̍ suvIra̱M|aśyAma vAjamaBi̍ vAjayantO̍ &śyAma# dyumnamajarAjara̍M̍ tE||śrEṣṭhaM̍ ~Myaviṣṭha BAratAgnE̱ dyumantamA Bara|26̍",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.14.4",
+      "chapter": "1.3",
+      "padam": "- Padam vasO iti|puruspRuhamiti̍# puru - spRuha̱m|rayim||saḥ|śvitAnaḥ|tanyatuḥ|rOcanasthA iti# rOcana - sthAḥ|ajarEBiḥ|nAna̍dadBiriti̍ nAnadat̍ - Biḥ|yaviṣṭhaḥ||yaḥ|pAvakaḥ|purutama̍ iti# puru - tamaḥ|purUṇi̍|pRuthUni̍|agniḥ|anuyAtItya̍nu̍ - yAti|Barvann̍||Ayu̍ḥ|tE|viśvata̍ḥ|dadhat|ayam|agniḥ|vara̱ṇyaḥ||puna̍ḥ|tE|prAṇa̍ iti# pra - anaḥ|Eti|ayati|parEti̍|yakṣma̱m|suvAmi|tE||AyurdA̍ ityAyuḥ̍ - dAḥ|agnE|haviṣaḥ|juṣAṇaḥ|GRutapra̍tIka̍ iti# GRuta - pratIkaḥ|GRutayOniriti̍# GRuta - yOniḥ|Edhi||GRutam|pItvA|madhu|cAru̍|gavya̱m|pitA|iva|putram|aBIti̍|27̍ (50)",
+      "samhita": "vasO# puruspRuhaṃ# rayiM||sa śvitAnasta̍nyatU̍ rOcanasthA̍ ajarEBir̍ nAnadadBiryavi̍ṣṭhaḥ|yaḥ̍ pAvakaḥ̍ purutama̍ḥ̍ purUṇi# pRuthUnyagniranuyAti̍ Barvann||Ayu̍ṣṭE̍ viśvatO# dadhadayamagnir varE̱ṇyaḥ|punastE̍ prAṇa A&yati̍ parA yakṣmaṃ# suvAmi tE||AyurdA agnE̍ haviṣO# juṣAṇO GRutapratIkO̍ GRutayOnirEdhi|GRutaM̍ pItvA madhu cAru gavyaM̍ pitEva# putramaBi - [ ] 27",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.14.5",
+      "chapter": "1.3",
+      "padam": "- Padam rakṣatAt|imam||tasmai̱|tE|pratiharyata̍ iti# prati - haryatE|jAta̍vEda̍ iti jAta# - vEdaḥ|vicaṛṣaṇa̍ iti vi - carq.ṣaṇE||agnE̱|janAmi|suṣṭutimiti̍# su - stutim||divaḥ|parIti|prathamam|jajñE|agniḥ|asmat|dvitIya̱m|parIti̍#|jAtavE̍dA̍ iti# jAta - vEdAḥ||tRutIya̱m|aPsvityap̍ - su|nRumaṇA iti# nRu - manA̱ḥ|ajasram|indhA̍naḥ|Enam|jaratE|svAdhIriti̍# sva - dhIḥ||śuciḥ|pAvaka|vandya̍ḥ|agnE̱|bRuhat|vIti̍|rOcasE||tvam|GRutEBi̍ḥ|Ahu̍ta̍ ityA - hutaḥ||dRuśAnaḥ|rukmaḥ|urvyA|vIti|adyaut|durmaṛṣamiti̍# duḥ - maṛṣa̱m|Ayuḥ|śriyE|rucAnaḥ||agniḥ|amRuta̍ḥ|aBavat|vayO̍Biriti̍ vayaḥ̍ - Biḥ|28 (50)",
+      "samhita": "rakṣatAdimaM|tasmai̍# tE pratiharyatE̍ jAtavEdO̍ vicaṛṣaṇE|agnE̍ janAmi̍ suṣṭutiM||divaspari# prathamaM jajñE̍ agnirasmad dvitIyaM pari# jAtavEdAḥ|tRutIya̍maPsu̍ nRumaṇA ajasramindhA̍na̍ EnaM jaratE svAdhIḥ||śuciḥ̍ pAvaka vandyO&gnE# bRuhadvi rOcasE|tvaM̍ GRutEBirAhutaḥ||dRuśAnO̍ rukma urvyA vyadyaud-durmaṛṣamAyu̍ḥ̍ śriyE rucAnaḥ|agniramRutO̍# aBavadvayOBir̍ - [ ] 28",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.14.6",
+      "chapter": "1.3",
+      "padam": "- Padam yat|Enam|dyauḥ|ajanayat|surEtA̍ iti# su - rEtA̱ḥ||Eti|yat|iṣE|nRupatimiti̍# nRu - pati̱m|tEjaḥ|Ana̍ṭ|śuci̍|rEta̍ḥ|niṣi̍ktamiti̍ ni - siktam|dyauḥ|aBIkE̱||agniḥ|śardha̱m|anavadyam|yuvAnam|svAdhiyamiti̍# sva - dhiya̱m|janayat|sUdayat|ca||saḥ|tEjI̍yasA|mana̍sA|tvOta̍ḥ|uta|śikṣa|svapatyasyEti̍# su - apatyasya|śikṣOḥ||agnE̱|rAyaḥ|nRuta̍masyEti̍ nRu - tamasya|praBUtAviti̍ pra - BUtau|BUyAma|tE|suṣṭutaya̍ iti# su - stutayaḥ|ca|vasva̍ḥ||agnE̱|saha̍ntam|Eti̍|Bara|dyumnasya̍|prAsahEti̍# pra - sahA̱|rayim||viśvA̱ḥ|yaḥ|29 (50)",
+      "samhita": "yadEnaM̍ dyaurajanayath̍ surEtA̱ḥ||A yadiṣE nRupatiM tEja AnaṭCuci rEtO niṣiktaM̍ dyauraBIkE̱|agniḥ śarddhamanavadyaM̍ ~MyuvAnaṅ̍ svAdhiyaM̍ janayath sUdayacca||sa̍ tEjIyasA̍ manasA̍ tvOta# uta śikṣa̍ svapatyasya# śikṣOḥ|agnE# rAyO nRutamasya̍ praBUtau̍ BUyAma# tE suṣṭutayaśca̍ vasvaḥ||agnE̍ sahantamA̍ Bara̍ dyumnasya# prAsahA# rayiM|viśvA ya - [ ] 29",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.14.7",
+      "chapter": "1.3",
+      "padam": "- Padam carq.ṣaṇIḥ|aBIti|AsA|vAjE̍ṣu|sAsaha̍t||tam|agnE|pRutanAsahamiti̍# pRutanA - saha̱m|rayim|sahasvaḥ|Eti|Bara||tvam|hi|satyaḥ|adBu̍taḥ|dAtA|vAja̍sya|gOma̍ta̍ iti gO - mataḥ||ukṣAnnAyEtyukṣa - annAya|vaśAnnAyEti# vaśA - annAya|sOmapRuṣṭhAyEti̍ sOma# - pRuṣṭhAya|vEdhasE̱||stOmai̱ḥ|vidhEma|agnayE̱||vadmA|hi|sUnO iti|asi̍|admasadvEtya̍dma̍ - sadvA̱|cakrE|agniḥ|januṣA̱|ajma|anna̱m||saḥ|tvam|naḥ|Urjasana̍ ityu̱rja - sanE|Urja̱m|dhAḥ|rAjA̱|iva|jEḥ|avRukE|kṣEṣi|antaḥ||agnE̱|AyUṃṣi|30̍ (50)",
+      "samhita": "ścarq.ṣaṇIraByA̍sA̍ vAjEṣu̍ sAsahat||tama̍gnE̍ pRutanAsahaṃ# rayiṃ sahasva̍ A Bara|tvaṃ̍ hi satyO adButO̍ dAtA vAjasya̍ gOmataḥ||ukṣAnnA̍ya̍ vaśAnnAya̍ sOmapRuṣṭhAya̍ vEdhasE̱|stOmai̱r vidhEmA&gnayE̱||vadmA hi sUnO̍ asyadmasadvA̍# cakrE agnir januṣA &jmA&nna̱M|sa tvaM na# Urjasana UrjaM̍ dhA rAjEva̍ jEravRukE kṣE̱ṣyantaḥ||agna AyUṃṣi̍ - [ ] 30",
+      "has_samhita_match": true
+    },
+    {
+      "verse_id": "1.3.14.8",
+      "chapter": "1.3",
+      "padam": "- Padam pavasE|Eti|suva|Urja̱m|iṣa̱m|ca|naḥ||ArE|bAdhasva|ducCunA̱m||agnE̱|pava̍sva|svapA̍ iti# su - apA̱ḥ|asmE iti|varca̍ḥ|suvIryamiti̍# su - vIrya̱m||dadhat|pOṣa̱m|rayim|mayi̍||agnE̱|pAvaka|rOciṣA̱|mandrayA̱|dEva|jihvayA̱||Eti̍|dEvAn|vakṣi|yakṣi̍|ca||saḥ|naḥ|pAvaka|dIdivaḥ|agnE̱|dEvAn|iha|Eti̍|vaha||upEti̍|yajñam|haviḥ|ca|naḥ||agniḥ|śuci̍vratatama̍ iti śucivrata̍ - tamaḥ|śuciḥ|vipra̍ḥ|śuci̍ḥ̍ ( )|kaviḥ||śuciḥ|rOcatE|Ahu̍ta̍ ityA - hutaḥ||uditi|agnE|śuca̍yaḥ|tava̍|śukrAḥ|BrAja̍ntaḥ|IratE||tava̍|jyOtIṃ̍ṣi|arcaya̍ḥ||31̍ (64) (puruniṣṭhaḥ - purvaṇIka̍ - BarA - &Bi - vayOBi̍ - rya - Ayuṃṣi̍ - vipraḥ śuci - ścaturdaśa̍ ca) (A14) Prasna Korvai with starting Padams of 1 to 14 Anuvaakams : - (dEvasya# - rakṣOhaṇO# - viBU - stvaṃ sOmA - &tyanyAnagA̱M - pRuthivyA - iṣE tvA - &&dadE̍ vAkta - saMtE# - samudraṃ - haviṣmatI̍ - rhRudE - tvamagnErudra̍ - ścaturdaśa|)̍ Korvai with starting Padams of 1, 11, 21 śeries Of Panchaatis : - (dEvasya# - gamadhyE# - haviṣmatIḥ̍ - pavasa - Ekatriṃśat|)̍ First and Last Padam of ṭhird Prasnam: - (dEvasyA - &rcayaḥ)||hari̍ḥ̍ OM||||kRuṣṇa yajurvEdIya taittirIya saMhitAyAM pada pAṭhE prathamakAṇḍE tRutIyaḥ praśnaḥ samAptaḥ||",
+      "samhita": "pavasa A suvOrjamiṣaM̍ ca naḥ|ArE bAdhasva̍ ducCunA̱M||agnE pavasva̍ svapA# asmE varcaḥ̍ suvIrya̱M|dadhatpOṣaṃ# rayiM mayi||agnE̍# pAvaka rOciṣA# mandrayA# dEva jihvayA̱|A dEvAn. vakṣi̍ yakṣi# ca||sa naḥ̍ pAvaka dIdivO&gnE# dEvAṃ ihA vaha|upa̍# yajñaṃ haviśca# naḥ||agniḥ śucivratatamaḥ̍ śucir vipraḥ śuciḥ̍ ( ) kaviḥ|śucI# rOcata Ahutaḥ||uda̍gnE̍ śucayastava̍# śukrA BrAjanta̍ IratE|tava jyOtIṅṣyarcaya̍ḥ||31̍ (puruniṣṭhaḥ-purvaṇIka-BarA-&Bi-vayO̍Bir-ya-AyUṃ̍ṣi̍ - vipraḥ śuci-ścaturdaśa̍ ca) (A14) praśna korvai with starting padams of 1 to 14 anuvAkams :- (dEvasya-rakṣOhaṇO̍# -viBU-stvaṃ sOmA- &tyanyAnagA̱M - pRuthivyA -iṣE tvA - &&dadE̍ - vAkta-santE-̍ samudraṃ- haviṣmatIṛ-hRudE-̍ tvamagnE̍ rudra-ścaturdaśa̍ ) korvai with starting padams of 1, 11, 21 series of pa~jcAtis :- (dEvasya-gamadhyE̍-haviṣma̍tIḥ-pavasa-Eka̍triṃśat)̍ first and last padam of third praśnam:- (dEvasyA-rcayaḥ̍ )||hariḥ̍ OM||||kRuṣṇa yajurvEdIya taittirIya saMhitAyAM prathamakAṇḍE tRutIyaḥ praśnaḥ samAptaḥ||OM namaḥ paramAtmanE, śrI mahAgaṇapatayE namaḥ, śrI guruByO namaḥ|hariḥ OM||1.4 prathamakAṇḍE caturtthaḥ praśnaḥ-",
+      "has_samhita_match": true
+    }
+  ]
+}

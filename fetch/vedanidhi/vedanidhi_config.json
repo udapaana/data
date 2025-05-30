@@ -1,0 +1,39 @@
+{
+  "base_url": "https://vedanidhi.iiit.ac.in/api",
+  "endpoints": {
+    "browse": "/browse",
+    "texts": "/texts"
+  },
+  "output_base": "../vedic_texts",
+  "targets": {
+    "rigveda/shakala": {
+      "output_path": "rigveda/shakala/vedanidhi",
+      "text_ids": ["010101", "01010102", "01010103", "01010104", "01010105", "01010106", "01010107"],
+      "include_aranyaka": ["010103", "01010302", "01010303", "01010304", "01010305", "01010306", "01010307"],
+      "include_upanishad": ["010104", "01010402"]
+    },
+    "yajurveda/taittiriya": {
+      "output_path": "yajurveda/taittiriya/vedanidhi",
+      "text_ids": ["020401", "02040102", "02040103", "02040104", "02040105", "02040106"],
+      "include_brahmana": ["020402", "02040202", "02040203", "02040204", "02040205"]
+    },
+    "samaveda/kauthuma": {
+      "output_path": "samaveda/kauthuma/vedanidhi",
+      "text_ids": ["030301", "03030101", "03030102", "03030103"],
+      "include_gana": ["030303", "03030301", "03030302", "03030303", "03030304", "03030305", "03030306", "03030307", "03030308", "03030309", "03030310", "03030311", "03030312", "03030313", "03030314"],
+      "include_brahmana": ["030304", "03030402", "03030403", "03030404", "03030405", "03030406", "03030407"],
+      "include_pada": ["030305"]
+    },
+    "atharvaveda/shaunaka": {
+      "output_path": "atharvaveda/shaunaka/vedanidhi",
+      "text_ids": ["04010102", "04010103", "04010105", "04010108", "04010110", "04010112", "04010113", "04010115", "04010116", "04010117", "04010118"],
+      "include_brahmana": ["04010202", "04010203"]
+    }
+  },
+  "download_settings": {
+    "delay_seconds": 3,
+    "retry_attempts": 3,
+    "validate_json": true,
+    "output_format": "source"
+  }
+}
