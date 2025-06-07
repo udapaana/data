@@ -1,0 +1,86 @@
+# Śākala Śākhā (Rigveda) Schema
+# Based on Vedanidhi source
+
+version: 1.0
+name: rigveda_shakala
+extends: common_base
+
+metadata:
+  veda: rigveda
+  sakha: shakala
+  sources:
+    - name: vedanidhi
+      type: devanagari_json
+      accent_system: standard_vedic
+
+accents:
+  primary:
+    udatta:
+      symbol: '\'
+      description: 'High tone - marked explicitly'
+      position: after_syllable
+    anudatta:
+      symbol: '_' 
+      description: 'Low tone - marked explicitly'
+      position: after_syllable
+    svarita:
+      symbol: '='
+      description: 'Falling tone - contextual'
+      position: after_syllable
+      note: 'Usually unmarked, follows udatta automatically'
+
+  # Rigveda uses minimal marking
+  marking_style: 'conservative'
+  
+  # Phonetically intuitive markers
+  phonetic:
+    prolongation: '~'      # wavy line suggests prolonged sound
+    nasalization: '(n)'    # n sound quality
+    
+special_marks:
+  avagraha: '&'      # rare in Rigveda
+  anusvara: 'M'
+  visarga: 'H'
+  
+  # Visarga variations (phonetic)
+  visarga_variants:
+    before_ka: 'HK'   # sounds like K
+    before_pa: 'HP'   # sounds like P
+    soft: 'Hr'        # sounds like r
+
+# Source-specific conversions  
+conversions:
+  from_vedanidhi:
+    accent_map:
+      '.': '\'     # udatta
+      'ˆ': '_'      # anudatta
+    rules:
+      - 'Svarita is contextual after udatta'
+      - 'Unmarked syllables are svarita by default'
+
+examples:
+  - source: 'अग्निमीळे पुरोहितम्'
+    transliteration: 'agni\mI_Le puro\hita_m'
+    notes: 'Classic first verse of Rigveda'
+    
+  - source: 'यज्ञस्य देवमृत्विजम्'
+    transliteration: 'ya\jYasya de\vamf_tvija_m'
+    
+  - source: 'होतारं रत्नधातमम्'
+    transliteration: 'ho\tAraM ratna\DAtama_m'
+
+validation_rules:
+  - rule: minimal_marking
+    description: 'Only essential accents marked'
+    
+  - rule: svarita_implicit
+    description: 'Svarita rarely marked explicitly'
+    
+  - rule: traditional_patterns
+    description: 'Follow established Rigvedic accent patterns'
+
+notes:
+  - 'Rigveda uses the most conservative accent marking'
+  - 'Focus on udatta/anudatta distinction'
+  - 'Svarita is contextually determined'
+  - 'Vedanidhi may have incomplete accent data'

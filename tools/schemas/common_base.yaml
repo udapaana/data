@@ -1,0 +1,95 @@
+# Common Base Schema for All Vedic Texts
+# ASCII-based transliteration following Wx conventions
+
+version: 1.0
+name: vedic_common_base
+
+# Character mappings (SLP1-based)
+vowels:
+  simple:
+    a: अ
+    A: आ
+    i: इ
+    I: ई
+    u: उ
+    U: ऊ
+    f: ऋ
+    F: ॠ
+    x: ऌ
+    X: ॡ
+  diphthongs:
+    e: ए
+    E: ऐ
+    o: ओ
+    O: औ
+
+consonants:
+  velars:
+    k: क
+    K: ख
+    g: ग
+    G: घ
+    N: ङ
+  palatals:
+    c: च
+    C: छ
+    j: ज
+    J: झ
+    Y: ञ
+  retroflexes:
+    t: ट
+    T: ठ
+    d: ड
+    D: ढ
+    N: ण
+  dentals:
+    w: त
+    W: थ
+    x: द
+    X: ध
+    n: न
+  labials:
+    p: प
+    P: फ
+    b: ब
+    B: भ
+    m: म
+  semivowels:
+    y: य
+    r: र
+    l: ल
+    v: व
+    L: ळ  # vedic l
+  sibilants:
+    S: श
+    z: ष
+    s: स
+  aspirate:
+    h: ह
+
+special:
+  anusvara: M  # ं
+  visarga: H   # ः
+  avagraha: &  # ऽ
+  halanta: '*' # ्
+
+punctuation:
+  minor_pause: '|'    # pada boundary
+  major_pause: '||'   # half-verse
+  full_stop: '|||'    # verse end
+  sentence_end: '.'
+  list_separator: ','
+
+# Common validation rules
+validation:
+  # Ensure valid Sanskrit syllable structure
+  syllable_pattern: '^[kKgGNcCjJYtTdDNwWxXnpPbBmyrlvLSzsh]*[aAiIuUfFxXeEoO][MH]?$'
+  
+  # No consecutive vowels (except in specific sandhi)
+  no_vowel_clusters: true
+  
+  # Valid consonant clusters
+  valid_clusters:
+    - pattern: '[kgcjtpwW][yrlv]'  # stop + semivowel
+    - pattern: '[szS][ktwp]'      # sibilant + unvoiced stop
+    - pattern: '[mn][kgcjtdxwbp]' # nasal + stop

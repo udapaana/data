@@ -1,0 +1,208 @@
+# Udapaana Vedic Text Extension Configuration
+# Configuration for handling sakha-veda-source specific patterns in udapaana corpus
+
+# Global settings
+global:
+  default_confidence_threshold: 0.8
+  enable_pattern_discovery: true
+  preserve_unknown_patterns: true
+
+# Source detection rules
+source_detection:
+  rules:
+    # Vedanidhi sources
+    - name: "rigveda_shakala_vedanidhi"
+      conditions:
+        - type: "source_path_contains"
+          path_fragment: "rigveda/shakala/vedanidhi"
+        - type: "source_path_contains"
+          path_fragment: ".json"
+      target_scheme: "rigveda_shakala_vedanidhi"
+      confidence: 0.9
+
+    - name: "yajurveda_taittiriya_vedanidhi"
+      conditions:
+        - type: "source_path_contains"
+          path_fragment: "yajurveda/taittiriya/vedanidhi"
+        - type: "source_path_contains"
+          path_fragment: ".json"
+      target_scheme: "yajurveda_taittiriya_vedanidhi"
+      confidence: 0.9
+
+    - name: "samaveda_kauthuma_vedanidhi"
+      conditions:
+        - type: "source_path_contains"
+          path_fragment: "samaveda/kauthuma/vedanidhi"
+        - type: "source_path_contains"
+          path_fragment: ".json"
+        - type: "contains_pua"
+          enabled: true
+      target_scheme: "samaveda_kauthuma_vedanidhi"
+      confidence: 0.95
+
+    - name: "atharvaveda_shaunaka_vedanidhi"
+      conditions:
+        - type: "source_path_contains"
+          path_fragment: "atharvaveda/shaunaka/vedanidhi"
+        - type: "source_path_contains"
+          path_fragment: ".json"
+      target_scheme: "atharvaveda_shaunaka_vedanidhi"
+      confidence: 0.9
+
+    # Vedavms sources (DOCX files with Baraha encoding)
+    - name: "yajurveda_taittiriya_vedavms"
+      conditions:
+        - type: "source_path_contains"
+          path_fragment: "yajurveda/taittiriya/vedavms"
+        - type: "source_path_contains"
+          path_fragment: ".docx"
+        - type: "contains"
+          text: "Baraha"
+      target_scheme: "yajurveda_taittiriya_vedavms"
+      confidence: 0.85
+
+# Scheme-specific extensions
+schemes:
+  # Rigveda Shakala Vedanidhi
+  rigveda_shakala_vedanidhi:
+    extends: ["vedic_core"]
+    patterns:
+      accents:
+        # Standard Vedic accents in Devanagari with Unicode combining marks
+        "udatta_combining":
+          pattern: "\u0951"  # Udatta accent mark
+          position: "combining"
+          scope: "syllable"
+          maps_to: "'"
+        "anudatta_combining":
+          pattern: "\u0952"  # Anudatta accent mark
+          position: "combining"
+          scope: "syllable"
+          maps_to: "`"
+      punctuation:
+        "danda":
+          pattern: "।"
+          maps_to: "|"
+        "dvidanda":
+          pattern: "॥"
+          maps_to: "||"
+
+  # Yajurveda Taittiriya Vedanidhi
+  yajurveda_taittiriya_vedanidhi:
+    extends: ["vedic_core"]
+    patterns:
+      accents:
+        "udatta_combining":
+          pattern: "\u0951"
+          position: "combining"
+          scope: "syllable"
+          maps_to: "'"
+        "anudatta_combining":
+          pattern: "\u0952"
+          position: "combining"
+          scope: "syllable"
+          maps_to: "`"
+        "pragrhya":
+          pattern: "\u1cd2"  # Vedic tone karshana
+          position: "combining"
+          scope: "syllable"
+          maps_to: "~"
+      punctuation:
+        "danda":
+          pattern: "।"
+          maps_to: "|"
+
+  # Samaveda Kauthuma Vedanidhi (with PUA support)
+  samaveda_kauthuma_vedanidhi:
+    extends: ["vedic_core", "samaveda_pua"]
+    patterns:
+      accents:
+        "udatta_combining":
+          pattern: "\u0951"
+          position: "combining"
+          scope: "syllable"
+          maps_to: "'"
+        "anudatta_combining":
+          pattern: "\u0952"
+          position: "combining"
+          scope: "syllable"
+          maps_to: "`"
+        # PUA codes handled by samaveda_pua extension
+      punctuation:
+        "danda":
+          pattern: "।"
+          maps_to: "|"
+        "musical_pause":
+          pattern: "‖"
+          maps_to: "||"
+
+  # Atharvaveda Shaunaka Vedanidhi
+  atharvaveda_shaunaka_vedanidhi:
+    extends: ["vedic_core"]
+    patterns:
+      accents:
+        "udatta_combining":
+          pattern: "\u0951"
+          position: "combining"
+          scope: "syllable"
+          maps_to: "'"
+        "anudatta_combining":
+          pattern: "\u0952"
+          position: "combining"
+          scope: "syllable"
+          maps_to: "`"
+      punctuation:
+        "danda":
+          pattern: "।"
+          maps_to: "|"
+
+  # Yajurveda Taittiriya Vedavms (Baraha encoding)
+  yajurveda_taittiriya_vedavms:
+    extends: ["vedic_core"]
+    patterns:
+      accents:
+        # Baraha-specific accent representations
+        "udatta_post":
+          pattern: "'"
+          position: "post"
+          scope: "syllable"
+          maps_to: "'"
+        "anudatta_post":
+          pattern: "\\"
+          position: "post"
+          scope: "syllable"
+          maps_to: "`"
+        "svarita_post":
+          pattern: "^"
+          position: "post"
+          scope: "syllable"
+          maps_to: "^"
+      transformations:
+        remove_spaces_before_punct: true
+        normalize_case: "none"
+        preserve_line_breaks: true
+
+# Base extensions referenced above
+base_extensions:
+  vedic_core:
+    description: "Core Vedic accent and punctuation patterns"
+    patterns:
+      punctuation:
+        "space":
+          pattern: " "
+          maps_to: " "
+        "newline":
+          pattern: "\n"
+          maps_to: "\n"
+
+  samaveda_pua:
+    description: "Samaveda Private Use Area Unicode support"
+    # This will be handled by the built-in PUA support in vidyut-lipi
+    enabled: true
+
+# Validation settings
+validation:
+  roundtrip_required: true
+  corpus_sample_size: 100
+  manual_review_threshold: 0.95
+  export_failed_cases: true

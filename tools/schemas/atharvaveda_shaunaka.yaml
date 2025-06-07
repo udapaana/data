@@ -1,0 +1,108 @@
+# Śaunaka Śākhā (Atharvaveda) Schema
+# Based on Vedanidhi source
+
+version: 1.0
+name: atharvaveda_shaunaka
+extends: common_base
+
+metadata:
+  veda: atharvaveda
+  sakha: shaunaka
+  sources:
+    - name: vedanidhi
+      type: devanagari_json
+      accent_system: standard_vedic
+
+accents:
+  primary:
+    udatta:
+      symbol: '\'
+      description: 'High tone'
+      position: after_syllable
+    anudatta:
+      symbol: '_'
+      description: 'Low tone'
+      position: after_syllable
+    svarita:
+      symbol: '='
+      description: 'Falling tone'
+      position: after_syllable
+      note: 'Often contextual like Rigveda'
+
+  # Atharvaveda occasionally uses emphasis
+  special:
+    emphatic:
+      symbol: '!'
+      description: 'Exclamation = ritual/magical emphasis'
+      position: after_syllable
+      usage: 'rare, only in specific mantras'
+    
+  # Phonetically intuitive markers
+  phonetic:
+    whispered: '%'       # percent = partial/reduced voice
+    loud: '!'           # exclamation = loud/emphatic
+    prolonged: '~'       # wave = prolonged sound
+
+special_marks:
+  anusvara: 'M'
+  visarga: 'H'
+  avagraha: '&'
+  
+  # Special nasal variations (phonetic)
+  nasal_variants:
+    before_ka: '(nk)'   # n + k sound
+    before_ga: '(ng)'   # n + g sound  
+    before_ca: '(nc)'   # n + c sound
+    before_ta: '(nt)'   # n + t sound
+
+# Source-specific conversions
+conversions:
+  from_vedanidhi:
+    accent_map:
+      '.': '\'     # udatta
+      'ˆ': '_'      # anudatta
+    rules:
+      - 'Standard Vedic accent marking'
+      - 'Similar to Rigveda in simplicity'
+
+examples:
+  - source: 'वेन.स्त.त्पश्य.त्परम.ङ्गुहा'
+    transliteration: 've\na_s ta\t pa\Sya_t para\mam guhA\'
+    notes: 'Mystical verse with standard accents'
+    
+  - source: 'सˆ न पिता जनिता सˆ उत बन्धु'
+    transliteration: 'sa_ na pitA_ janitA_ sa_ uta bandhu_'
+    
+  - source: 'मृत्योर्मा अमृतं गमय'
+    transliteration: 'mf\tyo_rmA amf\taM gama_ya'
+    notes: 'Famous prayer, minimal accent marking'
+
+# Atharvaveda-specific features
+ritual_contexts:
+  healing:
+    description: 'Medical/healing mantras'
+    special_marks: 'standard'
+    
+  protection:
+    description: 'Protective mantras'
+    special_marks: 'occasional emphasis'
+    
+  philosophical:
+    description: 'Upanishadic portions'
+    special_marks: 'minimal'
+
+validation_rules:
+  - rule: standard_vedic
+    description: 'Follow standard Vedic accent rules'
+    
+  - rule: emphasis_rare
+    description: 'Emphatic marks only in specific contexts'
+    
+  - rule: consistent_marking
+    description: 'Maintain consistency within hymns'
+
+notes:
+  - 'Atharvaveda uses standard Vedic notation'
+  - 'Simpler than Yajurveda, much simpler than Samaveda'
+  - 'Emphasis marks rare, used for ritual effect'
+  - 'Some portions may lack accent marks entirely'

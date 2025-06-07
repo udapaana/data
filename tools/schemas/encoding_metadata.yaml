@@ -1,0 +1,200 @@
+# Encoding Metadata Schema for Udapaana Corpus
+# This schema defines how we track source encoding formats and conversion details
+
+metadata_table:
+  name: "text_encoding_metadata"
+  description: "Tracks encoding format and conversion details for each text"
+  
+  fields:
+    # Primary identification
+    text_id:
+      type: "TEXT"
+      primary_key: true
+      description: "Unique identifier linking to main text record"
+      
+    source_file_path:
+      type: "TEXT"
+      not_null: true
+      description: "Original file path of the source"
+      
+    # Source encoding information
+    source_encoding_detected:
+      type: "TEXT"
+      not_null: true
+      description: "Auto-detected encoding (e.g., 'baraha_vedic', 'devanagari')"
+      
+    source_encoding_confidence:
+      type: "REAL"
+      description: "Detection confidence score (0.0-1.0)"
+      
+    source_encoding_manual:
+      type: "TEXT"
+      description: "Manually specified encoding if detection was overridden"
+      
+    source_encoding_final:
+      type: "TEXT"
+      not_null: true
+      description: "Final encoding used for conversion (detected or manual)"
+      
+    # Source features detected
+    source_features:
+      type: "JSON"
+      description: "JSON object describing detected features"
+      example: |
+        {
+          "has_accents": true,
+          "accent_types": ["anudatta", "udatta", "svarita"],
+          "has_nasal_annotations": true,
+          "nasal_patterns": ["(gm)", "(gg)", "~M"],
+          "has_section_markers": true,
+          "section_types": ["|", "||"],
+          "has_numbers": true,
+          "special_markers": ["^^", "&"],
+          "case_patterns": ["mixed", "preserves_capitals"],
+          "character_set": "ascii_extended",
+          "line_count": 145,
+          "total_chars": 12450
+        }
+    
+    # Target encoding information  
+    target_encoding:
+      type: "TEXT"
+      not_null: true
+      default: "'slp1_extended'"
+      description: "Target encoding for storage (typically 'slp1_extended')"
+      
+    # Conversion details
+    conversion_method:
+      type: "TEXT"
+      not_null: true
+      description: "Method used for conversion ('vidyut_lipi', 'custom_pipeline', etc.)"
+      
+    conversion_version:
+      type: "TEXT"
+      description: "Version of conversion library/tool used"
+      
+    conversion_timestamp:
+      type: "DATETIME"
+      not_null: true
+      default: "CURRENT_TIMESTAMP"
+      description: "When the conversion was performed"
+      
+    # Quality metrics
+    conversion_lossless:
+      type: "BOOLEAN"
+      not_null: true
+      description: "Whether round-trip conversion was successful"
+      
+    round_trip_checksum_original:
+      type: "TEXT"
+      description: "MD5 checksum of original text"
+      
+    round_trip_checksum_converted:
+      type: "TEXT" 
+      description: "MD5 checksum of round-trip result"
+      
+    quality_score:
+      type: "REAL"
+      description: "Overall quality score (0.0-1.0)"
+      
+    # Preservation details
+    features_preserved:
+      type: "JSON"
+      description: "Which source features were successfully preserved"
+      example: |
+        {
+          "accents_preserved": true,
+          "nasal_annotations_preserved": true,
+          "case_preserved": false,
+          "numbers_preserved": true,
+          "section_markers_preserved": true,
+          "special_markers_preserved": true,
+          "preservation_rate": 0.95
+        }
+    
+    # Śākhā-specific information
+    veda:
+      type: "TEXT"
+      description: "Veda classification (rigveda, yajurveda, samaveda, atharvaveda)"
+      
+    sakha:
+      type: "TEXT"
+      description: "Śākhā/branch (shakala, taittiriya, kauthuma, shaunaka)"
+      
+    text_type:
+      type: "TEXT"
+      description: "Type of text (samhita, brahmana, aranyaka, upanishad)"
+      
+    regional_variant:
+      type: "TEXT"
+      description: "Regional pronunciation variant if applicable"
+      
+    # Source preservation
+    original_sample:
+      type: "TEXT"
+      description: "Sample of original text (first 500 chars) for reference"
+      
+    original_header:
+      type: "TEXT"
+      description: "Original file header/metadata if present"
+      
+    # Conversion notes
+    conversion_notes:
+      type: "TEXT"
+      description: "Human-readable notes about conversion process or issues"
+      
+    preprocessing_applied:
+      type: "JSON"
+      description: "List of preprocessing steps applied"
+      example: |
+        [
+          {"step": "normalize_case", "description": "(GM) → (gm)"},
+          {"step": "clean_whitespace", "description": "Remove extra spaces"},
+          {"step": "extract_annotations", "description": "Preserve (gm) patterns"}
+        ]
+    
+    validation_errors:
+      type: "JSON"
+      description: "Any validation errors or warnings encountered"
+      
+    # Indexing for performance
+    indexes:
+      - name: "idx_source_encoding"
+        fields: ["source_encoding_final"]
+      - name: "idx_sakha_type" 
+        fields: ["veda", "sakha", "text_type"]
+      - name: "idx_conversion_quality"
+        fields: ["conversion_lossless", "quality_score"]
+      - name: "idx_timestamp"
+        fields: ["conversion_timestamp"]
+
+# Example usage queries:
+usage_examples:
+  find_baraha_texts: |
+    SELECT text_id, source_file_path, quality_score 
+    FROM text_encoding_metadata 
+    WHERE source_encoding_final = 'baraha_vedic'
+    AND conversion_lossless = TRUE;
+    
+  quality_report: |
+    SELECT 
+      source_encoding_final,
+      COUNT(*) as total_texts,
+      AVG(quality_score) as avg_quality,
+      SUM(CASE WHEN conversion_lossless THEN 1 ELSE 0 END) as lossless_count
+    FROM text_encoding_metadata
+    GROUP BY source_encoding_final;
+    
+  find_texts_with_features: |
+    SELECT text_id, source_features
+    FROM text_encoding_metadata
+    WHERE JSON_EXTRACT(source_features, '$.has_accents') = TRUE
+    AND JSON_EXTRACT(source_features, '$.has_nasal_annotations') = TRUE;
+    
+  preservation_analysis: |
+    SELECT 
+      sakha,
+      AVG(JSON_EXTRACT(features_preserved, '$.preservation_rate')) as avg_preservation
+    FROM text_encoding_metadata
+    WHERE sakha IS NOT NULL
+    GROUP BY sakha;

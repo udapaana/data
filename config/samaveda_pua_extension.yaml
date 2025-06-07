@@ -1,0 +1,46 @@
+# Samaveda PUA Extension for Runtime Mapping
+# This extension adds support for Samaveda Private Use Area codes
+# to any base transliteration scheme
+
+name: "samaveda_pua"
+version: "1.0.0"
+description: "Runtime extension for Samaveda musical notation PUA codes (U+E311-E343)"
+
+# Define mappings from PUA codes to extended markers
+mappings:
+  # Musical accent variations
+  "\uE311": "{U1}"  # Udatta type 1
+  "\uE312": "{U2}"  # Udatta type 2  
+  "\uE313": "{U3}"  # Udatta type 3
+  "\uE322": "{A}"   # Anudatta
+  "\uE324": "{S}"   # Svarita
+  "\uE332": "{K}"   # Kampa (oscillation)
+  "\uE341": "{P1}"  # Pause type 1
+  "\uE342": "{P2}"  # Pause type 2
+  "\uE343": "{P3}"  # Pause type 3
+
+# Metadata about these extensions
+metadata:
+  category: "vedic_accents"
+  subcategory: "samaveda_musical"
+  unicode_range: "U+E311-U+E343"
+  source_description: "Samaveda chanting tradition musical notations"
+
+# How to apply these in different contexts
+application_rules:
+  # When source has PUA and target supports extended markers
+  - condition: "target_supports_extensions"
+    action: "use_extended_markers"
+    
+  # When target doesn't support extensions, map to closest standard
+  - condition: "target_is_standard"
+    fallback_mappings:
+      "\uE311": "'"  # Map to standard udatta
+      "\uE312": "'"  # Map to standard udatta
+      "\uE313": "'"  # Map to standard udatta
+      "\uE322": "`"  # Map to standard anudatta
+      "\uE324": "^"  # Map to standard svarita
+      "\uE332": "~"  # Map to pragrhya/kampa
+      "\uE341": "|"  # Map to pause/separator
+      "\uE342": "|"  # Map to pause/separator
+      "\uE343": "||" # Map to double pause

@@ -1,0 +1,165 @@
+# Kauthuma Śākhā (Samaveda) Schema
+# Based on Vedanidhi source with musical notations
+
+version: 1.0
+name: samaveda_kauthuma
+extends: common_base
+
+metadata:
+  veda: samaveda
+  sakha: kauthuma
+  sources:
+    - name: vedanidhi
+      type: devanagari_json
+      accent_system: musical_notation
+      special_features:
+        - 'elongation marks'
+        - 'stobha elements'
+        - 'gana notations'
+
+accents:
+  primary:
+    udatta:
+      symbol: '\'
+      description: 'High tone'
+      position: after_syllable
+    anudatta:
+      symbol: '_'
+      description: 'Low tone'
+      position: after_syllable
+    svarita:
+      symbol: '='
+      description: 'Falling tone'
+      position: after_syllable
+
+  # Musical extensions (phonetically intuitive)
+  musical:
+    elongation:
+      short: '2'        # 2 matras
+      medium: '3'       # 3 matras  
+      long: '4'         # 4 matras
+      extra_long: '5'   # 5 matras
+      description: 'Numbers = matra count (intuitive for timing)'
+    
+    kampa:
+      symbol: '~'
+      description: 'Wave = voice vibration/tremolo'
+      usage: 'after vowel'
+      
+    pause:
+      symbol: '^'
+      description: 'Up arrow = lift/pause in singing'
+      
+    glide:
+      symbol: '-'
+      description: 'Dash = smooth connection between notes'
+      
+    breath:
+      symbol: ','
+      description: 'Comma = natural breath pause'
+      
+    # Phonetic stobhas (sound-based)
+    stobha_sounds:
+      'ho': '(ho)'     # aspirated o
+      'ha': '(ha)'     # aspirated a
+      'hum': '(hum)'   # humming m
+      'i': '(i)'       # short i
+      'e': '(e)'       # short e
+
+# Samaveda-specific elements
+musical_elements:
+  stobha:
+    format: '{text}'
+    common:
+      - '{ho}'
+      - '{hA}'
+      - '{hum}'
+      - '{i}'
+      - '{oM}'
+    description: 'Non-lexical syllables for musical effect'
+    
+  numerical_notation:
+    # Traditional saptasvara mapped phonetically
+    svaras: 
+      '1': 'sa'   # shadja
+      '2': 're'   # rishabha
+      '3': 'ga'   # gandhara
+      '4': 'ma'   # madhyama
+      '5': 'pa'   # panchama
+      '6': 'dha'  # dhaivata
+      '7': 'ni'   # nishada
+    combined_patterns:
+      '23': 're-ga'    # ascending pattern
+      '234': 're-ga-ma' # three-note ascent
+      '34': 'ga-ma'    # two-note pattern
+      '345': 'ga-ma-pa' # common musical phrase
+    description: 'Numbers represent saptasvara notes phonetically'
+    
+  phrase_boundaries:
+    minor: '|'
+    major: '||'
+    section: '|||'
+
+special_marks:
+  # Standard marks
+  anusvara: 'M'
+  visarga: 'H'
+  
+  # Musical marks
+  connection: '-'   # connects syllables in singing
+  separation: ' '   # intentional space in compound
+
+# Source-specific conversions
+conversions:
+  from_vedanidhi:
+    accent_map:
+      '.': '\'     # udatta
+      'ˆ': '_'      # anudatta
+    special:
+      # Spaces within words indicate musical breaks
+      'internal_space': 'preserved'
+      '̃': '~'      # nasalization/kampa
+
+examples:
+  - source: 'अग्न आ याहि वीतये'
+    transliteration: 'a\gna+ A_ yA_hi vI_taye^'
+    notes: 'Space after agna indicates elongation'
+    
+  - source: 'त्व मग्ने यज्ञाना होता'
+    transliteration: 'tva_ ma\gne ya\jYA_nA ho\tA'
+    with_stobha: 'tva_ {ho} ma\gne ya\jYA_nA {i} ho\tA'
+    
+  - source: 'अग्नि न्दूतँ वृणीमहे'
+    transliteration: 'agni_ ndU_ta~M vf\RI_mahe'
+    notes: 'Tilde indicates kampa on anusvara'
+
+# Gana-specific rules
+gana_types:
+  prakrti:
+    description: 'Base melody form'
+    marking: 'standard'
+    
+  uha:
+    description: 'Modified melody form'
+    marking: 'extended'
+    additional_stobhas: true
+    
+  rahasyagana:
+    description: 'Secret/esoteric melodies'
+    marking: 'full'
+
+validation_rules:
+  - rule: stobha_placement
+    description: 'Stobhas must be clearly marked with {}'
+    
+  - rule: elongation_on_vowels
+    description: 'Elongation marks only after vowels'
+    
+  - rule: musical_consistency
+    description: 'Musical notations must form coherent phrases'
+
+notes:
+  - 'Samaveda requires the most complex notation system'
+  - 'Musical elements are integral to the text'
+  - 'Stobhas vary by tradition and gana type'
+  - 'Numerical notation optional but helpful for learning'

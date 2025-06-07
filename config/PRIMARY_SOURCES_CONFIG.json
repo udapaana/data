@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-05-29",
+    "description": "Primary source configuration for each Vedic śākhā",
+    "selection_criteria": [
+      "Complete corpus preferred over partial texts",
+      "Accent marks (svara) required for adhyayana",
+      "Authentic traditional sources preferred",
+      "Regional variants and pada format valued",
+      "Source reliability and validation status"
+    ]
+  },
+  "primary_sources": {
+    "rigveda/shakala": {
+      "primary_source": "data/vedic_texts/rigveda/shakala/vedanidhi/samhita/source/010101_शाकलसंहिता.json",
+      "source_type": "vedanidhi",
+      "rationale": "Complete Rigveda Saṃhitā with 98% accent coverage. Includes all 1,028 sūktas across 10 maṇḍalas.",
+      "accent_coverage": 0.98,
+      "completeness": "complete",
+      "total_texts": 10552,
+      "includes": ["complete_samhita", "aitareya_brahmana", "aitareya_aranyaka"],
+      "alternatives": [
+        "data/vedic_texts/rigveda/shakala/vedanidhi/samhita/source/01010102_शाकलसंहिता_-_(01010102)_अष्टकम्.json",
+        "data/vedic_texts/rigveda/shakala/vedanidhi/samhita/source/010103_ऐतरेयारण्ह्यकम्.json"
+      ]
+    },
+    "samaveda/kauthuma": {
+      "primary_source": "data/vedic_texts/samaveda/kauthuma/vedanidhi/samhita/source/030301_आर्चिकम्.json",
+      "source_type": "vedanidhi", 
+      "rationale": "Complete Sāmaveda with Pūrvārcika, Uttarārcika, and Āraṇya. 98% accent coverage suitable for gāna (chanting).",
+      "accent_coverage": 0.98,
+      "completeness": "complete",
+      "total_texts": 1875,
+      "includes": ["purvarcika", "uttararcika", "aranya", "tandya_brahmana"],
+      "alternatives": [
+        "data/vedic_texts/samaveda/kauthuma/vedanidhi/aranyaka/source/030302_प्रकृति,_आरण्यकगानम्.json",
+        "data/vedic_texts/samaveda/kauthuma/vedanidhi/brahmana/source/030304_ताड्य+७_ब्राह्मणानि.json"
+      ],
+      "notes": "Multiple sources available but some have validation issues (duplicates)"
+    },
+    "yajurveda/taittiriya": {
+      "primary_source": "data/vedic_texts/yajurveda/taittiriya/vedavms/samhita/source",
+      "source_type": "vedavms_docx",
+      "rationale": "Complete traditional corpus (4,903 texts) from VedaVMS with FULL accent coverage in BarahaSouth format. Includes regional variants and pada format. Superior to Vedanidhi partial texts.",
+      "accent_coverage": 1.0,
+      "completeness": "complete",
+      "total_texts": 4903,
+      "includes": ["samhita_complete", "brahmana_complete", "aranyaka_complete", "regional_variants", "pada_format"],
+      "alternatives": [
+        "data/vedic_texts/yajurveda/taittiriya/vedanidhi/samhita/source/020401_तैत्तिरीयसंहिता.json",
+        "data/vedic_texts/yajurveda/taittiriya/vedanidhi/brahmana/source/020402_तैत्तिरीयब्राह्मणम्.json"
+      ],
+      "regional_variants": ["andhra", "dravida"],
+      "source_url": "https://www.vedavms.in"
+    },
+    "atharvaveda/shaunaka": {
+      "primary_source": "data/vedic_texts/atharvaveda/shaunaka/vedanidhi/samhita/source/04010102_शौनकसंहिता_-_(04010102)_काण्डम्.json",
+      "source_type": "vedanidhi",
+      "rationale": "Best available Atharvaveda source despite validation issues. Many Atharvaveda sources failed validation due to content issues.",
+      "accent_coverage": 0.45,
+      "completeness": "partial",
+      "total_texts": 328,
+      "includes": ["kanda_2_samhita", "gopatha_brahmana_partial"],
+      "status": "needs_improvement",
+      "alternatives": [
+        "data/vedic_texts/atharvaveda/shaunaka/vedanidhi/samhita/source/04010103_शौनकसंहिता_-_(04010103)_काण्डम्.json",
+        "data/vedic_texts/atharvaveda/shaunaka/vedanidhi/brahmana/source/04010202_गोपथब्राह्मणम्_-_(04010202)_काण्डम्.json"
+      ],
+      "notes": "Atharvaveda sources have significant validation issues. Need to find better sources."
+    }
+  },
+  "source_quality_summary": {
+    "excellent": [
+      "yajurveda/taittiriya (vedavms): Complete corpus, 100% accents, regional variants"
+    ],
+    "very_good": [
+      "rigveda/shakala (vedanidhi): Complete, 98% accents", 
+      "samaveda/kauthuma (vedanidhi): Complete, 98% accents"
+    ],
+    "needs_improvement": [
+      "atharvaveda/shaunaka (vedanidhi): Partial, validation issues, 45% accents"
+    ]
+  },
+  "missing_sakhas": {
+    "high_priority": [
+      "yajurveda/madhyandina (śukla)",
+      "yajurveda/kanva (śukla)",
+      "atharvaveda/paippalada",
+      "samaveda/jaiminiya"
+    ],
+    "medium_priority": [
+      "yajurveda/maitrayani",
+      "yajurveda/katha"
+    ]
+  },
+  "pipeline_settings": {
+    "default_source_preference": "primary_source",
+    "fallback_to_alternatives": true,
+    "require_accents": true,
+    "minimum_accent_coverage": 0.5,
+    "prefer_complete_corpus": true,
+    "validation_required": true
+  }
+}

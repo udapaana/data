@@ -1,0 +1,105 @@
+# Taittirīya Śākhā (Krishna Yajurveda) Schema
+# Based on VedaVMS (Baraha) and Vedanidhi sources
+
+version: 1.0
+name: taittiriya_yajurveda
+extends: common_base
+
+metadata:
+  veda: yajurveda
+  sakha: taittiriya
+  sources:
+    - name: vedavms
+      type: baraha_docx
+      accent_system: full_three_tone
+    - name: vedanidhi
+      type: devanagari_json
+      accent_system: inline_marks
+
+accents:
+  primary:
+    udatta:
+      symbol: '\'
+      description: 'High tone - raise pitch'
+      position: after_syllable
+    anudatta:
+      symbol: '_'
+      description: 'Low tone - lower pitch'
+      position: after_syllable
+    svarita:
+      symbol: '='
+      description: 'Falling tone - high to low'
+      position: after_syllable
+      note: 'Often contextual, mark when explicit'
+
+  combinations:
+    # Double accent marks from Baraha
+    double_udatta: '\\'
+    kampa_udatta: '~\'  # vibrato on high tone
+    
+special_marks:
+  avagraha: '&'      # marks elision
+  halanta: '*'       # consonant without vowel
+  nasalization: '~'  # additional nasal quality
+  
+  # Anusvara variations
+  anusvara_variants:
+    standard: 'M'
+    before_sibilant: 'Ms'  # special pronunciation
+    nasalized: 'M~'
+  
+  # Inline phonetic annotations (from Baraha)
+  phonetic_annotations:
+    guttural_nasal: '(gm)'  # guttural + m sound (ṅ-like nasal)
+    velar_nasal: '(gg)'     # guttural + g sound (ṅ before g/k)
+    note: 'Phonetically intuitive markers: (gm) = g+m sound, (gg) = g+g sound'
+
+# Source-specific conversions
+conversions:
+  from_baraha:
+    accent_map:
+      '#': '\'     # udatta
+      'q': '_'      # anudatta
+      '##': '\\'
+      'iq': 'i_'    # syllable with anudatta
+      'Eq': 'E_'
+      'Aq': 'A_'
+      'Uq': 'U_'
+    special:
+      # (gm) and (gg) are kept as-is since they mark specific 
+      # phonetic qualities at precise positions within words
+      '(gm)': '(gm)'  # guttural nasal annotation
+      '(gg)': '(gg)'  # velar nasal annotation
+      
+  from_vedanidhi:
+    accent_map:
+      '.': '\'     # udatta
+      'ˆ': '_'      # anudatta
+      
+examples:
+  - source_baraha: 'iqShE tvAq | UqrjE tvAq'
+    transliteration: 'i_SE tvA_ | U_rjE tvA_'
+    
+  - source_baraha: 'vAqyava#H'
+    transliteration: 'vA_yava\H'
+    
+  - source_vedanidhi: 'वायु.र्वै क्षेपिष्ठा'
+    transliteration: 'vA\yu_rvai kze\piSTHA_'
+    
+  - source_vedanidhi: 'सˆ एवैनं भूति.ङ्गमयति'
+    transliteration: 'sa_ evainaM BU\tiMgamayati'
+
+validation_rules:
+  - rule: accent_per_word
+    description: 'At least one accent per word (except particles)'
+    
+  - rule: no_accent_clusters
+    description: 'No two accents on consecutive syllables'
+    
+  - rule: svarita_context
+    description: 'Svarita typically follows udatta'
+
+notes:
+  - 'Taittiriya tradition has the most complete accent marking'
+  - 'Regional variations (Andhra/Dravida) exist but follow same basic system'
+  - 'Baraha source is primary reference for accent patterns'
